@@ -1,0 +1,789 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:ThrowRocks">
+            <summary>
+            This class instantiate a rock at the position of the script added position
+            </summary>
+        </member>
+        <member name="M:ThrowRocks.throwRock">
+            <summary>
+            throws rock
+            </summary>
+        </member>
+        <member name="F:CameraScript.XYscale">
+            <summary>
+            factor for screensize
+            </summary>
+        </member>
+        <member name="F:CameraScript.distanceY">
+            startposition of camera on y axis
+        </member>
+        <member name="F:CameraScript.distanceZ">
+            <summary>
+            startposition of camera on axis
+            </summary>
+        </member>
+        <member name="F:CameraScript.min">
+            sets the minimal distance between player and camera
+        </member>
+        <member name="F:CameraScript.max">
+            <summary>
+            sets the maximal distance between player and camera
+            </summary>
+        </member>
+        <member name="M:CameraScript.LateUpdate">
+            <summary>
+            sets position of camera while playing; zooms in when lava arrives player
+            </summary>
+        </member>
+        <member name="M:AbstEnemy.Start">
+            <summary>
+            direction 1 for right -1 for left
+            </summary>
+            
+        </member>
+        <member name="M:AbstEnemy.spawnCoinsPerEnemyValue">
+            <summary>
+            spawns coins ( e.g. on death )
+            </summary>
+        </member>
+        <member name="M:AbstEnemy.enemyDiesAndSpawnsCoins">
+            <summary>
+            spawn coins on death
+            </summary>
+        </member>
+        <member name="T:BossDragon">
+            <summary>
+            this class controls the boss dragon 
+            </summary>
+        </member>
+        <member name="F:BossDragon.currentRock">
+            rockPrefab
+        </member>
+        <member name="F:BossDragon.var">
+            rock holding
+        </member>
+        <member name="F:BossDragon.speed">
+            height the dragon flys away, if its higher he respawns later
+        </member>
+        <member name="F:BossDragon.droppedDown">
+            dragon speed
+        </member>
+        <member name="F:BossDragon.ani">
+            if the rock dropps down
+        </member>
+        <member name="M:BossDragon.Start">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:BossDragon.Update">
+            <summary>
+             Update is called once per frame
+            </summary>
+        </member>
+        <member name="M:BossDragon.getRock">
+            <summary>
+            creates new rock at dragons current position
+            </summary>
+        </member>
+        <member name="M:BossDragon.throwRock">
+            <summary>
+            throws rock, when dragon reaches the postion of the player
+            </summary>
+        </member>
+        <member name="M:BossDragon.resetPos">
+            <summary>
+            resets dragons position above the lava after throwing a rock
+            </summary>
+        </member>
+        <member name="M:BossDragon.firstStageBehaviour">
+            <summary>
+            logic for boss while the player is on stage1
+            </summary>
+        </member>
+        <member name="M:BossDragon.secondStageBehaviour">
+            <summary>
+            logic for boss while the player is on stage2
+            </summary>
+        </member>
+        <member name="M:BossDragon.setFlyingToWalkingLogic">
+            <summary>
+            sets boss from flying to walking
+            </summary>
+        </member>
+        <member name="M:BossDragon.setWalkingToFlyingLogic">
+            <summary>
+            sets boss from walking to flying
+            </summary>
+        </member>
+        <member name="T:Dragon">
+            <summary>
+            This class controlls the flying dragon, with throws rocks at the player
+            </summary>
+        </member>
+        <member name="F:Dragon.currentRock">
+            rockPrefab
+        </member>
+        <member name="F:Dragon.var">
+            rock holding
+        </member>
+        <member name="F:Dragon.speed">
+            height the dragon flys away, if its higher he respawns later
+        </member>
+        <member name="F:Dragon.droppedDown">
+            dragon speed
+        </member>
+        <member name="F:Dragon.ani">
+            if the rock dropps down
+        </member>
+        <member name="M:Dragon.getRock">
+            <summary>
+            creates new rock at dragons current position
+            </summary>
+        </member>
+        <member name="M:Dragon.throwRock">
+            <summary>
+            throws rock, when dragon reaches the postion of the player
+            </summary>
+        </member>
+        <member name="M:Dragon.resetPos">
+            <summary>
+            resets dragons position above the lava after throwing a rock
+            </summary>
+        </member>
+        <member name="T:LandingZone">
+            <summary>
+            descripes where the dragon should land
+            </summary>
+        </member>
+        <member name="F:LandingZone.nextLandingZone">
+            linking next landing zone
+        </member>
+        <member name="T:LaunchZone">
+            <summary>
+            point where the boss should launch
+            </summary>
+        </member>
+        <member name="F:LaunchZone.nextLaunchZone">
+            <summary>
+            next launch zone
+            </summary>
+        </member>
+        <member name="M:LaunchZone.Start">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:LaunchZone.Update">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="T:Rock">
+            <summary>
+            rock without rigidbody, can be set on fire
+            </summary>
+        </member>
+        <member name="F:Rock.trans">
+            <summary>
+            GameObject.transform
+            </summary>
+        </member>
+        <member name="M:Rock.Start">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:Rock.Update">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="M:Rock.reFire">
+            <summary>
+            to set object on fire
+            </summary>
+        </member>
+        <member name="M:Rock.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            special cases on particle collision
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:Rock.OnCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            special cases on collision
+            </summary>
+        </member>
+        <member name="T:RockParticle">
+            <summary>
+            fire particles of burning objects
+            </summary>
+        </member>
+        <member name="M:RockParticle.Start">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:RockParticle.Update">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="M:RockParticle.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            special cases on particle collision
+            </summary>
+        </member>
+        <member name="T:Enemy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Enemy.direction">
+            <summary>
+            direction 1 for right -1 for left
+            </summary>
+        </member>
+        <member name="F:Enemy.directionCount">
+            <summary>
+            Enemy will move "count"frames in one direction
+            </summary>
+        </member>
+        <member name="M:Enemy.OnCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            Different collision detections.
+            One for KIBorders and one for Level borders
+            </summary>
+            <param name="otherObject"></param>
+        </member>
+        <member name="M:EnemyPatrol.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            The enemy should change Directions if he hits the AIBorders even when he tries to chase the Player
+            </summary>
+            <param name="otherObject"></param>
+        </member>
+        <member name="M:EnemyPatrol2.startEnemy">
+            <summary>
+            Thanks to the model the enemy has always to move Forward there in no more need to differentiate between left movement or right.
+            </summary>
+        </member>
+        <member name="M:EnemyPatrol2.OnTriggerEnter(UnityEngine.Collider)">
+            aiborder logic GameObject has to change face direction and has to move in the other direction.
+            also the enemy has to stop even if he chases the player.
+        </member>
+        <member name="M:Spawntrap.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            If the Player moves into the Zone there is a chance a Snake Spawns
+            </summary>
+            <param name="otherObject"></param>
+        </member>
+        <member name="M:Tiger.startEnemy">
+            <summary>
+            Thanks to the model the enemy has always to move Forward there in no more need to differentiate between left movement or right.
+            </summary>
+        </member>
+        <member name="M:Tiger.OnTriggerEnter(UnityEngine.Collider)">
+            aiborder logic GameObject has to change face direction and has to move in the other direction.
+            also the enemy has to stop even if he chases the player.
+        </member>
+        <member name="T:GameController">
+            <summary>
+            Links the class GameVariables with individual scenes. Makes access of the "scriptable Object" class GameVariables possible. 
+            </summary>
+        </member>
+        <member name="F:GameOver.deadHuman">
+            <summary>
+            provides background texture for dead human
+            </summary>
+        </member>
+        <member name="F:GameOver.deadDragon">
+            <summary>
+            provides background texture for dead dragon
+            </summary>
+        </member>
+        <member name="F:GameOver.deadSquirrel">
+            <summary>
+            provides background texture for dead squirrel
+            </summary>
+            
+        </member>
+        <member name="F:GameOver.deadBoar">
+            <summary>
+            provides background texture for dead boar
+            </summary>
+        </member>
+        <member name="F:GameOver.buttonWidth">
+            <summary>
+            set width for replay button
+            </summary>
+        </member>
+        <member name="F:GameOver.buttonHeight">
+            <summary>
+            set heigth for replay button
+            </summary>
+        </member>
+        <member name="F:GameOver.inventory">
+            <summary>
+            Load inventory manager to store inventory variables
+            </summary>
+        </member>
+        <member name="M:GameOver.OnGUI">
+            <summary>
+            sets GUI elements
+            </summary>
+        </member>
+        <member name="T:GameVariables">
+            <summary>
+            This class keeps game data: difficulty setting, player variables etc.
+            </summary>
+        </member>
+        <member name="F:GameVariables.initMisc">
+            <summary>
+            initialize variables like lava, player position, energy
+            </summary>
+        </member>
+        <member name="F:GameVariables.maxLifePoints">
+            <summary>
+            maximum of players lifepoints
+            </summary>
+        </member>
+        <member name="F:GameVariables.lifePoints">
+            <summary>
+            current lifepoints of player
+            </summary>
+        </member>
+        <member name="F:GameVariables.initHearts">
+            <summary>
+            starts a new game with 3 hearts
+            </summary>
+        </member>
+        <member name="F:GameVariables.minShowHearts">
+            <summary>
+            minimum of 3 hearts are shown on GUI
+            </summary>
+        </member>
+        <member name="F:GameVariables.maxShowHearts">
+            <summary>
+            maximum of 5 hearts are shown on GUI
+            </summary>
+        </member>
+        <member name="F:GameVariables.hearts">
+            <summary>
+            current number of hearts
+            </summary>
+        </member>
+        <member name="F:GameVariables.lastRespawn">
+            <summary>
+            saves last respawn position
+            </summary>
+        </member>
+        <member name="F:GameVariables.lastLavaPos">
+            <summary>
+            saves lava position at last savepoint
+            </summary>
+        </member>
+        <member name="F:GameVariables.lastEnergy">
+            <summary>
+            saves current energy at last savepoint
+            </summary>
+        </member>
+        <member name="F:GameVariables.lastItems">
+            <summary>
+            saves current items
+            </summary>
+        </member>
+        <member name="F:GameVariables.wasRespawned">
+            <summary>
+            when player respawned
+            </summary>
+        </member>
+        <member name="F:GameVariables.playerPosition">
+            <summary>
+            find player position for enemys
+            </summary>
+        </member>
+        <member name="F:GameVariables.difficultyMode">
+            <summary>
+            sets difficulty mode
+            </summary>
+        </member>
+        <member name="M:GameVariables.loseHeart">
+            <summary>
+            subtract one life from the player - one heart
+            </summary>
+        </member>
+        <member name="M:GameVariables.nextLvl">
+            <summary>
+            dunno
+            </summary>
+        </member>
+        <member name="M:GameVariables.savePoint(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+            <summary>
+            saves variables at savepoint
+            </summary>
+            <param name="playerPos"></param>
+            <param name="lavaPos"></param>
+            <param name="energy"></param>
+        </member>
+        <member name="M:GameVariables.respawnVariables">
+            <summary>
+            reset Variables back to last savepoint
+            </summary>
+        </member>
+        <member name="M:GameVariables.resetVariables">
+            <summary>
+            reset lifepoints for a new game
+            </summary>
+        </member>
+        <member name="T:Inventory">
+            <summary>
+            "Inventory": keep Powerups, Coins in a stash from level to level
+            </summary>
+        </member>
+        <member name="M:Inventory.AddItems(System.String,System.Single)">
+            <summary>
+            Add Items to Inventory, if they already exist increase value
+            </summary>
+            <param name="itemName">key/name of the item</param>
+            <param name="quantity">number of items</param>
+        </member>
+        <member name="M:Inventory.SetItems(System.String,System.Single)">
+            <summary>
+            Set item to a specific value
+            </summary>
+            <param name="itemName">key/name of the item</param>
+            <param name="quantity">number of items</param>
+        </member>
+        <member name="M:Inventory.GetItems(System.String)">
+            <summary>
+            Check Inventory for an item
+            </summary>
+            <param name="itemName">search: key/name of item</param>
+            <returns>number of items in the inventory</returns>
+        </member>
+        <member name="T:InventoryCollider">
+            <summary>
+            Manages collection of items
+            everything that ends up in the Inventory needs this Script assigned to Prefabs
+            </summary>
+        </member>
+        <member name="F:InventoryCollider.itemName">
+            <summary>
+            name of the item that is being collected
+            </summary>
+        </member>
+        <member name="F:InventoryCollider.value">
+            <summary>
+            quantity of the item that is being collected (quiver of arrows or 1 potion)
+            </summary>
+        </member>
+        <member name="F:InventoryCollider.gatheringCoinPrefab">
+            <summary>
+            using the gatheringCoinPrefab in unity to make a cloud appear after items have been collected and a sound is played
+            </summary>
+        </member>
+        <member name="T:InventoryManager">
+            <summary>
+            Links Inventory with scenes / player, e.g. makes access of the "scriptable object" inventory possible.
+            The InventoryManager script must to be added in each scene (preferably with the GameController prefab). 
+            </summary>
+        </member>
+        <member name="F:InventoryManager.inventory">
+            <summary>
+            create variable for access of inventory class
+            </summary>
+        </member>
+        <member name="M:InventoryManager.OnGUI">
+            <summary>
+            handles rendering of inventory screen / buttons
+            </summary>
+        </member>
+        <member name="M:InventoryManager.buttonCoin(System.String,System.Single,System.Single,System.Single)">
+            <summary>
+            method realizes the button to use coins from the inventory
+            </summary>
+            <param name="k">name of the item</param>
+            <param name="v">quantity of the item</param>
+            <param name="x">x position of the button</param>
+            <param name="y">y position of the button</param>
+        </member>
+        <member name="M:InventoryManager.buttonDebugHearts(System.String,System.Single,System.Single,System.Single)">
+            <summary>
+            method realizes the button to use "life potions" from the inventory (debug item, gives 1 life)
+            </summary>
+            <param name="k">name of the item</param>
+            <param name="v">quantity of the item</param>
+            <param name="x">x position of the button</param>
+            <param name="y">y position of the button</param>
+        </member>
+        <member name="F:Difficulty.gameVariables">
+            <summary>
+            game variables access
+            </summary>
+        </member>
+        <member name="M:Difficulty.OnMouseDown">
+            <summary>
+            Toggles difficulty mode between medium hard and easy when the player clicks with the mouse on the menu item "Difficulty"
+            </summary>
+        </member>
+        <member name="M:ToggleSound.OnMouseDown">
+            <summary>
+            Toggles sound off and on when the player clicks with the mouse on the menu item "Sound"
+            </summary>
+        </member>
+        <member name="M:MusicControll.playMenueSound">
+            <summary>
+            start menue sound
+            </summary>
+        </member>
+        <member name="M:MusicControll.playGameSound">
+            <summary>
+            start game background sound
+            </summary>
+        </member>
+        <member name="T:NextLevelCollider">
+            <summary>
+            This class manages the transition to the next Level.
+            </summary>
+        </member>
+        <member name="F:NextLevelCollider.levelIndex">
+            <summary>
+            level index 0 in build settings: MainMenu
+            </summary>
+        </member>
+        <member name="M:NextLevelCollider.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            
+            </summary>
+            <param name="other"></param>
+        </member>
+        <member name="T:AbstPlayer">
+            <summary>
+            Abstract Class where general settings are set( main Prefabs)
+            This class also contains movingm jumping, transformations and collisons with objects
+            </summary>
+        </member>
+        <member name="F:AbstPlayer.currentTransformation">
+            <summary>
+            indicates the transformation
+            0 = crouch
+            1 = human
+            2 = dragon
+            3 = squirrel
+            4 = boar
+            </summary>
+        </member>
+        <member name="F:AbstPlayer.poisoned">
+            <summary>
+            A bool that is changed when the Player gets poisoned
+            </summary>
+        </member>
+        <member name="F:AbstPlayer.poisonTimer">
+            <summary>
+            time the Player is poisoned.
+            </summary>
+        </member>
+        <member name="F:AbstPlayer.direction">
+            <summary>
+            left  = -1
+            right = 1
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:AbstPlayer.playerMovement" -->
+        <member name="M:AbstPlayer.CalculateJumpVerticalSpeed">
+            <summary>
+            from the jump height and gravity we deduce the upwards speed for the character to reach at the apex of the jump curve
+            </summary>
+            <returns>float: velocity.y of the rigidbody movement when jumping</returns>
+        </member>
+        <member name="M:AbstPlayer.debugJump">
+            <summary>
+            gives a lot of variables to see what goes wrong with jumping if anything does
+            </summary>
+        </member>
+        <member name="M:AbstPlayer.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            get the collision with the particle systems
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:AbstPlayer.reTransform">
+            <summary>
+            transform to normal transformation
+            </summary>
+        </member>
+        <member name="M:AbstPlayer.transformTo(System.Int32)">
+            <summary>
+            i == new transformation
+            </summary>
+            <param name="i"></param>
+        </member>
+        <member name="M:AbstPlayer.gettingPoisoned">
+            <summary>
+            if a Player gets hit by poison he will be slowed for 2(PoisonTimer) seconds.
+            </summary>
+        </member>
+        <member name="M:AbstPlayer.gettingInjured(System.String)">
+            <summary>
+            calculates the damage for the player by the object of which he gets hitten (enemy, lava, etc)
+            </summary>
+            <param name="enemyname"> the name of the object by which the player gets hitten</param>
+        </member>
+        <member name="M:AbstPlayer.damageEffect">
+            <summary>
+            makes player visible/invisible (blinks) after taking a hit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AbstPlayer.waitTime(System.Single)">
+            <summary>
+            Waiting routine. After waiting for a time (2nd parameter), the boolean variable (1st parameter) is set true
+            </summary>
+            <returns>no return value</returns>
+        </member>
+        <member name="M:AbstPlayer.respawnPlayer">
+            <summary>
+            respawn the player to the last respawn point
+            </summary>
+        </member>
+        <member name="M:AbstPlayer.playerAutoRecovery">
+            <summary>
+            Recovery the Player after a certain time (modyfy coolDownEnemyHit and coolCownRecovery to change that)
+            </summary>
+        </member>
+        <member name="T:PlayerDragon">
+            <summary>
+            This class includes the controll of the player with the transformation as dragon
+            </summary>
+        </member>
+        <member name="T:PlayerHuman">
+            <summary>
+            This class includes the controll of the player with the transformation as human
+            </summary>
+        </member>
+        <member name="T:PlayerSquirrel">
+            <summary>
+            This class includes the controll of the player with the transformation as squirrel
+            </summary>
+        </member>
+        <member name="T:SceneFader">
+            <summary>
+            Fading in and out of a scene from clear / black screen instead of hard transitions.
+            </summary>
+        </member>
+        <member name="F:SceneFader.texture">
+            <summary>
+            texture used in the screen fading
+            </summary>
+        </member>
+        <member name="M:SceneFader.SwitchScene(System.String)">
+            <summary>
+            method to load the next scene with resetting the variables which say whether we enter/leave a scene
+            </summary>
+            <param name="nextSceneName">name of the scene being loaded</param>
+        </member>
+        <member name="T:Highscore">
+            <summary>
+            this class save the score on the disc or read from disc
+            </summary>
+        </member>
+        <member name="M:Highscore.readScore">
+            <summary>
+            read the score file, this isn´t sorted
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Highscore.writeNewScore(Entry)">
+            <summary>
+            add a entry into scorefile
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Entry">
+            <summary>
+            this is a score entry.
+            Params: Name, lastLevel the player reached, this score, the difficulty the player plays the game, time is the timestamp when the player make the score
+            </summary>
+        </member>
+        <member name="T:ScoreGUI">
+            <summary>
+            Draws the score and let the player enter his name for the score
+            </summary>
+        </member>
+        <member name="T:Bush">
+            <summary>
+            its a script for bushs
+            </summary>
+        </member>
+        <member name="F:Bush.trans">
+            <summary>
+            GameObject.transform
+            </summary>
+        </member>
+        <member name="M:Bush.Start">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:Bush.Update">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="M:Bush.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            special cases on particle collision
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:Bush.OnCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            special cases on collision
+            </summary>
+        </member>
+        <member name="T:KillingPlane">
+            <summary>
+            destroys every GameObject on collision
+            </summary>
+        </member>
+        <member name="F:KillingPlane.lavaFountain">
+            <summary>
+            lava fountain prefab
+            </summary>
+        </member>
+        <member name="M:KillingPlane.Start">
+            <summary>
+             Use this for initialization
+            </summary>
+        </member>
+        <member name="M:KillingPlane.OnCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            special cases on collision
+            </summary>
+        </member>
+        <member name="M:KillingPlane.Update">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="M:WalkingBlock.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            Block falls after one second when he made Contact with Lava.
+            
+            </summary>
+            <param name="w"></param>
+        </member>
+        <member name="M:WalkingBlock.BlockFalls">
+            <summary>
+            BlockFalls waits for x Seconds and adds a Rigidbody to the Block(thanks to gravity it falls) and spawns Fog
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

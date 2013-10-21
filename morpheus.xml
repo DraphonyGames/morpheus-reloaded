@@ -1,0 +1,2007 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:Assets.scripts.CameraScript">
+            <summary>
+            Class manages camera behavior (zoom, position)
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.CameraScript.max">
+            <summary>
+            sets the maximal distance between player and camera
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.CameraScript.LateUpdate">
+            <summary>
+            sets position of camera while playing; zooms in when lava arrives player
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.AbstEnemy">
+            <summary>
+            provides functionality of enemy classes
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.burningEnemy">
+            <summary>
+            declares burning enemy prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.explosion">
+            <summary>
+            declares explosion prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.explosion2">
+            <summary>
+            declares explosion2 prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.coin">
+            <summary>
+            declares coin prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.isOnFire">
+            <summary>
+            switches state, when enemy is set on fire by player
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.allowedToBurn">
+            <summary>
+            switches state, when enemy already burns
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.currentspeed">
+            <summary>
+            speed of enemy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.playerPosition">
+            <summary>
+            saves player position
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.enemyPosition">
+            <summary>
+            saves enemy position
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.gameVariables">
+            <summary>
+            saves game variables
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.AbstEnemy.enemyValue">
+            <summary>
+            sets amount of spawned coins, when enemy dies
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.AbstEnemy.startEnemy">
+            <summary>
+            provides start behavior for enemies
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.AbstEnemy.updateEnemy">
+            <summary>
+            provides behavior for enemies
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.AbstEnemy.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            provides on trigger enter class for enemy
+            </summary>
+            <param name="otherObject"> collider for objects the enemy affects </param>
+        </member>
+        <member name="M:Assets.scripts.Enemy.AbstEnemy.spawnCoinsPerEnemyValue">
+            <summary>
+            spawns coins ( e.g. on death )
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.AbstEnemy.enemyDiesAndSpawnsCoins">
+            <summary>
+            spawn coins on death
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.Burning">
+            <summary>
+            initiates burning effect to enemy
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.BossDragon">
+            <summary>
+            this class controls the boss dragon 
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.BossDragon.currentLandingZone">
+            <summary>
+            tells the position where to land, launch and the next
+            one in a link list like structure
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.BossDragon.currentLaunchZone">
+            <summary>
+            the position from which to launch
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.DestoryAbleMeteor">
+            <summary>
+            rock without rigid body, can be set on fire
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.DestoryAbleMeteor.reFire">
+            <summary>
+            to set object on fire
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.DestoryAbleMeteor.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            special cases on particle collision
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.Dragon">
+            <summary>
+            This class controls the flying dragon, with throws rocks at the player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.Dragon.getRock">
+            <summary>
+            creates new rock at dragons current position
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.Dragon.throwRock">
+            <summary>
+            throws rock, when dragon reaches the position of the player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.Dragon.resetPos">
+            <summary>
+            resets dragons position above the lava after throwing a rock
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.Dragon.OnCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            dragon flies away after colliding with objects
+            </summary>
+            <param name="collider"></param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.IceDragon">
+            <summary>
+            This class manages the Ice Dragon enemy.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.IceDragon.seePlayer">
+            <summary>
+            see player serves as a simple trigger for the dragon to fire when the player is near
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.IceDragon.iceFire">
+            <summary>
+            ice breath of the dragon
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.IceDragon.dragonFireLight">
+            <summary>
+            lighting effect of the ice breath
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.IceDragon.direction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.IceDragon.distance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.LandingZone">
+            <summary>
+            describes where the dragon should land
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.LandingZone.nextLandingZone">
+            <summary>
+            linking next landing zone
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.LaunchZone">
+            <summary>
+            point where the boss should launch
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.DragonScripts.LaunchZone.nextLaunchZone">
+            <summary>
+            next launch zone
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.RigidRockBig">
+            <summary>
+            rock that gets destroyed if it lands on a game object 
+            which is tagged as "easy". This tag is used, because this 
+            option is just for a special case, and "easy" is normally not 
+            used in the levels, only in the settings scene
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.RigidRockBig.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            destroy this game objects, if it collides with an object
+            tagged with "easy"
+            </summary>
+            <param name="c"></param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.Rock">
+            <summary>
+            rock without rigid body, can be set on fire
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.Rock.reFire">
+            <summary>
+            to set object on fire
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.DragonScripts.Rock.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            special cases on particle collision
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.DragonScripts.RockParticle">
+            <summary>
+            fire particles of burning objects
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.Enemy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.Enemy.direction">
+            <summary>
+            direction 1 for right -1 for left
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.Enemy.directionCount">
+            <summary>
+            Enemy will move "count"frames in one direction
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.Enemy.OnCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            Different collision detections.
+            One for KIBorders and one for Level borders
+            </summary>
+            <param name="otherObject"></param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.EnemyExplosion">
+            <summary>
+            deletes explosion prefab after particles disappeared
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.EnemyPatrol">
+            <summary>
+            Adjusts the behavior of patrolling enemy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol.hitEnemyPrefab">
+            <summary>
+            loads needed prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol.direction">
+            <summary>
+            Direction describes the walking direction(view) of this enemy it is used to spawn shots, add force... in the right direction
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol.distance">
+            <summary>
+            distance between enemy and player
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol.hit">
+            <summary>
+            works as enemy sight
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol.sightRange">
+            <summary>
+            sets range of sight
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyPatrol.startEnemy">
+            <summary>
+            overrides start class of abstract enemy
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyPatrol.updateEnemy">
+            <summary>
+            overrides update class of abstract enemy
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyPatrol.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            The enemy should change Directions if he hits the AIBorders even when he tries to chase the Player
+            </summary>
+            <param name="otherObject"> collider of objects the enemy affects </param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.EnemyPatrol2">
+            <summary>
+            Adjusts the behavior of patrolling enemy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol2.hitEnemyPrefab">
+            <summary>
+            loads needed prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol2.seePlayer">
+            <summary>
+            works as a switch between this enemy chasing the Player or using his normal Patrol behavior
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol2.direction">
+            <summary>
+            Direction describes the walking direction(view) of this enemy it is used to spawn shots, add force... in the right direction
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyPatrol2.distance">
+            <summary>
+            the distance to the Player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyPatrol2.startEnemy">
+            <summary>
+            Thanks to the model the enemy has always to move Forward there in no more need to differentiate between left movement or right.
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyPatrol2.updateEnemy">
+            <summary>
+            overrides the update class of abstract enemy
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyPatrol2.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            The enemy should change Directions if he hits the AIBorders even when he tries to chase the Player
+            AI border logic GameObject has to change face direction and has to move in the other direction.
+            also the enemy has to stop even if he chases the player.
+            </summary>
+            <param name="otherObject"> collider of objects the enemy affects </param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.EnemyTurret">
+            <summary>
+            Adjusts the behavior of shooting enemy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurret.shootEnemyPrefab">
+            <summary>
+            loads enemy's shot prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurret.direction">
+            <summary>
+            sets direction of shots
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurret.seePlayer">
+            <summary>
+            change state when the player approaches
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurret.distance">
+            <summary>
+            distance between player and enemy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurret.animator">
+            <summary>
+            loads enemy's animator
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyTurret.startEnemy">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyTurret.updateEnemy">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyTurret.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            collision with enemy turret
+            </summary>
+            <param name="otherObject">object that collides with turret</param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.EnemyTurretPoison">
+            <summary>
+            Adjusts the behavior of poisoning flower enemy.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurretPoison.shootEnemyPrefab">
+            <summary>
+            initiates shot prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurretPoison.direction">
+            <summary>
+            sets direction of shots
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurretPoison.seePlayer">
+            <summary>
+            changes state when player is near
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurretPoison.distance">
+            <summary>
+            distance between enemy and player
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.EnemyTurretPoison.animator">
+            <summary>
+            loads poisoning flower's animator
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyTurretPoison.startEnemy">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.EnemyTurretPoison.updateEnemy">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.HitEnemy">
+            <summary>
+            Destroys hit prefab of enemy after hitting the player.
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.ShootEnemy">
+            <summary>
+            Provides the speed for enemy's shots.
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Enemy.Spawntrap">
+            <summary>
+            spawns snakes when player passes the trap's position
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.Spawntrap.Enemyprefab">
+            <summary>
+            initiates enemy
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.Spawntrap.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            If the Player moves into the Zone there is a chance a Snake Spawns
+            </summary>
+            <param name="otherObject"></param>
+        </member>
+        <member name="T:Assets.scripts.Enemy.Tiger">
+            <summary>
+            Class implements the Tiger enemy.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.Tiger.seePlayer">
+            <summary>
+            describes whether the player is seen
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.Tiger.direction">
+            <summary>
+            jumping direction
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Enemy.Tiger.distance">
+            <summary>
+            distance to player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.Tiger.startEnemy">
+            <summary>
+            Thanks to the model the enemy has always to move Forward there in no more need to differentiate between left movement or right.
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.Tiger.updateEnemy">
+            <summary>
+            Update method for tiger class, is executed every frame.
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Enemy.Tiger.OnTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            The enemy should change Directions if he hits the AIBorders even when he tries to chase the Player
+            </summary>
+            <param name="otherObject">object the tiger collides with</param>
+        </member>
+        <member name="T:Assets.scripts.GameController">
+            <summary>
+            Links the class GameVariables with individual scenes. Makes access of the "scriptable Object" class GameVariables possible. 
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameController.gameVariables">
+            <summary>
+            access to GameVariables
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.GameOver">
+            <summary>
+            This class manages the game over screen (for example: different images for 
+            whichever transformation you happen to die in)
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.GameVariables">
+            <summary>
+            This class keeps game data: difficulty setting, player variables etc.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.initMisc">
+            <summary>
+            initialize variables like lava, player position, energy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.maxLifePoints">
+            <summary>
+            maximum of players life points
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.lifePoints">
+            <summary>
+            current life points of player
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.initHearts">
+            <summary>
+            starts a new game with 3 hearts
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.minShowHearts">
+            <summary>
+            minimum of 3 hearts are shown on GUI
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.maxShowHearts">
+            <summary>
+            maximum of 5 hearts are shown on GUI
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.hearts">
+            <summary>
+            current number of hearts
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.lastRespawn">
+            <summary>
+            saves last save point position
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.lastLavaPos">
+            <summary>
+            saves lava position at last save point
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.lastLavaPos2">
+            <summary>
+            saves lava position at last save point (only in Part1_Level1)
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.lastEnergy">
+            <summary>
+            saves current energy at last save point
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.lastItems">
+            <summary>
+            saves current items
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.wasRespawned">
+            <summary>
+            whether player is spawned again
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.playerPosition">
+            <summary>
+            find player position for enemies
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.difficultyMode">
+            <summary>
+            sets difficulty mode
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.GameVariables.nonPlayableLevels">
+            <summary>
+            A list of levels in which you can't open inventory or pause screen (e.g. main menu).
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.GameVariables.loseHeart">
+            <summary>
+            subtract one life from the player - one heart
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.GameVariables.savePoint(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+            <summary>
+            saves variables at save point
+            </summary>
+            <param name="playerPos"></param>
+            <param name="lavaPos"></param>
+            <param name="energy"></param>
+        </member>
+        <member name="M:Assets.scripts.GameVariables.respawnVariables">
+            <summary>
+            reset Variables back to last save point
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.GameVariables.resetVariables">
+            <summary>
+            reset life points for a new game
+            </summary>
+        </member>
+        <member name="T:Assets.InventoryScripts.CoinSoundDest">
+            <summary>
+            this class destroys the soundObject form the coin
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.InventoryScripts.Inventory">
+            <summary>
+            "Inventory": keep Power ups, Coins in a stash from level to level
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.InventoryScripts.Inventory.items">
+            <summary>
+            Dictionary as inventory. Key is the item name and value the quantity of aforementioned item.
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.InventoryScripts.Inventory.AddItems(System.String,System.Single)">
+            <summary>
+            Adds Items to Inventory, if they already exist the quantity will be increased.
+            </summary>
+            <param name="itemName">key/name of the item</param>
+            <param name="quantity">quantity of the items</param>
+        </member>
+        <member name="M:Assets.scripts.InventoryScripts.Inventory.SetItems(System.String,System.Single)">
+            <summary>
+            Set item to a specific value
+            </summary>
+            <param name="itemName">key/name of the item</param>
+            <param name="quantity">number of items</param>
+        </member>
+        <member name="M:Assets.scripts.InventoryScripts.Inventory.GetItems(System.String)">
+            <summary>
+            Check Inventory for an item
+            </summary>
+            <param name="itemName">search: key/name of item</param>
+            <returns>number of items in the inventory</returns>
+        </member>
+        <member name="T:Assets.scripts.InventoryScripts.InventoryCollider">
+            <summary>
+            Manages collection of items
+            everything that ends up in the Inventory needs this Script assigned to Prefabs
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.InventoryScripts.InventoryCollider.itemName">
+            <summary>
+            name of the item that is being collected
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.InventoryScripts.InventoryCollider.value">
+            <summary>
+            quantity of the item that is being collected (quiver of arrows or 1 potion)
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.InventoryScripts.InventoryCollider.gatheringCoinPrefab">
+            <summary>
+            using the gatheringCoinPrefab in unity to make a cloud appear after items have been collected and a sound is played
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.InventoryScripts.InventoryManager">
+            <summary>
+            Links Inventory with scenes / player, e.g. makes access of the "scriptable object" inventory possible.
+            The InventoryManager script must to be added in each scene (preferably with the GameController prefab). 
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.InventoryScripts.InventoryManager.inventory">
+            <summary>
+            create variable for access of inventory class
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.InventoryScripts.InventoryManager.drawInventoryButtons(System.String,System.Single,System.Single,System.Single)">
+            <summary>
+            This method realizes the buttons which use the items from the inventory when clicked.
+            </summary>
+            <param name="k">name of the item</param>
+            <param name="v">quantity of the item</param>
+            <param name="x">x position of the button</param>
+            <param name="y">y position of the button</param>
+        </member>
+        <member name="T:Assets.scripts.MainMenu.GameControlLink">
+            <summary>
+            Roundabout way to implement a main menu: each button (loadLevel command) actually uses 
+            it's own class. In this case: points to a short overview for game controls (keys)
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.MainMenu.Play">
+            <summary>
+            Roundabout way to implement a main menu: each button (loadLevel command) actually uses 
+            it's own class. In this case: points to the first Level (Demo)
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.MainMenu.ScoreLink">
+            <summary>
+            Roundabout way to implement a main menu: each button (loadLevel command) actually uses 
+            it's own class. In this case: points to high score
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.MainMenu.SettingsLink">
+            <summary>
+            Roundabout way to implement a main menu: each button (loadLevel command) actually uses 
+            it's own class. In this case: points to the settings (sound, difficulty)
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.MainMenu.ToggleSound">
+            <summary>
+            Class manages part of the settings menu: sound on/off
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.MainMenu.ToggleSound.OnMouseDown">
+            <summary>
+            Toggles sound off and on when the player clicks with the mouse on the menu item "Sound"
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.MossWall">
+            <summary>
+            This class manages the behavior of the obstacle moss wall.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.MossWall.explosionPrefab">
+            <summary>
+            Graphical destruction effect.
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.MusicControll">
+            <summary>
+            Class manages (background) music
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.MusicControll.playMenuSound">
+            <summary>
+            start menu sound
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.MusicControll.playGameSound">
+            <summary>
+            start game background sound
+            </summary>
+        </member>
+        <member name="P:Assets.scripts.MusicControll.instance">
+            <summary>
+            property to get the instance of the class
+            </summary>
+        </member>
+        <member name="F:NewSettings.backgroundTexture">
+            <summary>
+            background Texture of the high score GUI
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.NextLevelCollider">
+            <summary>
+            This class manages the transition to the next Level.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.NextLevelCollider.nextLevelName">
+            <summary>
+            Name of the level that should be loaded next.
+            </summary>
+        </member>
+        <member name="T:PauseMenu">
+            <summary>
+            Pause function. Press Escape to pause the game and escape again or the button "continue" to resume.
+            </summary>
+        </member>
+        <member name="F:PauseMenu.ourStyle">
+            <summary>
+            declares GUI style
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.AbstPlayer">
+            <summary>
+            Abstract Class where general settings are set( main Prefabs)
+            This class also contains moving, jumping, transformations and collisions with objects
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerPrefab">
+            <summary>
+            declares player prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.dragonPrefab">
+            <summary>
+            declares dragon prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.boarPrefab">
+            <summary>
+            declares boar prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.squirrelPrefab">
+            <summary>
+            declares squirrel prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.HitPrefab">
+            <summary>
+            declares hit prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.cloudPrefab">
+            <summary>
+            declares cloud prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.lava">
+            <summary>
+            declares lava prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.lava2">
+            <summary>
+            declares lava2 prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.infightZone">
+            <summary>
+            declares in fight zone prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerHeart">
+            <summary>
+            declares player heart texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerHeart_2_3">
+            <summary>
+            declares player heart 2/3 texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerHeart_1_3">
+            <summary>
+            declares player heart 1/3 texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerHeartEmpty">
+            <summary>
+            declares player heart empty texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerTexture">
+            <summary>
+            declares player texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.lavaTexture">
+            <summary>
+            declares lava texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.trans">
+            <summary>
+            declares current transform
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.currentTransformation">
+            <summary>
+            indicates the transformation
+            0 = crouch
+            1 = human
+            2 = dragon
+            3 = squirrel
+            4 = boar
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.currentTransformationCost">
+            <summary>
+            declares amount of decreasing energy
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.poisoned">
+            <summary>
+            is changed when the Player gets poisoned
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.poisonTimer">
+            <summary>
+            time the Player is poisoned.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.inventory">
+            <summary>
+            inventory access
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.gameVariables">
+            <summary>
+            game variables access
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.isInfight">
+            <summary>
+            an enemy is near the player
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.maxVelocityChange">
+            <summary>
+            declares the maximum of velocity
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.rayLength">
+            <summary>
+            length of the ray which checks for isGrounded property
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.adjustVector">
+            <summary>
+            adjust center of the capsule (blender problems)
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.canJump">
+            <summary>
+            if the player is grounded
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.lastHitTime">
+            <summary>
+            saves the time when player were hit the last time
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.coolDownEnemyHit">
+            <summary>
+            timespan till the next hit is possible
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerSpeedX">
+            <summary>
+            player speed on x axis
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.playerSpeedY">
+            <summary>
+            player speed n y axis
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.slowDownGoingBack">
+            <summary>
+            slower speed while moving backward
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.direction">
+            <summary>
+            left  = -1
+            right = 1
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.sprintSpeedNormalX">
+            <summary>
+            sprint speed on x axis
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.AbstPlayer.sprintSpeedNormalY">
+            <summary>
+            sprint speed on y axis
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.Start">
+            <summary>
+            provides start behavior for player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.FixedUpdate">
+            <summary>
+            fixed update behavior for player
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Assets.scripts.Player.AbstPlayer.playerMovement" -->
+        <member name="M:Assets.scripts.Player.AbstPlayer.CalculateJumpVerticalSpeed">
+            <summary>
+            from the jump height and gravity we deduce the upwards speed for the character to reach at the apex of the jump curve
+            </summary>
+            <returns>float: velocity.y of the rigid body movement when jumping</returns>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.debugJump">
+            <summary>
+            gives a lot of variables to see what goes wrong with jumping if anything does
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.Update">
+            <summary>
+            updates behavior of player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.fstDown">
+            <summary>
+            first special ability key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.fstUp">
+            <summary>
+            first special ability key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.fstPressed">
+            <summary>
+            first special ability key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.sndDown">
+            <summary>
+            second special ability key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.sndUp">
+            <summary>
+            second special ability key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.sndPressed">
+            <summary>
+            second special ability key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.upDown">
+            <summary>
+            moving up key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.upUp">
+            <summary>
+            moving up key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.upPressed">
+            <summary>
+            moving up key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.downDown">
+            <summary>
+            moving down key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.downUp">
+            <summary>
+            moving down key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.downPressed">
+            <summary>
+            moving down key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.leftDown">
+            <summary>
+            moving left key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.leftUp">
+            <summary>
+            moving left key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.leftPressed">
+            <summary>
+            moving left key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.rightDown">
+            <summary>
+            moving right key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.rightUp">
+            <summary>
+            moving right key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.rightPressed">
+            <summary>
+            moving right key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.beforeTransformationChange">
+            <summary>
+            this will called before the player transform
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.OnParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            get the collision with the particle systems
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraParticleCollision(UnityEngine.GameObject)">
+            <summary>
+            provides extra particle collision class for player
+            </summary>
+            <param name="g"> particle which collides </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.OnCollisionStay(UnityEngine.Collision)">
+            <summary>
+            while in collision state
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.OnCollisionExit(UnityEngine.Collision)">
+            <summary>
+            leaving the current collision
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            provides extra collision enter class
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraCollisionStay(UnityEngine.Collision)">
+            <summary>
+            provides extra collision stay class
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraCollisionExit(UnityEngine.Collision)">
+            <summary>
+            provides extra collision exit class
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraTiggerStay(UnityEngine.Collider)">
+            <summary>
+            provides extra on trigger stay class for player
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            provides extra on trigger enter class for player
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.extraTriggerExit(UnityEngine.Collider)">
+            <summary>
+            provides extra on trigger exit class for player
+            </summary>
+            <param name="c"> object to collide with </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.reTransform">
+            <summary>
+            transform to normal transformation
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.transformTo(System.Int32)">
+            <summary>
+            i == new transformation
+            </summary>
+            <param name="i"> number of transform </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.instantiateTransform(System.Int32)">
+            <summary>
+            initiates transformation
+            </summary>
+            <param name="i"> number of transformation </param>
+            <returns></returns>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.gettingPoisoned">
+            <summary>
+            if a Player gets hit by poison he will be slowed for 2(PoisonTimer) seconds.
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.gettingInjured(System.String)">
+            <summary>
+            calculates the damage for the player by the object of which he gets hit (enemy, lava, etc)
+            </summary>
+            <param name="enemyname"> the name of the object by which the player gets hit </param>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.damageEffect">
+            <summary>
+            makes player visible/invisible (blinks) after taking a hit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.waitTime(System.Single)">
+            <summary>
+            Waiting routine for temporary immortality
+            </summary>
+            <param name="seconds"> time to wait </param>
+            <returns></returns>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.respawnPlayer">
+            <summary>
+            re-spawns the player to the last re-spawn point
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.playerAutoRecovery">
+            <summary>
+            Recovery the Player after a certain time (modify coolDownEnemyHit and coolDownRecovery to change that)
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.AbstPlayer.OnGUI">
+            <summary>
+            provides GUI elements of player
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.Cloud">
+            <summary>
+            Class obsolete? Deactivated everything to see if errors do pop up.
+            </summary>
+        </member>
+        <member name="T:DragonFire">
+            <summary>
+            Class destroys the fire breath (a unity particle system) of the dragon after it's burned out.
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.DragonFireLight">
+            <summary>
+            This Class manages the graphics effect of the dragon fire. It limits the number of fires in the air,
+            i.e. the number of prefabs "DragonLightFire".
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.Hit">
+            <summary>
+            This Class manages the hitting behavior of the (human) player character. 
+            The prefab "Hit" is what actually collides with the enemies.
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.InfightZone">
+            <summary>
+            Class checks if the player character is in a fight. Actually checks if the player collides with an enemy.
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.PlayerBoar">
+            <summary>
+            This class contains anything that relates to the player transformation boar. Pushing / destroying rocks, animations
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerBoar.transformSound">
+            <summary>
+            Audio clip that is played when the player transforms into the boar.
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.fstDown">
+            <summary>
+            "1st ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.fstUp">
+            <summary>
+            "1st ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.fstPressed">
+            <summary>
+            "1st ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.sndDown">
+            <summary>
+            "2. ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.sndUp">
+            <summary>
+            "2. ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.sndPressed">
+            <summary>
+            "2. ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.upDown">
+            <summary>
+            "key up" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.upUp">
+            <summary>
+            "key up" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.downDown">
+            <summary>
+            "key down" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.downUp">
+            <summary>
+            "key down" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.downPressed">
+            <summary>
+            "key down" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.leftDown">
+            <summary>
+            "key left" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.leftUp">
+            <summary>
+            "key left" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.leftPressed">
+            <summary>
+            "key left" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.rightDown">
+            <summary>
+            "key right" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.rightUp">
+            <summary>
+            "key right" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.rightPressed">
+            <summary>
+            "key right" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.extraCollisionEnter(UnityEngine.Collision)">
+            <summary>
+            additional collisions: pushing / tackling behavior
+            </summary>
+            <param name="c">object with which the boar collides</param>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerBoar.extraCollisionStay(UnityEngine.Collision)">
+            <summary>
+            additional collisions: pushing / tackling behavior
+            </summary>
+            <param name="c">object with which the boar collides</param>
+        </member>
+        <member name="T:Assets.scripts.Player.PlayerDragon">
+            <summary>
+            This class includes the control of the player with the transformation as dragon
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerDragon.localPlayerTexture">
+            <summary>
+            texture of the dragon
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerDragon.DragonFire">
+            <summary>
+            fire breath effect prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerDragon.DragonFireLight">
+            <summary>
+            fire breath graphics effect
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerDragon.fireSound">
+            <summary>
+            sound of the fire breath
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerDragon.transformSound">
+            <summary>
+            sound of the dragon transformation
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.fstDown">
+            <summary>
+            "first ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.fstUp">
+            <summary>
+            "first ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.fstPressed">
+            <summary>
+            "first ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.sndDown">
+            <summary>
+            "second ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.sndUp">
+            <summary>
+            "second ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.sndPressed">
+            <summary>
+            "second ability" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.upDown">
+            <summary>
+            "key up" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.upUp">
+            <summary>
+            "key up" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.downDown">
+            <summary>
+            "key down" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.downUp">
+            <summary>
+            "key down" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.downPressed">
+            <summary>
+            "key down" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.leftDown">
+            <summary>
+            "key left" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.leftUp">
+            <summary>
+            "key left" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.leftPressed">
+            <summary>
+            "key left" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.rightDown">
+            <summary>
+            "key right" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.rightUp">
+            <summary>
+            "key right" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerDragon.rightPressed">
+            <summary>
+            "key right" - which action should the boar execute on that key
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.PlayerHuman">
+            <summary>
+            This class includes the control of the player with the transformation as human
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerHuman.hitPrefab">
+            <summary>
+            declares hit prefab
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerHuman.sprintBarTextureEmpty">
+            <summary>
+            declares empty bar texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerHuman.sprintBarTextureFill">
+            <summary>
+            declares filled bar texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerHuman.jumpSound">
+            <summary>
+            declares jump sound
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.fstDown">
+            <summary>
+            overrides first down class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.fstUp">
+            <summary>
+            overrides first up class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.fstPressed">
+            <summary>
+            overrides first pressed class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.sndDown">
+            <summary>
+            overrides second down class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.sndUp">
+            <summary>
+            overrides second up class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.sndPressed">
+            <summary>
+            overrides second pressed class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.upDown">
+            <summary>
+            overrides up key down class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.upUp">
+            <summary>
+            overrides up key up class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.downDown">
+            <summary>
+            overrides down key down class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.downUp">
+            <summary>
+            overrides down key up class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.downPressed">
+            <summary>
+            overrides down key pressed class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.leftDown">
+            <summary>
+            overrides left key down class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.leftUp">
+            <summary>
+            overrides left key up class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.leftPressed">
+            <summary>
+            overrides left key pressed class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.rightDown">
+            <summary>
+            overrides right key down class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.rightUp">
+            <summary>
+            overrides right key up class of abstract player
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerHuman.rightPressed">
+            <summary>
+            overrides right key pressed class of abstract player
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Player.PlayerSquirrel">
+            <summary>
+            This class includes the control of the player with the transformation as squirrel
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerSquirrel.localPlayerTexture">
+            <summary>
+            declare squirrel texture
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Player.PlayerSquirrel.transformSound">
+            <summary>
+            transformation sound of squirrel
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.fstDown">
+            <summary>
+            first special ability key is pressed down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.fstUp">
+            <summary>
+            first special ability key is let go
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.fstPressed">
+            <summary>
+            first special ability key is continuously pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.sndDown">
+            <summary>
+            second special ability key is pressed down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.sndUp">
+            <summary>
+            second special ability key is let go
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.sndPressed">
+            <summary>
+            second special ability key is continuously pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.upDown">
+            <summary>
+            moving up key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.upUp">
+            <summary>
+            moving up key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.downDown">
+            <summary>
+            moving down key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.downUp">
+            <summary>
+            moving down key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.downPressed">
+            <summary>
+            moving down key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.leftDown">
+            <summary>
+            moving left key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.leftUp">
+            <summary>
+            moving left key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.leftPressed">
+            <summary>
+            moving left key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.rightDown">
+            <summary>
+            moving right key is down
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.rightUp">
+            <summary>
+            moving right key is up
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.rightPressed">
+            <summary>
+            moving right key is pressed
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.extraTriggerEnter(UnityEngine.Collider)">
+            <summary>
+            additional collisions: climbing behavior
+            </summary>
+            <param name="c">object with which the squirrel collides</param>
+        </member>
+        <member name="M:Assets.scripts.Player.PlayerSquirrel.extraTriggerExit(UnityEngine.Collider)">
+            <summary>
+            additional collisions: climbing behavior
+            </summary>
+            <param name="c">object with which the squirrel collides</param>
+        </member>
+        <member name="T:Assets.scripts.ReturnToMainMenu">
+            <summary>
+            part of the convoluted main menu - link to return to main menu
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.SceneFader">
+            <summary>
+            Fading in and out of a scene from clear / black screen instead of hard transitions.
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.SceneFader.texture">
+            <summary>
+            texture used in the screen fading
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.SceneFader.fadeSpeed">
+            <summary>
+            speed of fading in / out of a scene
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.SceneFader.nextLevel">
+            <summary>
+            name of the next level that is being loaded
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.SceneFader.SwitchScene(System.String)">
+            <summary>
+            method to load the next scene with resetting the variables which say whether we enter/leave a scene
+            </summary>
+            <param name="nextSceneName">name of the scene being loaded</param>
+        </member>
+        <member name="T:Assets.scripts.Score.Highscore">
+            <summary>
+            this class save the score on the disc or read from disc
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Score.Highscore.readScore">
+            <summary>
+            read the score file, this isn't sorted
+            </summary>
+            <returns>sorted list of score entries in file</returns>
+        </member>
+        <member name="M:Assets.scripts.Score.Highscore.writeNewScore(Assets.scripts.Score.Entry)">
+            <summary>
+            add a entry into score file
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Assets.scripts.Score.Entry">
+            <summary>
+            this is a score entry.
+            Parameter: Name, lastLevel the player reached, this score, the difficulty the player plays the game, time is the timestamp when the player make the score
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.Score.Entry.#ctor(System.String,System.Int32,System.Int32,System.Single,System.Int64)">
+            <summary>
+            Entry in the score file
+            </summary>
+            <param name="name">name of the player</param>
+            <param name="lastLevel">which is the last level reached</param>
+            <param name="score">coins collected = score reached</param>
+            <param name="difficulty">difficulty setting played in</param>
+            <param name="t">time of completion</param>
+        </member>
+        <member name="M:Assets.scripts.Score.Entry.#ctor(System.String,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Entry in the score file
+            </summary>
+            <param name="name">name of the player</param>
+            <param name="lastLevel">which is the last level reached</param>
+            <param name="score">coins collected = score reached</param>
+            <param name="difficulty">difficulty setting played in</param>
+        </member>
+        <member name="M:Assets.scripts.Score.Entry.CompareTo(Assets.scripts.Score.Entry)">
+            <summary>
+            method to sort the entries
+            </summary>
+            <param name="e">the entry being sorted</param>
+            <returns>number to indicate sorting order</returns>
+        </member>
+        <member name="P:Assets.scripts.Score.Entry.name">
+            <summary>
+            name of the entry
+            </summary>
+        </member>
+        <member name="P:Assets.scripts.Score.Entry.lastLevel">
+            <summary>
+            last level reached by the player
+            </summary>
+        </member>
+        <member name="P:Assets.scripts.Score.Entry.score">
+            <summary>
+            score the player reached
+            </summary>
+        </member>
+        <member name="P:Assets.scripts.Score.Entry.difficulty">
+            <summary>
+            difficulty setting played in
+            </summary>
+        </member>
+        <member name="P:Assets.scripts.Score.Entry.time">
+            <summary>
+            the time the entry was created
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.Score.ScoreGUI">
+            <summary>
+            Draws the score and let the player enter his name for the score
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Score.ScoreGUI.backgroundTexture">
+            <summary>
+            background Texture of the high score GUI
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Score.ScoreGUI.popUpTexture">
+            <summary>
+            Popup texture in high score GUI
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.Score.ScoreGUI.ourStyle">
+            <summary>
+            Our Style
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.Bush">
+            <summary>
+            it's a script for bushes
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.World.Bush.Start">
+            <summary>
+            Use this for initialization
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.World.Bush.Update">
+            <summary>
+            Update is called once per frame
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.FallingBlocks">
+            <summary>
+            manages behavior of "trap" blocks - after being touched by the player they start to spin and fall down
+            </summary>
+        </member>
+        <member name="T:Assets.World.Fog">
+            <summary>
+            this class destroys old fogs
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.KillingPlane">
+            <summary>
+            destroys every GameObject on collision
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.Lava">
+            <summary>
+            This class manages the ultimate game over condition - the pursuing lava
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.Lava.lavaSpeed">
+            <summary>
+            speed of the lava wave, also accessed by difficulty settings
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.Lava.gameVariables">
+            <summary>
+            game variables access
+            </summary>
+        </member>
+        <member name="T:Assets.World.LavaFountain">
+            <summary>
+            THis class kills old LavaFountains
+            </summary>
+        </member>
+        <member name="T:Assets.World.LavaFountainPermanent">
+            <summary>
+            permanently spawns a fountain
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.Respawn">
+            <summary>
+            class manages spawning behavior of the player
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.RotateItem">
+            <summary>
+            collectible items can be made to spin by this script
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.RotateItem.gatheringCoinPrefab">
+            <summary>
+            GameObject that is being put in place of the collected item
+            </summary>
+        </member>
+        <member name="T:SpawnDragonEnemy">
+            <summary>
+            This class triggers a lava fountain
+            </summary>
+        </member>
+        <member name="F:SpawnDragonEnemy.dragonWasSpawned">
+            <summary>
+            switches state after dragon spawned
+            </summary>
+        </member>
+        <member name="M:SpawnDragonEnemy.gameObjectSpawnTrigger">
+            <summary>
+            throws an empty game object on the killing plane, which spawns a lava fountain
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.SpawnObject">
+            <summary>
+            This class triggers a lava fountain
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.SpawnObject.nameOfObjectToSpawn">
+            <summary> 
+            the name of the game object which is going to be spawned
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.SpawnObject.timeBetweenSpawn">
+            <summary>
+            time between the spawn in seconds
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.SpawnObject.isMeteor">
+            <summary>
+            if this is true, the object that is spawned will be a meteor
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.World.SpawnObject.gameObjectSpawnTrigger">
+            <summary>
+            throws an empty game object on the killing plane, which spawns a lava fountain
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.TerrainTree">
+            <summary>
+            manages the burning of preordained trees in the background (on terrain)
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.TerrainTree.fire4TreePrefab">
+            <summary>
+            tree objects prefabs to be assigned in unity
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.TerrainTree.fire4TreeInitPrefab">
+            <summary>
+            tree objects prefabs to be assigned in unity
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.ThrowRocks">
+            <summary>
+            This class instantiate a rock at the position of the script added position
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.ThrowRocks.isBigRock">
+            <summary>
+            if the variable is true, the block will be big, that means, the size/scale=4 
+            and the rock will have a "lava" tag, so that the player is destroyed if he touches 
+            the big rock
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.ThrowRocks.isMeteor">
+            <summary>
+            changes rock style to meteor style
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.ThrowRocks.respawnTime">
+            <summary>
+            Duration in seconds
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.ThrowRocks.respawnTimeMilli">
+            <summary>
+            Duration in milliseconds
+            </summary>
+        </member>
+        <member name="M:Assets.scripts.World.ThrowRocks.throwRock">
+            <summary>
+            throws rock
+            </summary>
+        </member>
+        <member name="T:Assets.scripts.World.WalkingBlock">
+            <summary>
+            This class manages the world destruction by the lava wave. Once hit, the blocks (or objects) with the script fall down
+            and can no longer be used for progressing in the level
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.WalkingBlock.fogPrefab">
+            <summary>
+            fog object prefab to be assigned in unity (burning stones)
+            </summary>
+        </member>
+        <member name="F:Assets.scripts.World.WalkingBlock.BlockExplosion">
+            <summary>
+            random world destruction "explosion" of a block after being hit by a burning meteor
+            </summary>
+        </member>
+    </members>
+</doc>

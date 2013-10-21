@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a6e51ecc9659a50469480802f9cfe4c4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fire4TreePrefab: {fileID: 100000, guid: 36b98b548b9ee6e4985bda5523378ab4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

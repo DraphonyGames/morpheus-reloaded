@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9110b550308427a458ba5c49dc32aceb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - energyBarTextureEmpty: {fileID: 2800000, guid: d9d9ffbc2176bb149a4b932194673f03,
+      type: 3}
+  - energyBarTextureFill: {fileID: 2800000, guid: 4e504cf253a8ed84795dbb2a6171416e,
+      type: 3}
+  - localPlayerTexture: {instanceID: 0}
+  - DragonFire: {instanceID: 0}
+  - DragonFireLight: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

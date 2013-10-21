@@ -1,0 +1,11 @@
+Library
+Output
+Obj
+Temp
+*.pidb
+*.csproj
+*.sln
+*.useprefs
+*.suo
+Assembly-UnityScript-firstpass-vs.unityproj
+Assembly-UnityScript-firstpass.unityproj
