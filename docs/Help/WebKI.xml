@@ -1,0 +1,1688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AbstEnemy class">
+    <HelpKINode Title="AbstEnemy Class" Url="html/2998cd17-0aec-447d-0f76-6828c4a5353d.htm" />
+    <HelpKINode Title="AbstEnemy Members" Url="html/3721012a-321e-f85a-bafe-e7b7bc9d6b74.htm" />
+    <HelpKINode Title="about AbstEnemy class" Url="html/2998cd17-0aec-447d-0f76-6828c4a5353d.htm" />
+    <HelpKINode Title="all members" Url="html/3721012a-321e-f85a-bafe-e7b7bc9d6b74.htm" />
+    <HelpKINode Title="constructor" Url="html/fa0282a1-108b-f33a-a09d-682cacefe691.htm" />
+    <HelpKINode Title="fields" Url="html/0aa1659c-93f3-c504-8451-ce615f127ee5.htm" />
+    <HelpKINode Title="methods" Url="html/3c6b89ae-ceb5-da04-23f4-c610bcd03088.htm" />
+    <HelpKINode Title="properties" Url="html/c51fd113-3d4a-ec37-de32-aeb9b456c64d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstEnemy.AbstEnemy constructor" Url="html/fa0282a1-108b-f33a-a09d-682cacefe691.htm" />
+  <HelpKINode Title="AbstEnemy.allowedToBurn field" Url="html/fbe262ab-d682-7120-4c0f-53e0b32029fb.htm" />
+  <HelpKINode Title="AbstEnemy.burningEnemy field" Url="html/879d26d2-0e5b-9f54-aed3-411ddc1f20ab.htm" />
+  <HelpKINode Title="AbstEnemy.coin field" Url="html/b2c74821-379a-f8eb-8de2-61fda3d6de15.htm" />
+  <HelpKINode Title="AbstEnemy.currentspeed field" Url="html/278d2887-75ab-b27e-7358-4ac9fa396e55.htm" />
+  <HelpKINode Title="AbstEnemy.enemyDiesAndSpawnsCoins method" Url="html/726ea810-7068-c436-f2af-5efa85e0954f.htm" />
+  <HelpKINode Title="AbstEnemy.enemyPosition field" Url="html/aea67a03-bd35-e72c-89bc-51bc2191ad16.htm" />
+  <HelpKINode Title="AbstEnemy.enemyValue field" Url="html/889f444a-c205-5fe6-3266-bfd350b060fa.htm" />
+  <HelpKINode Title="AbstEnemy.explosion field" Url="html/13597c5b-b568-4498-31c8-5e3a1ad6729a.htm" />
+  <HelpKINode Title="AbstEnemy.explosion2 field" Url="html/209c0f4a-0914-4131-ed6b-34d9d1912dd1.htm" />
+  <HelpKINode Title="AbstEnemy.gameVariables field" Url="html/83aabae2-eda0-e60d-09d3-4dd18166816a.htm" />
+  <HelpKINode Title="AbstEnemy.isOnFire field" Url="html/e3706c71-2e1c-43ce-1b93-dc9a1d6fd58b.htm" />
+  <HelpKINode Title="AbstEnemy.OnTriggerEnter method" Url="html/37bdcb55-73db-21fc-55a1-d1fbb5533c04.htm" />
+  <HelpKINode Title="AbstEnemy.playerPosition field" Url="html/e8cf4a8c-fa8f-804f-ff5d-e4d22a477cac.htm" />
+  <HelpKINode Title="AbstEnemy.spawnCoinsPerEnemyValue method" Url="html/92f40a76-51f4-f02e-a388-97c950958acc.htm" />
+  <HelpKINode Title="AbstEnemy.startEnemy method" Url="html/6feee639-f461-fbfb-80c0-9d7c0e1ea164.htm" />
+  <HelpKINode Title="AbstEnemy.updateEnemy method" Url="html/c9459ebd-4187-0d85-323b-90e2e3f8d72d.htm" />
+  <HelpKINode Title="abstPage class">
+    <HelpKINode Title="abstPage Class" Url="html/ec33c4b1-c71f-8886-3c33-20e24cb1fc8b.htm" />
+    <HelpKINode Title="abstPage Members" Url="html/b2746aa7-c63d-f28c-f2c7-3fd3936087c7.htm" />
+    <HelpKINode Title="about abstPage class" Url="html/ec33c4b1-c71f-8886-3c33-20e24cb1fc8b.htm" />
+    <HelpKINode Title="all members" Url="html/b2746aa7-c63d-f28c-f2c7-3fd3936087c7.htm" />
+    <HelpKINode Title="constructor" Url="html/f4168364-6c74-8521-181d-1d1b9aee18fd.htm" />
+    <HelpKINode Title="fields" Url="html/51cb93ae-0045-3889-b951-76f131bacc81.htm" />
+    <HelpKINode Title="methods" Url="html/0af282cb-a6ad-80d9-7630-c6934ca219ed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="abstPage.abstPage constructor" Url="html/f4168364-6c74-8521-181d-1d1b9aee18fd.htm" />
+  <HelpKINode Title="abstPage.borderX field" Url="html/11dcd92d-0bc7-418e-3d84-49855ef8ff37.htm" />
+  <HelpKINode Title="abstPage.borderY field" Url="html/205ccd62-c8e3-325b-dc80-8b09c6bbb3eb.htm" />
+  <HelpKINode Title="abstPage.columnX field" Url="html/8919e02b-da7b-0d99-7f7d-d2260f1ce635.htm" />
+  <HelpKINode Title="abstPage.columnY field" Url="html/6d25cff2-b334-7920-bc84-7e7242967722.htm" />
+  <HelpKINode Title="abstPage.draw method" Url="html/1684e34e-e7b4-a3bf-a001-c00f246fb7a6.htm" />
+  <HelpKINode Title="abstPage.drawPage method" Url="html/64cca7e5-5e2e-785c-7649-d13f17c325dc.htm" />
+  <HelpKINode Title="abstPage.getHeaderStyle method" Url="html/0ddba60a-f4cf-5203-dc69-b22320c25a16.htm" />
+  <HelpKINode Title="abstPage.getTextStyle method" Url="html/42bfe6c7-e240-b18f-9907-a4f2fbbe5413.htm" />
+  <HelpKINode Title="abstPage.guiSkin field" Url="html/12dc6975-10cf-485c-0643-833cc3cd4e6d.htm" />
+  <HelpKINode Title="abstPage.inventory field" Url="html/25f903f4-95b0-d235-06d9-32dda2881902.htm" />
+  <HelpKINode Title="abstPage.isMainMenu field" Url="html/c13b3b84-b2f7-7ea4-af98-9d5969ddccd6.htm" />
+  <HelpKINode Title="abstPage.pageName field" Url="html/0abff327-69cd-805c-d40e-99ea7b32e5a5.htm" />
+  <HelpKINode Title="abstPage.popUpTexture field" Url="html/569d13d8-69c5-352f-13eb-b3ae33c134ad.htm" />
+  <HelpKINode Title="abstPage.resetClass method" Url="html/582a1813-d689-23bd-05c4-344e1ab4000a.htm" />
+  <HelpKINode Title="abstPage.sceneFader field" Url="html/afc9f2f8-f5dc-810e-0ece-a912d8d2625f.htm" />
+  <HelpKINode Title="abstPage.setInventory method" Url="html/41bab6e8-9adf-2bac-7ad3-b73686bb7311.htm" />
+  <HelpKINode Title="abstPage.setIsMenu method" Url="html/67c954b7-03c6-793b-d199-c077f0f06202.htm" />
+  <HelpKINode Title="abstPage.setSceneFader method" Url="html/f83e74b1-4525-5779-18f1-783a0181d8f7.htm" />
+  <HelpKINode Title="abstPage.setStyle method" Url="html/c96d7541-a04d-86aa-aa7b-582c2dc904c8.htm" />
+  <HelpKINode Title="abstPage.setTextures method" Url="html/ca5512e1-03b8-1ff5-da63-cd6c9109e6b3.htm" />
+  <HelpKINode Title="abstPage.setVariables method" Url="html/090118d3-7bea-1ba3-0d0b-452b24e3295d.htm" />
+  <HelpKINode Title="abstPage.vars field" Url="html/062f7e8a-3538-224e-0bf1-125bb49fdd1b.htm" />
+  <HelpKINode Title="AbstPlayer class">
+    <HelpKINode Title="AbstPlayer Class" Url="html/0b09e4f2-f7dc-2747-1110-efc1f351dc15.htm" />
+    <HelpKINode Title="AbstPlayer Members" Url="html/02dbacaa-7f97-8e7d-c23f-a2af3b6797e9.htm" />
+    <HelpKINode Title="about AbstPlayer class" Url="html/0b09e4f2-f7dc-2747-1110-efc1f351dc15.htm" />
+    <HelpKINode Title="all members" Url="html/02dbacaa-7f97-8e7d-c23f-a2af3b6797e9.htm" />
+    <HelpKINode Title="constructor" Url="html/4695d251-eae5-b90e-906d-e6f0b13ece72.htm" />
+    <HelpKINode Title="fields" Url="html/e74860dd-097c-a1fa-adb0-1e1c4c4d7888.htm" />
+    <HelpKINode Title="methods" Url="html/8041d85c-39ec-18a4-d93d-1800285f5816.htm" />
+    <HelpKINode Title="properties" Url="html/d61137c5-7a70-71fc-ea57-e0471f20f5d6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstPlayer.AbstPlayer constructor" Url="html/4695d251-eae5-b90e-906d-e6f0b13ece72.htm" />
+  <HelpKINode Title="AbstPlayer.adjustVector field" Url="html/39e2f7c6-54c3-a5bb-bec2-2221e8450413.htm" />
+  <HelpKINode Title="AbstPlayer.beforeTransformationChange method" Url="html/a7c18811-2206-f240-a228-b1c8156a75a3.htm" />
+  <HelpKINode Title="AbstPlayer.boarPrefab field" Url="html/9a9a1c07-6e61-684e-6094-dff4d41d1bb7.htm" />
+  <HelpKINode Title="AbstPlayer.canJump field" Url="html/5b64dfd3-3c27-2321-218c-ce7c5daab373.htm" />
+  <HelpKINode Title="AbstPlayer.cloudPrefab field" Url="html/257b19e2-ea3b-0014-252d-6896d857147a.htm" />
+  <HelpKINode Title="AbstPlayer.coolDownEnemyHit field" Url="html/2b483b66-bc26-dad9-d863-8ee61a57dee6.htm" />
+  <HelpKINode Title="AbstPlayer.currentTransformation field" Url="html/442595b4-3d49-fad5-772b-45180b4a244d.htm" />
+  <HelpKINode Title="AbstPlayer.currentTransformationCost field" Url="html/a58e7c3c-308e-887b-6246-eb1815fee5bd.htm" />
+  <HelpKINode Title="AbstPlayer.damageEffect method" Url="html/e9ee8443-d29b-591c-159d-85a8613003de.htm" />
+  <HelpKINode Title="AbstPlayer.debugJump method" Url="html/51dc2ec4-5ba5-4352-9e30-dc68b450b99e.htm" />
+  <HelpKINode Title="AbstPlayer.direction field" Url="html/a4fdcc2d-2465-d5c4-e837-f15895b6db5a.htm" />
+  <HelpKINode Title="AbstPlayer.downDown method" Url="html/9dae75ff-f7af-ef1c-e453-bdadde621927.htm" />
+  <HelpKINode Title="AbstPlayer.downPressed method" Url="html/31ba5105-7997-6bc6-5794-97c88a2b164a.htm" />
+  <HelpKINode Title="AbstPlayer.downUp method" Url="html/d190a2ef-d705-a201-b078-a4bd70202ec3.htm" />
+  <HelpKINode Title="AbstPlayer.dragonPrefab field" Url="html/36c2405d-a3bd-3d42-9e51-17293dfde3f0.htm" />
+  <HelpKINode Title="AbstPlayer.extraCollisionEnter method" Url="html/3b60bc11-1f9e-474c-daf4-2a01b1ba5d77.htm" />
+  <HelpKINode Title="AbstPlayer.extraCollisionExit method" Url="html/b17065d6-c85d-5043-e63c-5917019dc48b.htm" />
+  <HelpKINode Title="AbstPlayer.extraCollisionStay method" Url="html/9220932e-4788-209b-ff06-9a6ff50561cd.htm" />
+  <HelpKINode Title="AbstPlayer.extraParticleCollision method" Url="html/ee6fd777-f54e-a885-604b-4981936c4123.htm" />
+  <HelpKINode Title="AbstPlayer.extraTiggerStay method" Url="html/8d4b1f3b-6bde-3db4-5358-42b0eebd8936.htm" />
+  <HelpKINode Title="AbstPlayer.extraTriggerEnter method" Url="html/6b58277b-4cac-c5d7-aac8-e88880de8b23.htm" />
+  <HelpKINode Title="AbstPlayer.extraTriggerExit method" Url="html/0fd0a360-2280-fcf7-2d54-4c4668700132.htm" />
+  <HelpKINode Title="AbstPlayer.FixedUpdate method" Url="html/3232ffaf-d3af-0f8e-b6cf-02d12c393611.htm" />
+  <HelpKINode Title="AbstPlayer.fstDown method" Url="html/fbd6c550-2081-c30c-f3f8-1ed53c8be510.htm" />
+  <HelpKINode Title="AbstPlayer.fstPressed method" Url="html/8f116648-a7af-0bf9-480a-a1aeb3a6fd13.htm" />
+  <HelpKINode Title="AbstPlayer.fstUp method" Url="html/9ec16f83-da31-2208-bf83-36adc77ea598.htm" />
+  <HelpKINode Title="AbstPlayer.gameVariables field" Url="html/628adb44-88fc-5cdf-e845-ea6f60b3109c.htm" />
+  <HelpKINode Title="AbstPlayer.gettingInjured method" Url="html/167973b8-8bf4-d577-210b-8afd46c0c351.htm" />
+  <HelpKINode Title="AbstPlayer.gettingPoisoned method" Url="html/82395422-4e22-c376-548b-48f90e182c95.htm" />
+  <HelpKINode Title="AbstPlayer.HitPrefab field" Url="html/6f0cbf55-8463-2972-463f-45cfed31aa45.htm" />
+  <HelpKINode Title="AbstPlayer.iceBlock field" Url="html/74598ca3-0e30-fe3c-0839-6de52a2a1b50.htm" />
+  <HelpKINode Title="AbstPlayer.iceDragon field" Url="html/ff66fedb-7dea-5ff6-c32a-a1c6110e0331.htm" />
+  <HelpKINode Title="AbstPlayer.infightZone field" Url="html/5b4d7de5-7112-ffbe-b49d-0a88a3b28a78.htm" />
+  <HelpKINode Title="AbstPlayer.instantiateTransform method" Url="html/45f2cdb7-9252-2ee3-fe76-d252bbe6ad04.htm" />
+  <HelpKINode Title="AbstPlayer.inventory field" Url="html/f0eaa163-1719-f71b-b95a-fb93fd8ffcf4.htm" />
+  <HelpKINode Title="AbstPlayer.isInfight field" Url="html/79501afe-9f35-c704-0f09-6e46a5be8507.htm" />
+  <HelpKINode Title="AbstPlayer.keyBoardIsDisabled field" Url="html/969eda7d-9def-cb0a-8231-0b5fcd13f155.htm" />
+  <HelpKINode Title="AbstPlayer.lastHitTime field" Url="html/a5dc35ab-c21b-0e8b-47cf-3a67c047c316.htm" />
+  <HelpKINode Title="AbstPlayer.lava field" Url="html/ab737e4f-57ba-b74b-59f4-b2ce5db8eb1d.htm" />
+  <HelpKINode Title="AbstPlayer.lava2 field" Url="html/ef11e2aa-ed45-1701-aacf-e19404b64653.htm" />
+  <HelpKINode Title="AbstPlayer.lavaTexture field" Url="html/b7777edc-b5ea-e4df-1a24-14b5d3283964.htm" />
+  <HelpKINode Title="AbstPlayer.leftDown method" Url="html/bee73bca-53eb-f7dc-e93d-db23113a2164.htm" />
+  <HelpKINode Title="AbstPlayer.leftPressed method" Url="html/88d4966e-0249-8593-9c87-2860961af71c.htm" />
+  <HelpKINode Title="AbstPlayer.leftUp method" Url="html/ffa0b257-2e05-0033-8cd8-057527b5248c.htm" />
+  <HelpKINode Title="AbstPlayer.maxVelocityChange field" Url="html/6e10a4ae-d485-3a8f-a846-b6241f4842b0.htm" />
+  <HelpKINode Title="AbstPlayer.OnGUI method" Url="html/19fd0e54-b108-d77e-62da-339fe4689e61.htm" />
+  <HelpKINode Title="AbstPlayer.playerAutoRecovery method" Url="html/0925972c-aa52-6398-5964-a8e1060f6ea9.htm" />
+  <HelpKINode Title="AbstPlayer.playerHeart field" Url="html/529f3171-b987-1e12-c05b-0a04dc3d46cc.htm" />
+  <HelpKINode Title="AbstPlayer.playerHeartEmpty field" Url="html/74e54cb9-3db7-b750-2948-4f04043cfe71.htm" />
+  <HelpKINode Title="AbstPlayer.playerHeart_1_3 field" Url="html/0ff05ceb-547d-6991-3a29-8021398c2449.htm" />
+  <HelpKINode Title="AbstPlayer.playerHeart_2_3 field" Url="html/93dfed43-2903-e828-018c-8924f6d3359a.htm" />
+  <HelpKINode Title="AbstPlayer.playerPrefab field" Url="html/b707e28c-ca08-4dbc-7b4a-15e6c2a392d0.htm" />
+  <HelpKINode Title="AbstPlayer.playerSpeedX field" Url="html/273019db-2a56-621c-d55b-9e014cdc39df.htm" />
+  <HelpKINode Title="AbstPlayer.playerSpeedY field" Url="html/32b548f6-fd14-cf45-022c-900e43e69908.htm" />
+  <HelpKINode Title="AbstPlayer.playerTexture field" Url="html/c3b6647d-50a9-1cf9-5e71-8d5e8c0349b6.htm" />
+  <HelpKINode Title="AbstPlayer.poisoned field" Url="html/08aadb09-2bd3-351e-f176-612503980bc1.htm" />
+  <HelpKINode Title="AbstPlayer.rayLength field" Url="html/d8df5163-41f4-3051-97d6-0d8edb12540d.htm" />
+  <HelpKINode Title="AbstPlayer.respawnPlayer method" Url="html/1f8612d9-0c9a-386a-b99c-b0cc0581b587.htm" />
+  <HelpKINode Title="AbstPlayer.rightDown method" Url="html/6a6829a2-271e-c9d0-c1fe-055f225699a6.htm" />
+  <HelpKINode Title="AbstPlayer.rightPressed method" Url="html/0a0a5bf2-1f9a-d6bc-7f7e-ce793475580a.htm" />
+  <HelpKINode Title="AbstPlayer.rightUp method" Url="html/a506cb48-1c46-fc6b-9a43-597c7ebaec7a.htm" />
+  <HelpKINode Title="AbstPlayer.slowDownGoingBack field" Url="html/4313aff4-b7f0-4d49-babd-a21469d58b98.htm" />
+  <HelpKINode Title="AbstPlayer.sndDown method" Url="html/c800dd7a-c149-6d40-f5f3-b978ae270dd4.htm" />
+  <HelpKINode Title="AbstPlayer.sndPressed method" Url="html/b04cf60f-28e7-62dd-2033-e844ad87d9af.htm" />
+  <HelpKINode Title="AbstPlayer.sndUp method" Url="html/ca6e610d-725d-03f0-4a52-c8dade09ad00.htm" />
+  <HelpKINode Title="AbstPlayer.sprintSpeedNormalX field" Url="html/29859e4d-c97d-6892-ff10-8628f754a8dc.htm" />
+  <HelpKINode Title="AbstPlayer.sprintSpeedNormalY field" Url="html/8202e9fa-a1e9-d945-c2e9-0b1c293aee84.htm" />
+  <HelpKINode Title="AbstPlayer.squirrelPrefab field" Url="html/c704a281-12e8-974f-ade0-ee05ad5ac1bd.htm" />
+  <HelpKINode Title="AbstPlayer.Start method" Url="html/e6a183e2-2de7-483f-9d80-53108d37644b.htm" />
+  <HelpKINode Title="AbstPlayer.startCutscene method" Url="html/51aae634-5602-4137-0a84-8e0d6e93687d.htm" />
+  <HelpKINode Title="AbstPlayer.trans field" Url="html/31d157bd-07b1-832f-8864-be7f741ca857.htm" />
+  <HelpKINode Title="AbstPlayer.Update method" Url="html/2112e57d-516f-1209-47eb-f39369f80941.htm" />
+  <HelpKINode Title="AbstPlayer.upDown method" Url="html/2800cdfd-3d01-417d-51be-4a1c293a3ae3.htm" />
+  <HelpKINode Title="AbstPlayer.upPressed method" Url="html/2936a4e1-4fbd-03d2-89d0-3e9a21ce8d44.htm" />
+  <HelpKINode Title="AbstPlayer.upUp method" Url="html/ac9cfc9a-e5b7-b4f4-f799-030e76838e52.htm" />
+  <HelpKINode Title="AddItems method" Url="html/6598ba92-3e78-acc0-c7b4-3065caeb3044.htm" />
+  <HelpKINode Title="adjustVector field" Url="html/39e2f7c6-54c3-a5bb-bec2-2221e8450413.htm" />
+  <HelpKINode Title="allowedToBurn field" Url="html/fbe262ab-d682-7120-4c0f-53e0b32029fb.htm" />
+  <HelpKINode Title="animator field">
+    <HelpKINode Title="EnemyTurret.animator Field" Url="html/1a1caab8-60a9-9445-04ee-48277b7fe308.htm" />
+    <HelpKINode Title="EnemyTurretPoison.animator Field" Url="html/d1569e63-5f72-ca79-056d-932d26c9d8a2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets namespace" Url="html/a3d153eb-ca0b-321b-94e5-09898541e819.htm" />
+  <HelpKINode Title="Assets.InventoryScripts namespace" Url="html/ee252d17-2abf-c674-67c5-e286b33c542e.htm" />
+  <HelpKINode Title="Assets.InventoryScripts.CoinSoundDest class">
+    <HelpKINode Title="CoinSoundDest Class" Url="html/63944a62-c043-4200-3b12-4e3e3634ae49.htm" />
+    <HelpKINode Title="CoinSoundDest Members" Url="html/7eb84e8e-045c-bf4c-0886-6cb0906b3fe2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.Load class">
+    <HelpKINode Title="Load Class" Url="html/f86e89fb-ba85-655b-3adb-02151298e5a7.htm" />
+    <HelpKINode Title="Load Members" Url="html/8e71a3cf-df38-fa74-f9e6-b6eb0a34d0b2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts namespace" Url="html/e9b4783d-585d-b46c-8495-b2ddbfdceb60.htm" />
+  <HelpKINode Title="Assets.scripts.CameraScript class">
+    <HelpKINode Title="CameraScript Class" Url="html/109ab90e-5001-cda1-92dc-d5873e6a798b.htm" />
+    <HelpKINode Title="CameraScript Members" Url="html/7467c124-dba1-99e5-3e15-9700a4277c97.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy namespace" Url="html/e19d8dd6-b9da-df29-03ed-37d06796a878.htm" />
+  <HelpKINode Title="Assets.scripts.Enemy.AbstEnemy class">
+    <HelpKINode Title="AbstEnemy Class" Url="html/2998cd17-0aec-447d-0f76-6828c4a5353d.htm" />
+    <HelpKINode Title="AbstEnemy Members" Url="html/3721012a-321e-f85a-bafe-e7b7bc9d6b74.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.Burning class">
+    <HelpKINode Title="Burning Class" Url="html/58e4a6c7-e98c-0c92-e622-f154b3a95ca6.htm" />
+    <HelpKINode Title="Burning Members" Url="html/7ed5c2cf-cab5-3973-7ca1-ea32cc7f60a3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts namespace" Url="html/1b65e72a-eee7-43f1-8b7a-dbf13393bbec.htm" />
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.BossDragon class">
+    <HelpKINode Title="BossDragon Class" Url="html/9c0b7da3-aac7-99d3-fdbf-4dbba1d0a76c.htm" />
+    <HelpKINode Title="BossDragon Members" Url="html/cb9c2f71-3a13-a224-fe3a-2e5ceea96a5e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.DestoryAbleMeteor class">
+    <HelpKINode Title="DestoryAbleMeteor Class" Url="html/42946763-0350-9ffe-e3b2-cd5a4c06514f.htm" />
+    <HelpKINode Title="DestoryAbleMeteor Members" Url="html/09dc4374-1377-4a75-28d5-d08785b3cdd6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.Dragon class">
+    <HelpKINode Title="Dragon Class" Url="html/a7f38a6f-5263-d6de-a5dd-30ea7338d965.htm" />
+    <HelpKINode Title="Dragon Members" Url="html/9fd9f966-dcc5-ed9f-87e1-7e8de550e533.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.IceDragon class">
+    <HelpKINode Title="IceDragon Class" Url="html/c6b713d4-4ee5-6053-2b35-7119d1d8c41d.htm" />
+    <HelpKINode Title="IceDragon Members" Url="html/4f4085fc-8fff-4d56-ba5b-2c6bbebbfcc1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.LandingZone class">
+    <HelpKINode Title="LandingZone Class" Url="html/598197e7-b087-539a-7182-6a08a38359b9.htm" />
+    <HelpKINode Title="LandingZone Members" Url="html/545a7ac7-2529-4a67-5aa7-c6caf10336c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.LaunchZone class">
+    <HelpKINode Title="LaunchZone Class" Url="html/c08072cc-29e4-0a21-b761-b9293b556cb7.htm" />
+    <HelpKINode Title="LaunchZone Members" Url="html/6cea6b79-17d2-40b3-1840-81cac3913f03.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.RigidRockBig class">
+    <HelpKINode Title="RigidRockBig Class" Url="html/510970e8-1e70-0e92-9286-5daecd421abc.htm" />
+    <HelpKINode Title="RigidRockBig Members" Url="html/9625b1ba-6576-f70e-e059-1d88405e8f87.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.Rock class">
+    <HelpKINode Title="Rock Class" Url="html/44fca3aa-3606-7cd8-deed-90805ea07aad.htm" />
+    <HelpKINode Title="Rock Members" Url="html/0f417bdb-3396-3022-81fd-cff8f748a78c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.DragonScripts.RockParticle class">
+    <HelpKINode Title="RockParticle Class" Url="html/6dbe20b2-ef47-7d96-ad55-509c231453b3.htm" />
+    <HelpKINode Title="RockParticle Members" Url="html/c2740aa6-00a6-323e-0ea4-d62e9151e671.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.Enemy class">
+    <HelpKINode Title="Enemy Class" Url="html/d13be2b2-272e-0c11-1d98-02196c63fa2a.htm" />
+    <HelpKINode Title="Enemy Members" Url="html/8ec5275b-7d36-3c44-dd47-a1c69d8242ad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.EnemyExplosion class">
+    <HelpKINode Title="EnemyExplosion Class" Url="html/52c95cd4-ca66-bee2-9490-8a9535803b05.htm" />
+    <HelpKINode Title="EnemyExplosion Members" Url="html/98a1c761-b20d-c985-6e31-ce9d165b1ca5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.EnemyPatrol class">
+    <HelpKINode Title="EnemyPatrol Class" Url="html/f021972b-0ed6-db1e-7c61-d97ffc580629.htm" />
+    <HelpKINode Title="EnemyPatrol Members" Url="html/cfb7c660-23e4-938c-ff5c-746c7e905825.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.EnemyPatrol2 class">
+    <HelpKINode Title="EnemyPatrol2 Class" Url="html/d239fe07-055f-2599-81c7-b701dbad96a2.htm" />
+    <HelpKINode Title="EnemyPatrol2 Members" Url="html/445ee6fb-f6a2-95e2-4d8f-a1dbbc2db546.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.EnemyTurret class">
+    <HelpKINode Title="EnemyTurret Class" Url="html/5e8ed6ac-362a-1aa3-ba29-3b41a7b42f95.htm" />
+    <HelpKINode Title="EnemyTurret Members" Url="html/0e8c33f9-3341-2dbc-5056-fddad4ebba9f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.EnemyTurretPoison class">
+    <HelpKINode Title="EnemyTurretPoison Class" Url="html/edf5b2a6-6339-cf89-524b-59e997009fa2.htm" />
+    <HelpKINode Title="EnemyTurretPoison Members" Url="html/02f56732-a3a0-59e0-60e1-e7e8ae3a9847.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.HitEnemy class">
+    <HelpKINode Title="HitEnemy Class" Url="html/5913a3c3-8e17-8297-03f2-5e369a25da2d.htm" />
+    <HelpKINode Title="HitEnemy Members" Url="html/4b0c865c-06a9-f337-063e-22dee1ad7b9e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.ShootEnemy class">
+    <HelpKINode Title="ShootEnemy Class" Url="html/f3399900-69e3-0e55-ce4b-2a3a3148d431.htm" />
+    <HelpKINode Title="ShootEnemy Members" Url="html/82ed26c0-bd31-cd63-f3a3-8fd60bc97c07.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.Spawntrap class">
+    <HelpKINode Title="Spawntrap Class" Url="html/f1ce0646-9863-7a4b-fcc6-e734ea57051b.htm" />
+    <HelpKINode Title="Spawntrap Members" Url="html/8552482c-5f74-f8a7-95b4-67f34616ef94.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Enemy.Tiger class">
+    <HelpKINode Title="Tiger Class" Url="html/580d62a0-db4d-6620-eedc-aa070e5f8d35.htm" />
+    <HelpKINode Title="Tiger Members" Url="html/2c991410-c0d5-bdde-07a8-10f7d3d21619.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.GameController class">
+    <HelpKINode Title="GameController Class" Url="html/f0856ff9-6102-4e08-3a7f-b8bb6e670e94.htm" />
+    <HelpKINode Title="GameController Members" Url="html/488b4649-ff4f-458d-c2d8-609d3337d3b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.GameOver class">
+    <HelpKINode Title="GameOver Class" Url="html/49c1d70a-3f35-7235-a1d8-1bfe187bfb04.htm" />
+    <HelpKINode Title="GameOver Members" Url="html/fb1b8a71-5e53-320b-749b-9a3ee2d32517.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.GameVariables class">
+    <HelpKINode Title="GameVariables Class" Url="html/091662e3-3225-1656-8cd4-aa8fcde8a79f.htm" />
+    <HelpKINode Title="GameVariables Members" Url="html/d5e03e54-7d30-b15e-9fd4-457f3c3d00e2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.InventoryScripts namespace" Url="html/465c2d29-39b1-5be9-519c-77516ca7e510.htm" />
+  <HelpKINode Title="Assets.scripts.InventoryScripts.Inventory class">
+    <HelpKINode Title="Inventory Class" Url="html/d0b23e86-7821-fd03-0dbf-68bbf173be11.htm" />
+    <HelpKINode Title="Inventory Members" Url="html/ea742369-eddc-7738-ea60-4b69b1206156.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.InventoryScripts.InventoryCollider class">
+    <HelpKINode Title="InventoryCollider Class" Url="html/3719fb64-a3d0-4f88-c234-6f026d573f53.htm" />
+    <HelpKINode Title="InventoryCollider Members" Url="html/eb08a05a-0ed8-002b-a07b-137536b352d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.InventoryScripts.InventoryManager class">
+    <HelpKINode Title="InventoryManager Class" Url="html/68129406-e566-ce4c-0087-8582e3df044a.htm" />
+    <HelpKINode Title="InventoryManager Members" Url="html/8ff93c2a-fafe-1033-40e7-a39f4a169861.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu namespace" Url="html/dd9dc38e-8d8e-6519-469b-995446e84c18.htm" />
+  <HelpKINode Title="Assets.scripts.MainMenu.abstPage class">
+    <HelpKINode Title="abstPage Class" Url="html/ec33c4b1-c71f-8886-3c33-20e24cb1fc8b.htm" />
+    <HelpKINode Title="abstPage Members" Url="html/b2746aa7-c63d-f28c-f2c7-3fd3936087c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.Background class">
+    <HelpKINode Title="Background Class" Url="html/55e679f3-b167-8ed7-787c-6c82df96ec40.htm" />
+    <HelpKINode Title="Background Members" Url="html/8c1aee49-6095-4861-19b2-4b5c17611ad4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.Entry class">
+    <HelpKINode Title="Entry Class" Url="html/1ac57968-aae3-d1ca-14c4-d584e856f4e0.htm" />
+    <HelpKINode Title="Entry Members" Url="html/6086958e-84ca-ab6f-12ce-d27a97890fe7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.Highscore class">
+    <HelpKINode Title="Highscore Class" Url="html/08b0a505-2103-1c0f-cdba-1f1eedcf6e36.htm" />
+    <HelpKINode Title="Highscore Members" Url="html/f2de16af-202d-df73-4235-6abde0481368.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.Menu class">
+    <HelpKINode Title="Menu Class" Url="html/5bcb62ea-6e35-545c-835e-d6c6143bf0c3.htm" />
+    <HelpKINode Title="Menu Members" Url="html/293c6675-fadf-0ef8-5e5a-5291fd94a5d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.PageGameControl class">
+    <HelpKINode Title="PageGameControl Class" Url="html/43d861d9-c7d9-dfbb-1224-a7e5ba2e1aa3.htm" />
+    <HelpKINode Title="PageGameControl Members" Url="html/7c58b6d6-036f-2faa-49eb-8ac9d408ed8b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.PageMain class">
+    <HelpKINode Title="PageMain Class" Url="html/151c25e7-9e3a-6c0a-17e0-05e912760521.htm" />
+    <HelpKINode Title="PageMain Members" Url="html/b2328e79-e816-8aeb-9f5c-79dc1e7d468e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.PageScore class">
+    <HelpKINode Title="PageScore Class" Url="html/883520c3-75f5-a42d-3b98-5027e6f142cc.htm" />
+    <HelpKINode Title="PageScore Members" Url="html/2f546a2c-fb78-1ee6-71c3-0cd02bb27f50.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MainMenu.PageSettings class">
+    <HelpKINode Title="PageSettings Class" Url="html/97d0c794-8851-d5b8-86d8-8fea83ee263d.htm" />
+    <HelpKINode Title="PageSettings Members" Url="html/2719efa3-bef6-602d-87ad-dd18201f2e54.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MossWall class">
+    <HelpKINode Title="MossWall Class" Url="html/44f197a7-f5a5-ad1a-b6f3-233cd6951a35.htm" />
+    <HelpKINode Title="MossWall Members" Url="html/37067dfd-0c2d-8c2c-86e6-c52de120415e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.MusicControll class">
+    <HelpKINode Title="MusicControll Class" Url="html/291d1a1a-b7ae-29d8-5202-d5721bfbb491.htm" />
+    <HelpKINode Title="MusicControll Members" Url="html/34ded7ec-fae4-d981-e0c0-78ed106f4fe1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.NextLevelCollider class">
+    <HelpKINode Title="NextLevelCollider Class" Url="html/2d1a8a10-ee4f-370a-f61d-10f94d0f969e.htm" />
+    <HelpKINode Title="NextLevelCollider Members" Url="html/ce79b71e-c71f-67ed-ef3a-7ed8236c6539.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player namespace" Url="html/9a720b71-67ac-d5eb-9d36-036e5c412784.htm" />
+  <HelpKINode Title="Assets.scripts.Player.AbstPlayer class">
+    <HelpKINode Title="AbstPlayer Class" Url="html/0b09e4f2-f7dc-2747-1110-efc1f351dc15.htm" />
+    <HelpKINode Title="AbstPlayer Members" Url="html/02dbacaa-7f97-8e7d-c23f-a2af3b6797e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.Cloud class">
+    <HelpKINode Title="Cloud Class" Url="html/084bc86e-b508-f6c8-cbdf-9c74283b00ef.htm" />
+    <HelpKINode Title="Cloud Members" Url="html/8cd3db5e-541f-9545-9df0-60539cb4d46c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.DragonFireLight class">
+    <HelpKINode Title="DragonFireLight Class" Url="html/66c6e91d-83fa-6055-2807-a7b6e998937e.htm" />
+    <HelpKINode Title="DragonFireLight Members" Url="html/10e458be-e25f-3b10-faa5-fd5e1976b0d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.Hit class">
+    <HelpKINode Title="Hit Class" Url="html/1c15e12f-a9e2-4731-e70c-8a201a90ec42.htm" />
+    <HelpKINode Title="Hit Members" Url="html/ddb63d79-e1b7-2566-18bc-006c545cc153.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.InfightZone class">
+    <HelpKINode Title="InfightZone Class" Url="html/06eeb75a-283b-3cce-0fda-ceeb16f5ada7.htm" />
+    <HelpKINode Title="InfightZone Members" Url="html/c8f59069-4a0c-709f-98fc-d71051ad04fe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.PlayerBoar class">
+    <HelpKINode Title="PlayerBoar Class" Url="html/6492a12f-9412-50ff-2413-172d37911914.htm" />
+    <HelpKINode Title="PlayerBoar Members" Url="html/4a70a8ff-589e-8ff2-bfc7-ab4f3a4238b7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.PlayerDragon class">
+    <HelpKINode Title="PlayerDragon Class" Url="html/6f5f22f3-4ad3-e793-d9c2-868795458194.htm" />
+    <HelpKINode Title="PlayerDragon Members" Url="html/82fc42ea-e943-382b-b49f-916fa2665148.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.PlayerHuman class">
+    <HelpKINode Title="PlayerHuman Class" Url="html/20d90252-b398-41ed-d9cb-2dfb947ba2d8.htm" />
+    <HelpKINode Title="PlayerHuman Members" Url="html/8f30e155-97a1-0821-fd57-4412a7247f6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.Player.PlayerSquirrel class">
+    <HelpKINode Title="PlayerSquirrel Class" Url="html/cff641b3-73ff-6593-0f21-1f41ee44e4db.htm" />
+    <HelpKINode Title="PlayerSquirrel Members" Url="html/1c3f2bbf-9a66-34f7-919b-c877b7d2be40.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.ReturnToMainMenu class">
+    <HelpKINode Title="ReturnToMainMenu Class" Url="html/202fb57a-d42f-ba46-c533-a79114a2a91b.htm" />
+    <HelpKINode Title="ReturnToMainMenu Members" Url="html/ef4297ee-40f5-285c-322a-fa956a123310.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.SceneFader class">
+    <HelpKINode Title="SceneFader Class" Url="html/bc69ea63-658f-3d81-cee0-0e0b881dff96.htm" />
+    <HelpKINode Title="SceneFader Members" Url="html/795e3f24-062f-93c1-9993-0761e1bd4f82.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World namespace" Url="html/81e5edf6-d1e0-1f84-2386-61fadc2eb744.htm" />
+  <HelpKINode Title="Assets.scripts.World.Bush class">
+    <HelpKINode Title="Bush Class" Url="html/3cfcfa6e-3b79-cc0a-7f61-a59955dca5cf.htm" />
+    <HelpKINode Title="Bush Members" Url="html/b9bba454-6f81-03f7-c51b-babf3e882f41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.FallingBlocks class">
+    <HelpKINode Title="FallingBlocks Class" Url="html/0e88ae82-e426-4e92-822f-ef21c5d3c517.htm" />
+    <HelpKINode Title="FallingBlocks Members" Url="html/9ef3d122-8936-0282-c14a-a47cbf0df096.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.KillingPlane class">
+    <HelpKINode Title="KillingPlane Class" Url="html/f2cad07e-a7df-cdd1-7a00-510f4f69f1e7.htm" />
+    <HelpKINode Title="KillingPlane Members" Url="html/76aa7cd2-0ec4-6d0c-e33f-1ba94df63bfd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.Lava class">
+    <HelpKINode Title="Lava Class" Url="html/4b32e4d7-997f-99e1-2bb7-146025502948.htm" />
+    <HelpKINode Title="Lava Members" Url="html/aa4154ee-142e-211f-2730-e594b142a409.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.Respawn class">
+    <HelpKINode Title="Respawn Class" Url="html/c4fa557e-31e0-28a3-c971-a1a03f1f01aa.htm" />
+    <HelpKINode Title="Respawn Members" Url="html/8420343c-ba40-5de5-7853-1f0082bad974.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.RotateItem class">
+    <HelpKINode Title="RotateItem Class" Url="html/56ca57a2-1744-2a16-b855-76169bc13731.htm" />
+    <HelpKINode Title="RotateItem Members" Url="html/8f300142-f707-bc3b-a878-d762bde55afb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.SpawnObject class">
+    <HelpKINode Title="SpawnObject Class" Url="html/f31259c8-8c48-3770-f355-9d8fbfd6bd9e.htm" />
+    <HelpKINode Title="SpawnObject Members" Url="html/07f99d90-8360-3502-3800-47e033a7e2e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.TerrainTree class">
+    <HelpKINode Title="TerrainTree Class" Url="html/dad4f62b-1cbb-1198-b045-bb526360eac4.htm" />
+    <HelpKINode Title="TerrainTree Members" Url="html/6f7dce0b-a45e-3cfc-2774-6d8da5f034b6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.ThrowRocks class">
+    <HelpKINode Title="ThrowRocks Class" Url="html/a543eb81-7f4f-633d-d06f-67485211f022.htm" />
+    <HelpKINode Title="ThrowRocks Members" Url="html/e04bd6b1-79dd-7fe9-31a7-24cbdfc2c7c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.scripts.World.WalkingBlock class">
+    <HelpKINode Title="WalkingBlock Class" Url="html/818769ef-3bab-aa0a-0ec7-8dcd142e55ba.htm" />
+    <HelpKINode Title="WalkingBlock Members" Url="html/a133aa99-c838-7499-a0ff-b3396c4f5e95.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.World namespace" Url="html/a4babdbb-f488-ab4f-ea7c-de9e6c0df564.htm" />
+  <HelpKINode Title="Assets.World.Fog class">
+    <HelpKINode Title="Fog Class" Url="html/257cd2bb-77c4-686c-cddc-deef58417a71.htm" />
+    <HelpKINode Title="Fog Members" Url="html/c3f5cf04-b8f3-c727-89a5-a5d26b23fc8b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.World.LavaFountain class">
+    <HelpKINode Title="LavaFountain Class" Url="html/e14b4de4-39f7-d7a8-4a1f-f59f22911c8d.htm" />
+    <HelpKINode Title="LavaFountain Members" Url="html/d393511a-d0d7-792a-9097-0777f2e61f13.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Assets.World.LavaFountainPermanent class">
+    <HelpKINode Title="LavaFountainPermanent Class" Url="html/140aa968-2811-3c95-bfda-93a656070968.htm" />
+    <HelpKINode Title="LavaFountainPermanent Members" Url="html/8942d2f0-611e-6bde-e96f-74c4c797b9b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Background class">
+    <HelpKINode Title="Background Class" Url="html/55e679f3-b167-8ed7-787c-6c82df96ec40.htm" />
+    <HelpKINode Title="Background Members" Url="html/8c1aee49-6095-4861-19b2-4b5c17611ad4.htm" />
+    <HelpKINode Title="about Background class" Url="html/55e679f3-b167-8ed7-787c-6c82df96ec40.htm" />
+    <HelpKINode Title="all members" Url="html/8c1aee49-6095-4861-19b2-4b5c17611ad4.htm" />
+    <HelpKINode Title="constructor" Url="html/70c4b788-9b1a-d1d2-35f1-e32692977589.htm" />
+    <HelpKINode Title="methods" Url="html/d0ee8bf9-8baa-e613-f9a1-cc9ecfe24e40.htm" />
+    <HelpKINode Title="properties" Url="html/26c8a02f-f104-d1e8-0952-4a3cbd58ba31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Background.Background constructor" Url="html/70c4b788-9b1a-d1d2-35f1-e32692977589.htm" />
+  <HelpKINode Title="beforeTransformationChange method" Url="html/a7c18811-2206-f240-a228-b1c8156a75a3.htm" />
+  <HelpKINode Title="BlockExplosion field" Url="html/d412fcc0-790c-25c6-5c4f-84ca67fab67e.htm" />
+  <HelpKINode Title="boarPrefab field" Url="html/9a9a1c07-6e61-684e-6094-dff4d41d1bb7.htm" />
+  <HelpKINode Title="borderX field" Url="html/11dcd92d-0bc7-418e-3d84-49855ef8ff37.htm" />
+  <HelpKINode Title="borderY field" Url="html/205ccd62-c8e3-325b-dc80-8b09c6bbb3eb.htm" />
+  <HelpKINode Title="BossDragon class">
+    <HelpKINode Title="BossDragon Class" Url="html/9c0b7da3-aac7-99d3-fdbf-4dbba1d0a76c.htm" />
+    <HelpKINode Title="BossDragon Members" Url="html/cb9c2f71-3a13-a224-fe3a-2e5ceea96a5e.htm" />
+    <HelpKINode Title="about BossDragon class" Url="html/9c0b7da3-aac7-99d3-fdbf-4dbba1d0a76c.htm" />
+    <HelpKINode Title="all members" Url="html/cb9c2f71-3a13-a224-fe3a-2e5ceea96a5e.htm" />
+    <HelpKINode Title="constructor" Url="html/8ad2f839-f533-9a8f-b0f1-f84f2ca7a5b0.htm" />
+    <HelpKINode Title="fields" Url="html/20da6b83-05ea-90f0-1cb5-777dd077c3f7.htm" />
+    <HelpKINode Title="methods" Url="html/9d73d761-d6dc-f9ad-8dad-3824b508e094.htm" />
+    <HelpKINode Title="properties" Url="html/afaa464c-d0b6-7685-be2a-9141f890382f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BossDragon.BossDragon constructor" Url="html/8ad2f839-f533-9a8f-b0f1-f84f2ca7a5b0.htm" />
+  <HelpKINode Title="BossDragon.currentLandingZone field" Url="html/2a69d7bc-48b1-cad0-4322-d3507ef90fa8.htm" />
+  <HelpKINode Title="BossDragon.currentLaunchZone field" Url="html/b8432a51-d682-d302-6938-b907e9057610.htm" />
+  <HelpKINode Title="Burning class">
+    <HelpKINode Title="Burning Class" Url="html/58e4a6c7-e98c-0c92-e622-f154b3a95ca6.htm" />
+    <HelpKINode Title="Burning Members" Url="html/7ed5c2cf-cab5-3973-7ca1-ea32cc7f60a3.htm" />
+    <HelpKINode Title="about Burning class" Url="html/58e4a6c7-e98c-0c92-e622-f154b3a95ca6.htm" />
+    <HelpKINode Title="all members" Url="html/7ed5c2cf-cab5-3973-7ca1-ea32cc7f60a3.htm" />
+    <HelpKINode Title="constructor" Url="html/4d961e86-72e9-afbb-6799-a8ccf9560410.htm" />
+    <HelpKINode Title="methods" Url="html/8181e8e1-bede-dd85-a621-591941989b5c.htm" />
+    <HelpKINode Title="properties" Url="html/00b1de4f-1956-dd50-4050-e9f17b601ad4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Burning.Burning constructor" Url="html/4d961e86-72e9-afbb-6799-a8ccf9560410.htm" />
+  <HelpKINode Title="burningEnemy field" Url="html/879d26d2-0e5b-9f54-aed3-411ddc1f20ab.htm" />
+  <HelpKINode Title="Bush class">
+    <HelpKINode Title="Bush Class" Url="html/3cfcfa6e-3b79-cc0a-7f61-a59955dca5cf.htm" />
+    <HelpKINode Title="Bush Members" Url="html/b9bba454-6f81-03f7-c51b-babf3e882f41.htm" />
+    <HelpKINode Title="about Bush class" Url="html/3cfcfa6e-3b79-cc0a-7f61-a59955dca5cf.htm" />
+    <HelpKINode Title="all members" Url="html/b9bba454-6f81-03f7-c51b-babf3e882f41.htm" />
+    <HelpKINode Title="constructor" Url="html/862bdeba-600f-e880-5bbc-958710a5e7dc.htm" />
+    <HelpKINode Title="methods" Url="html/8573c52c-cb3e-7f07-a2ce-02d836a6e8a4.htm" />
+    <HelpKINode Title="properties" Url="html/ab6244c6-397e-bdd2-c2d2-9b445f758c9c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bush.Bush constructor" Url="html/862bdeba-600f-e880-5bbc-958710a5e7dc.htm" />
+  <HelpKINode Title="CameraScript class">
+    <HelpKINode Title="CameraScript Class" Url="html/109ab90e-5001-cda1-92dc-d5873e6a798b.htm" />
+    <HelpKINode Title="CameraScript Members" Url="html/7467c124-dba1-99e5-3e15-9700a4277c97.htm" />
+    <HelpKINode Title="about CameraScript class" Url="html/109ab90e-5001-cda1-92dc-d5873e6a798b.htm" />
+    <HelpKINode Title="all members" Url="html/7467c124-dba1-99e5-3e15-9700a4277c97.htm" />
+    <HelpKINode Title="constructor" Url="html/2e4fc502-6ce1-ee53-2cef-e0bd733db982.htm" />
+    <HelpKINode Title="methods" Url="html/3e71c9c6-9758-1e51-4008-e65dc11d68da.htm" />
+    <HelpKINode Title="properties" Url="html/c06b146c-f548-6335-fc2f-b43b1737d32b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CameraScript.CameraScript constructor" Url="html/2e4fc502-6ce1-ee53-2cef-e0bd733db982.htm" />
+  <HelpKINode Title="canJump field" Url="html/5b64dfd3-3c27-2321-218c-ce7c5daab373.htm" />
+  <HelpKINode Title="Cloud class">
+    <HelpKINode Title="Cloud Class" Url="html/084bc86e-b508-f6c8-cbdf-9c74283b00ef.htm" />
+    <HelpKINode Title="Cloud Members" Url="html/8cd3db5e-541f-9545-9df0-60539cb4d46c.htm" />
+    <HelpKINode Title="about Cloud class" Url="html/084bc86e-b508-f6c8-cbdf-9c74283b00ef.htm" />
+    <HelpKINode Title="all members" Url="html/8cd3db5e-541f-9545-9df0-60539cb4d46c.htm" />
+    <HelpKINode Title="constructor" Url="html/b4bfc991-9785-0efa-55c4-c8881f5937fb.htm" />
+    <HelpKINode Title="methods" Url="html/c81d1ffb-eed2-a572-d3b2-4d16152fbfb0.htm" />
+    <HelpKINode Title="properties" Url="html/5c5e55e4-b376-a030-6484-74aeec66a484.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cloud.Cloud constructor" Url="html/b4bfc991-9785-0efa-55c4-c8881f5937fb.htm" />
+  <HelpKINode Title="cloudPrefab field" Url="html/257b19e2-ea3b-0014-252d-6896d857147a.htm" />
+  <HelpKINode Title="coin field" Url="html/b2c74821-379a-f8eb-8de2-61fda3d6de15.htm" />
+  <HelpKINode Title="CoinSoundDest class">
+    <HelpKINode Title="CoinSoundDest Class" Url="html/63944a62-c043-4200-3b12-4e3e3634ae49.htm" />
+    <HelpKINode Title="CoinSoundDest Members" Url="html/7eb84e8e-045c-bf4c-0886-6cb0906b3fe2.htm" />
+    <HelpKINode Title="about CoinSoundDest class" Url="html/63944a62-c043-4200-3b12-4e3e3634ae49.htm" />
+    <HelpKINode Title="all members" Url="html/7eb84e8e-045c-bf4c-0886-6cb0906b3fe2.htm" />
+    <HelpKINode Title="constructor" Url="html/9d576d41-32cf-8c83-3969-8694954246b2.htm" />
+    <HelpKINode Title="methods" Url="html/b4908541-0d23-daa8-1f17-b75b871bdb75.htm" />
+    <HelpKINode Title="properties" Url="html/5d6fa734-6d6c-523e-6004-8931e1c7c3fe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoinSoundDest.CoinSoundDest constructor" Url="html/9d576d41-32cf-8c83-3969-8694954246b2.htm" />
+  <HelpKINode Title="columnX field" Url="html/8919e02b-da7b-0d99-7f7d-d2260f1ce635.htm" />
+  <HelpKINode Title="columnY field" Url="html/6d25cff2-b334-7920-bc84-7e7242967722.htm" />
+  <HelpKINode Title="CompareTo method" Url="html/9c126efd-16f8-cf46-e15e-f2b69aeaa5fb.htm" />
+  <HelpKINode Title="coolDownEnemyHit field" Url="html/2b483b66-bc26-dad9-d863-8ee61a57dee6.htm" />
+  <HelpKINode Title="currentLandingZone field" Url="html/2a69d7bc-48b1-cad0-4322-d3507ef90fa8.htm" />
+  <HelpKINode Title="currentLaunchZone field" Url="html/b8432a51-d682-d302-6938-b907e9057610.htm" />
+  <HelpKINode Title="currentspeed field" Url="html/278d2887-75ab-b27e-7358-4ac9fa396e55.htm" />
+  <HelpKINode Title="currentTransformation field" Url="html/442595b4-3d49-fad5-772b-45180b4a244d.htm" />
+  <HelpKINode Title="currentTransformationCost field" Url="html/a58e7c3c-308e-887b-6246-eb1815fee5bd.htm" />
+  <HelpKINode Title="damageEffect method" Url="html/e9ee8443-d29b-591c-159d-85a8613003de.htm" />
+  <HelpKINode Title="debugJump method" Url="html/51dc2ec4-5ba5-4352-9e30-dc68b450b99e.htm" />
+  <HelpKINode Title="DestoryAbleMeteor class">
+    <HelpKINode Title="DestoryAbleMeteor Class" Url="html/42946763-0350-9ffe-e3b2-cd5a4c06514f.htm" />
+    <HelpKINode Title="DestoryAbleMeteor Members" Url="html/09dc4374-1377-4a75-28d5-d08785b3cdd6.htm" />
+    <HelpKINode Title="about DestoryAbleMeteor class" Url="html/42946763-0350-9ffe-e3b2-cd5a4c06514f.htm" />
+    <HelpKINode Title="all members" Url="html/09dc4374-1377-4a75-28d5-d08785b3cdd6.htm" />
+    <HelpKINode Title="constructor" Url="html/648ceb90-3f18-52c7-2703-a59ec722d41e.htm" />
+    <HelpKINode Title="methods" Url="html/58f53128-ebe1-a6e0-8dda-9b6d50961cf0.htm" />
+    <HelpKINode Title="properties" Url="html/58933686-0c16-e487-ffb0-6cf6ba3acdcb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DestoryAbleMeteor.DestoryAbleMeteor constructor" Url="html/648ceb90-3f18-52c7-2703-a59ec722d41e.htm" />
+  <HelpKINode Title="difficulty property" Url="html/34338b00-0482-62ac-6b0a-0468b2fff328.htm" />
+  <HelpKINode Title="difficultyMode field" Url="html/ff1fe8fa-b939-0582-8356-5c6a127b90db.htm" />
+  <HelpKINode Title="direction field">
+    <HelpKINode Title="AbstPlayer.direction Field" Url="html/a4fdcc2d-2465-d5c4-e837-f15895b6db5a.htm" />
+    <HelpKINode Title="EnemyPatrol.direction Field" Url="html/41055436-9db6-2075-0f69-741e3738538d.htm" />
+    <HelpKINode Title="EnemyPatrol2.direction Field" Url="html/21482c2d-666d-3a65-8815-4cee6b0b96c8.htm" />
+    <HelpKINode Title="EnemyTurret.direction Field" Url="html/986f3fea-bbe2-b496-7877-ac6672e5f230.htm" />
+    <HelpKINode Title="EnemyTurretPoison.direction Field" Url="html/0a0ccfd2-f04f-7bc7-7283-181dff82c847.htm" />
+    <HelpKINode Title="IceDragon.direction Field" Url="html/a1870b4f-caa6-2bdf-dddc-a5c329f22e5f.htm" />
+    <HelpKINode Title="Tiger.direction Field" Url="html/a1244a77-017e-33ce-f3ca-d8f2db431b66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="distance field">
+    <HelpKINode Title="EnemyPatrol.distance Field" Url="html/8b12950e-9703-5ac9-0a94-381b7c3c3564.htm" />
+    <HelpKINode Title="EnemyPatrol2.distance Field" Url="html/bbe293d9-d75a-08c8-bad7-b40848809586.htm" />
+    <HelpKINode Title="EnemyTurret.distance Field" Url="html/7492e2be-30ed-9082-831d-913520e6b267.htm" />
+    <HelpKINode Title="EnemyTurretPoison.distance Field" Url="html/22a9c2f1-768d-a8dc-0f49-de90478cab23.htm" />
+    <HelpKINode Title="IceDragon.distance Field" Url="html/3947bce6-046f-ec8a-56bc-5bed468366aa.htm" />
+    <HelpKINode Title="Tiger.distance Field" Url="html/2540a681-2b90-1873-15e4-4b1c94a8a00a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="downDown method">
+    <HelpKINode Title="AbstPlayer.downDown Method " Url="html/9dae75ff-f7af-ef1c-e453-bdadde621927.htm" />
+    <HelpKINode Title="PlayerBoar.downDown Method " Url="html/7d8f328e-7131-4ec9-cc79-4b11db91e544.htm" />
+    <HelpKINode Title="PlayerDragon.downDown Method " Url="html/4f4d93e0-2907-2b55-063c-02c82f0d31cd.htm" />
+    <HelpKINode Title="PlayerHuman.downDown Method " Url="html/f60fd487-cad3-1a69-210f-99699ab47d9c.htm" />
+    <HelpKINode Title="PlayerSquirrel.downDown Method " Url="html/6758928e-471f-15a5-4175-1c949ae86663.htm" />
+  </HelpKINode>
+  <HelpKINode Title="downPressed method">
+    <HelpKINode Title="AbstPlayer.downPressed Method " Url="html/31ba5105-7997-6bc6-5794-97c88a2b164a.htm" />
+    <HelpKINode Title="PlayerBoar.downPressed Method " Url="html/f2a6e654-f0c8-9c60-f5e4-62375bd81f92.htm" />
+    <HelpKINode Title="PlayerDragon.downPressed Method " Url="html/96d91276-28b2-8ac4-f8c8-b7437027d860.htm" />
+    <HelpKINode Title="PlayerHuman.downPressed Method " Url="html/d3bc558b-a70e-722e-340d-274b3f35383a.htm" />
+    <HelpKINode Title="PlayerSquirrel.downPressed Method " Url="html/1414c598-35c9-1967-20d1-7d4328027055.htm" />
+  </HelpKINode>
+  <HelpKINode Title="downUp method">
+    <HelpKINode Title="AbstPlayer.downUp Method " Url="html/d190a2ef-d705-a201-b078-a4bd70202ec3.htm" />
+    <HelpKINode Title="PlayerBoar.downUp Method " Url="html/a8de4ab3-1c0f-a817-a109-34066f616e08.htm" />
+    <HelpKINode Title="PlayerDragon.downUp Method " Url="html/58a4e064-4e00-097d-7753-190db8da2ebf.htm" />
+    <HelpKINode Title="PlayerHuman.downUp Method " Url="html/9e5ab7c0-ffa6-de5f-750f-b4be45dd4db8.htm" />
+    <HelpKINode Title="PlayerSquirrel.downUp Method " Url="html/82acee4c-2b0d-85d3-e111-427c91e5293d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dragon class">
+    <HelpKINode Title="Dragon Class" Url="html/a7f38a6f-5263-d6de-a5dd-30ea7338d965.htm" />
+    <HelpKINode Title="Dragon Members" Url="html/9fd9f966-dcc5-ed9f-87e1-7e8de550e533.htm" />
+    <HelpKINode Title="about Dragon class" Url="html/a7f38a6f-5263-d6de-a5dd-30ea7338d965.htm" />
+    <HelpKINode Title="all members" Url="html/9fd9f966-dcc5-ed9f-87e1-7e8de550e533.htm" />
+    <HelpKINode Title="constructor" Url="html/7343d79b-5198-f66e-23e4-e53d2fd86073.htm" />
+    <HelpKINode Title="methods" Url="html/9d75fe0c-c23d-0ed8-17ae-f0ca76c08455.htm" />
+    <HelpKINode Title="properties" Url="html/495ab2ea-670d-29a1-b77c-4b08b55e482f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dragon.Dragon constructor" Url="html/7343d79b-5198-f66e-23e4-e53d2fd86073.htm" />
+  <HelpKINode Title="DragonFire field" Url="html/6c6c4450-7b9b-e926-eace-75a7d0aea412.htm" />
+  <HelpKINode Title="DragonFireLight class">
+    <HelpKINode Title="DragonFireLight Class" Url="html/66c6e91d-83fa-6055-2807-a7b6e998937e.htm" />
+    <HelpKINode Title="DragonFireLight Members" Url="html/10e458be-e25f-3b10-faa5-fd5e1976b0d8.htm" />
+    <HelpKINode Title="about DragonFireLight class" Url="html/66c6e91d-83fa-6055-2807-a7b6e998937e.htm" />
+    <HelpKINode Title="all members" Url="html/10e458be-e25f-3b10-faa5-fd5e1976b0d8.htm" />
+    <HelpKINode Title="constructor" Url="html/71f0ce30-7918-bbcb-de47-1824881e264f.htm" />
+    <HelpKINode Title="methods" Url="html/df48df52-37e9-8d10-0360-2aad62573c36.htm" />
+    <HelpKINode Title="properties" Url="html/6ba635dd-5c94-d3ee-8e0e-dacb04bf0ca6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DragonFireLight field" Url="html/ec10a7ac-b112-4991-fa3c-5af5270ab87d.htm" />
+  <HelpKINode Title="dragonFireLight field" Url="html/3a28be68-65f8-35e4-5cd8-570be1cb1b36.htm" />
+  <HelpKINode Title="DragonFireLight.DragonFireLight constructor" Url="html/71f0ce30-7918-bbcb-de47-1824881e264f.htm" />
+  <HelpKINode Title="dragonPrefab field" Url="html/36c2405d-a3bd-3d42-9e51-17293dfde3f0.htm" />
+  <HelpKINode Title="draw method">
+    <HelpKINode Title="abstPage.draw Method " Url="html/1684e34e-e7b4-a3bf-a001-c00f246fb7a6.htm" />
+    <HelpKINode Title="PageGameControl.draw Method " Url="html/0e16bd6a-d578-5b1c-cdb5-337b3a7d3edc.htm" />
+    <HelpKINode Title="PageMain.draw Method " Url="html/fcf105cd-3edd-df42-8cf7-d6d919c22794.htm" />
+    <HelpKINode Title="PageScore.draw Method " Url="html/a85c6457-2f0a-3335-82e6-32b10605f9f8.htm" />
+    <HelpKINode Title="PageSettings.draw Method " Url="html/4409467d-67d3-e7df-b261-df8869197448.htm" />
+  </HelpKINode>
+  <HelpKINode Title="drawPage method" Url="html/64cca7e5-5e2e-785c-7649-d13f17c325dc.htm" />
+  <HelpKINode Title="Enemy class">
+    <HelpKINode Title="Enemy Class" Url="html/d13be2b2-272e-0c11-1d98-02196c63fa2a.htm" />
+    <HelpKINode Title="Enemy Members" Url="html/8ec5275b-7d36-3c44-dd47-a1c69d8242ad.htm" />
+    <HelpKINode Title="about Enemy class" Url="html/d13be2b2-272e-0c11-1d98-02196c63fa2a.htm" />
+    <HelpKINode Title="all members" Url="html/8ec5275b-7d36-3c44-dd47-a1c69d8242ad.htm" />
+    <HelpKINode Title="constructor" Url="html/95f0752d-e57a-c11e-be1b-1d293f804540.htm" />
+    <HelpKINode Title="methods" Url="html/3b93e02f-ffe0-aa6c-587d-c7508e56d778.htm" />
+    <HelpKINode Title="properties" Url="html/79c585eb-7387-1f28-85fd-be588297c050.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Enemy.Enemy constructor" Url="html/95f0752d-e57a-c11e-be1b-1d293f804540.htm" />
+  <HelpKINode Title="enemyDiesAndSpawnsCoins method" Url="html/726ea810-7068-c436-f2af-5efa85e0954f.htm" />
+  <HelpKINode Title="EnemyExplosion class">
+    <HelpKINode Title="EnemyExplosion Class" Url="html/52c95cd4-ca66-bee2-9490-8a9535803b05.htm" />
+    <HelpKINode Title="EnemyExplosion Members" Url="html/98a1c761-b20d-c985-6e31-ce9d165b1ca5.htm" />
+    <HelpKINode Title="about EnemyExplosion class" Url="html/52c95cd4-ca66-bee2-9490-8a9535803b05.htm" />
+    <HelpKINode Title="all members" Url="html/98a1c761-b20d-c985-6e31-ce9d165b1ca5.htm" />
+    <HelpKINode Title="constructor" Url="html/d81db3a5-0c02-508a-9def-de96342c3415.htm" />
+    <HelpKINode Title="methods" Url="html/567f9c50-00cd-a6c3-5507-14f91b43ca4f.htm" />
+    <HelpKINode Title="properties" Url="html/33f4d23f-76d2-7efb-3aa5-944053434eee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnemyExplosion.EnemyExplosion constructor" Url="html/d81db3a5-0c02-508a-9def-de96342c3415.htm" />
+  <HelpKINode Title="EnemyPatrol class">
+    <HelpKINode Title="EnemyPatrol Class" Url="html/f021972b-0ed6-db1e-7c61-d97ffc580629.htm" />
+    <HelpKINode Title="EnemyPatrol Members" Url="html/cfb7c660-23e4-938c-ff5c-746c7e905825.htm" />
+    <HelpKINode Title="about EnemyPatrol class" Url="html/f021972b-0ed6-db1e-7c61-d97ffc580629.htm" />
+    <HelpKINode Title="all members" Url="html/cfb7c660-23e4-938c-ff5c-746c7e905825.htm" />
+    <HelpKINode Title="constructor" Url="html/571e3035-4de7-695e-0518-cecbe6d96816.htm" />
+    <HelpKINode Title="fields" Url="html/b81375be-f318-8b9c-3fbc-76d4bb45f0ea.htm" />
+    <HelpKINode Title="methods" Url="html/fe6ed779-ac45-5513-226b-d116f3b5f6a1.htm" />
+    <HelpKINode Title="properties" Url="html/2a938629-67ca-f30f-e45d-a71c03082945.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnemyPatrol.direction field" Url="html/41055436-9db6-2075-0f69-741e3738538d.htm" />
+  <HelpKINode Title="EnemyPatrol.distance field" Url="html/8b12950e-9703-5ac9-0a94-381b7c3c3564.htm" />
+  <HelpKINode Title="EnemyPatrol.EnemyPatrol constructor" Url="html/571e3035-4de7-695e-0518-cecbe6d96816.htm" />
+  <HelpKINode Title="EnemyPatrol.hit field" Url="html/a37fdeca-3c68-c03f-806e-057fda9dd646.htm" />
+  <HelpKINode Title="EnemyPatrol.hitEnemyPrefab field" Url="html/370d626d-22c7-7357-e831-35d5a5ae7abd.htm" />
+  <HelpKINode Title="EnemyPatrol.OnTriggerEnter method" Url="html/b5354b6e-ab84-a815-3418-673cf6175db9.htm" />
+  <HelpKINode Title="EnemyPatrol.sightRange field" Url="html/5691f2d3-e2ce-dc57-6fc9-76a2e942d7a9.htm" />
+  <HelpKINode Title="EnemyPatrol.startEnemy method" Url="html/c9649c55-5c43-ee0e-80e4-9119508045dc.htm" />
+  <HelpKINode Title="EnemyPatrol.updateEnemy method" Url="html/3a0a9011-8fa8-5630-dead-3b8c367f24e5.htm" />
+  <HelpKINode Title="EnemyPatrol2 class">
+    <HelpKINode Title="EnemyPatrol2 Class" Url="html/d239fe07-055f-2599-81c7-b701dbad96a2.htm" />
+    <HelpKINode Title="EnemyPatrol2 Members" Url="html/445ee6fb-f6a2-95e2-4d8f-a1dbbc2db546.htm" />
+    <HelpKINode Title="about EnemyPatrol2 class" Url="html/d239fe07-055f-2599-81c7-b701dbad96a2.htm" />
+    <HelpKINode Title="all members" Url="html/445ee6fb-f6a2-95e2-4d8f-a1dbbc2db546.htm" />
+    <HelpKINode Title="constructor" Url="html/10703d6f-5257-3e0f-27eb-075681aaaf9d.htm" />
+    <HelpKINode Title="fields" Url="html/b0144993-8d51-b7d5-be9c-489c68398d39.htm" />
+    <HelpKINode Title="methods" Url="html/6ebf4e81-2bf4-50b6-c661-ccf303fd084a.htm" />
+    <HelpKINode Title="properties" Url="html/6abc63be-8167-5e53-9256-e6cf2e4a7156.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnemyPatrol2.direction field" Url="html/21482c2d-666d-3a65-8815-4cee6b0b96c8.htm" />
+  <HelpKINode Title="EnemyPatrol2.distance field" Url="html/bbe293d9-d75a-08c8-bad7-b40848809586.htm" />
+  <HelpKINode Title="EnemyPatrol2.EnemyPatrol2 constructor" Url="html/10703d6f-5257-3e0f-27eb-075681aaaf9d.htm" />
+  <HelpKINode Title="EnemyPatrol2.hitEnemyPrefab field" Url="html/26db3a1d-8881-14e3-3352-71c73e63b59c.htm" />
+  <HelpKINode Title="EnemyPatrol2.OnTriggerEnter method" Url="html/2808c377-d3f9-4dd9-86b1-fc5d7b248020.htm" />
+  <HelpKINode Title="EnemyPatrol2.seePlayer field" Url="html/77394d1a-506b-e465-00e6-84c51842cf46.htm" />
+  <HelpKINode Title="EnemyPatrol2.startEnemy method" Url="html/12fefc87-f927-2d57-cdb6-9efd024e6c13.htm" />
+  <HelpKINode Title="EnemyPatrol2.updateEnemy method" Url="html/4cd0082b-e5f2-5ca5-acee-9fbae1b317f1.htm" />
+  <HelpKINode Title="enemyPosition field" Url="html/aea67a03-bd35-e72c-89bc-51bc2191ad16.htm" />
+  <HelpKINode Title="Enemyprefab field" Url="html/dc2a2611-3f4d-ca29-1797-7170b450a9e1.htm" />
+  <HelpKINode Title="EnemyTurret class">
+    <HelpKINode Title="EnemyTurret Class" Url="html/5e8ed6ac-362a-1aa3-ba29-3b41a7b42f95.htm" />
+    <HelpKINode Title="EnemyTurret Members" Url="html/0e8c33f9-3341-2dbc-5056-fddad4ebba9f.htm" />
+    <HelpKINode Title="about EnemyTurret class" Url="html/5e8ed6ac-362a-1aa3-ba29-3b41a7b42f95.htm" />
+    <HelpKINode Title="all members" Url="html/0e8c33f9-3341-2dbc-5056-fddad4ebba9f.htm" />
+    <HelpKINode Title="constructor" Url="html/fed2a8eb-55d4-3552-e0a4-7a6d83287eaf.htm" />
+    <HelpKINode Title="fields" Url="html/8bd137e5-0cdb-efad-962d-82e3c9256079.htm" />
+    <HelpKINode Title="methods" Url="html/75b97f1c-eab5-69d2-0607-3b6f58508468.htm" />
+    <HelpKINode Title="properties" Url="html/ad0c07cd-bfda-5d34-aa86-262631b1057c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnemyTurret.animator field" Url="html/1a1caab8-60a9-9445-04ee-48277b7fe308.htm" />
+  <HelpKINode Title="EnemyTurret.direction field" Url="html/986f3fea-bbe2-b496-7877-ac6672e5f230.htm" />
+  <HelpKINode Title="EnemyTurret.distance field" Url="html/7492e2be-30ed-9082-831d-913520e6b267.htm" />
+  <HelpKINode Title="EnemyTurret.EnemyTurret constructor" Url="html/fed2a8eb-55d4-3552-e0a4-7a6d83287eaf.htm" />
+  <HelpKINode Title="EnemyTurret.OnTriggerEnter method" Url="html/fcc6a94b-6525-7749-f76f-de30d79a7de5.htm" />
+  <HelpKINode Title="EnemyTurret.seePlayer field" Url="html/21913c51-4e80-1cdd-b8b1-5b090aec13cc.htm" />
+  <HelpKINode Title="EnemyTurret.shootEnemyPrefab field" Url="html/5d635a03-c979-ce5a-6c03-732a27108f7c.htm" />
+  <HelpKINode Title="EnemyTurret.startEnemy method" Url="html/70d1c251-3392-d9f8-0dc4-14908af254b4.htm" />
+  <HelpKINode Title="EnemyTurret.updateEnemy method" Url="html/de578238-e002-71d6-5ffd-6e7c12e9b813.htm" />
+  <HelpKINode Title="EnemyTurretPoison class">
+    <HelpKINode Title="EnemyTurretPoison Class" Url="html/edf5b2a6-6339-cf89-524b-59e997009fa2.htm" />
+    <HelpKINode Title="EnemyTurretPoison Members" Url="html/02f56732-a3a0-59e0-60e1-e7e8ae3a9847.htm" />
+    <HelpKINode Title="about EnemyTurretPoison class" Url="html/edf5b2a6-6339-cf89-524b-59e997009fa2.htm" />
+    <HelpKINode Title="all members" Url="html/02f56732-a3a0-59e0-60e1-e7e8ae3a9847.htm" />
+    <HelpKINode Title="constructor" Url="html/2c54235d-268a-793e-8941-c1dceb990985.htm" />
+    <HelpKINode Title="fields" Url="html/62b3fafe-fc82-4949-3258-d5fe9ddaae44.htm" />
+    <HelpKINode Title="methods" Url="html/3cb01c78-b06c-d74d-22e3-8227ad65dd19.htm" />
+    <HelpKINode Title="properties" Url="html/7add5c51-fb59-a51c-4894-d6681c1ac29a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnemyTurretPoison.animator field" Url="html/d1569e63-5f72-ca79-056d-932d26c9d8a2.htm" />
+  <HelpKINode Title="EnemyTurretPoison.direction field" Url="html/0a0ccfd2-f04f-7bc7-7283-181dff82c847.htm" />
+  <HelpKINode Title="EnemyTurretPoison.distance field" Url="html/22a9c2f1-768d-a8dc-0f49-de90478cab23.htm" />
+  <HelpKINode Title="EnemyTurretPoison.EnemyTurretPoison constructor" Url="html/2c54235d-268a-793e-8941-c1dceb990985.htm" />
+  <HelpKINode Title="EnemyTurretPoison.OnTriggerEnter method" Url="html/6776a3bb-bea9-109b-62f8-47a2c7d6149a.htm" />
+  <HelpKINode Title="EnemyTurretPoison.seePlayer field" Url="html/35942808-7228-c7be-8e48-80445794a3b1.htm" />
+  <HelpKINode Title="EnemyTurretPoison.shootEnemyPrefab field" Url="html/645521c8-588a-5965-18b3-7f1759be6152.htm" />
+  <HelpKINode Title="EnemyTurretPoison.startEnemy method" Url="html/49decb95-924e-416e-6c77-001a324d0a7c.htm" />
+  <HelpKINode Title="EnemyTurretPoison.updateEnemy method" Url="html/2ce56941-7fe8-66db-5369-eac5fb1b5e60.htm" />
+  <HelpKINode Title="enemyValue field" Url="html/889f444a-c205-5fe6-3266-bfd350b060fa.htm" />
+  <HelpKINode Title="Entry class">
+    <HelpKINode Title="Entry Class" Url="html/1ac57968-aae3-d1ca-14c4-d584e856f4e0.htm" />
+    <HelpKINode Title="Entry Members" Url="html/6086958e-84ca-ab6f-12ce-d27a97890fe7.htm" />
+    <HelpKINode Title="about Entry class" Url="html/1ac57968-aae3-d1ca-14c4-d584e856f4e0.htm" />
+    <HelpKINode Title="all members" Url="html/6086958e-84ca-ab6f-12ce-d27a97890fe7.htm" />
+    <HelpKINode Title="constructor" Url="html/ebc57628-7fcf-626c-d4b8-2955154110b6.htm" />
+    <HelpKINode Title="methods" Url="html/baa5b062-5ecb-210a-42a9-09380b461580.htm" />
+    <HelpKINode Title="properties" Url="html/c5aa930c-1632-30d1-d4e2-587e6a19fd4d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Entry.CompareTo method" Url="html/9c126efd-16f8-cf46-e15e-f2b69aeaa5fb.htm" />
+  <HelpKINode Title="Entry.difficulty property" Url="html/34338b00-0482-62ac-6b0a-0468b2fff328.htm" />
+  <HelpKINode Title="Entry.Entry constructor" Url="html/ebc57628-7fcf-626c-d4b8-2955154110b6.htm" />
+  <HelpKINode Title="Entry.lastLevel property" Url="html/c209d598-a94b-d0f0-ac51-3e6011dc0305.htm" />
+  <HelpKINode Title="Entry.name property" Url="html/31339a5f-46bc-be4c-af7e-356a63f62fd6.htm" />
+  <HelpKINode Title="Entry.score property" Url="html/9238143c-e408-d58c-d0ee-2a9fa8881b16.htm" />
+  <HelpKINode Title="Entry.time property" Url="html/73659c6f-2f2e-f5d9-d616-5d6772c3f656.htm" />
+  <HelpKINode Title="explosion field" Url="html/13597c5b-b568-4498-31c8-5e3a1ad6729a.htm" />
+  <HelpKINode Title="explosion2 field" Url="html/209c0f4a-0914-4131-ed6b-34d9d1912dd1.htm" />
+  <HelpKINode Title="explosionPrefab field" Url="html/f9ee7cf0-f967-6890-2de8-5d3af6a8538a.htm" />
+  <HelpKINode Title="extraCollisionEnter method">
+    <HelpKINode Title="AbstPlayer.extraCollisionEnter Method " Url="html/3b60bc11-1f9e-474c-daf4-2a01b1ba5d77.htm" />
+    <HelpKINode Title="PlayerBoar.extraCollisionEnter Method " Url="html/245f42fa-3cfb-bc1e-90dd-648a6b71e5da.htm" />
+  </HelpKINode>
+  <HelpKINode Title="extraCollisionExit method">
+    <HelpKINode Title="AbstPlayer.extraCollisionExit Method " Url="html/b17065d6-c85d-5043-e63c-5917019dc48b.htm" />
+    <HelpKINode Title="PlayerBoar.extraCollisionExit Method " Url="html/123fc274-10ae-fbc1-fd03-9e3ad54235d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="extraCollisionStay method">
+    <HelpKINode Title="AbstPlayer.extraCollisionStay Method " Url="html/9220932e-4788-209b-ff06-9a6ff50561cd.htm" />
+    <HelpKINode Title="PlayerBoar.extraCollisionStay Method " Url="html/1b7a0772-90d6-1452-5d93-2c16257c1f93.htm" />
+  </HelpKINode>
+  <HelpKINode Title="extraParticleCollision method" Url="html/ee6fd777-f54e-a885-604b-4981936c4123.htm" />
+  <HelpKINode Title="extraTiggerStay method" Url="html/8d4b1f3b-6bde-3db4-5358-42b0eebd8936.htm" />
+  <HelpKINode Title="extraTriggerEnter method">
+    <HelpKINode Title="AbstPlayer.extraTriggerEnter Method " Url="html/6b58277b-4cac-c5d7-aac8-e88880de8b23.htm" />
+    <HelpKINode Title="PlayerSquirrel.extraTriggerEnter Method " Url="html/6fc208ee-0fda-5d6d-b5d1-c9f0f54b808c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="extraTriggerExit method">
+    <HelpKINode Title="AbstPlayer.extraTriggerExit Method " Url="html/0fd0a360-2280-fcf7-2d54-4c4668700132.htm" />
+    <HelpKINode Title="PlayerSquirrel.extraTriggerExit Method " Url="html/73b8f624-eae1-2466-2cdc-ce66f9198b06.htm" />
+  </HelpKINode>
+  <HelpKINode Title="fadeSpeed field" Url="html/ae3217f6-233c-6ff3-71f4-9350e632752b.htm" />
+  <HelpKINode Title="FallingBlocks class">
+    <HelpKINode Title="FallingBlocks Class" Url="html/0e88ae82-e426-4e92-822f-ef21c5d3c517.htm" />
+    <HelpKINode Title="FallingBlocks Members" Url="html/9ef3d122-8936-0282-c14a-a47cbf0df096.htm" />
+    <HelpKINode Title="about FallingBlocks class" Url="html/0e88ae82-e426-4e92-822f-ef21c5d3c517.htm" />
+    <HelpKINode Title="all members" Url="html/9ef3d122-8936-0282-c14a-a47cbf0df096.htm" />
+    <HelpKINode Title="constructor" Url="html/1d62170a-17cb-1428-db3c-03f9ac3f3192.htm" />
+    <HelpKINode Title="methods" Url="html/70867cf1-8b95-d26a-968e-7c17a546e363.htm" />
+    <HelpKINode Title="properties" Url="html/8c3a5c21-5347-38db-069e-c8b4641068d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FallingBlocks.FallingBlocks constructor" Url="html/1d62170a-17cb-1428-db3c-03f9ac3f3192.htm" />
+  <HelpKINode Title="fire4TreeInitPrefab field" Url="html/6fefcb4a-2458-2eed-3e44-d6c372e595ea.htm" />
+  <HelpKINode Title="fire4TreePrefab field" Url="html/88aed0c4-1301-fda5-8d21-7f2d25042383.htm" />
+  <HelpKINode Title="fireSound field" Url="html/8db50236-7003-471d-5932-b6b628a2964e.htm" />
+  <HelpKINode Title="FixedUpdate method" Url="html/3232ffaf-d3af-0f8e-b6cf-02d12c393611.htm" />
+  <HelpKINode Title="Fog class">
+    <HelpKINode Title="Fog Class" Url="html/257cd2bb-77c4-686c-cddc-deef58417a71.htm" />
+    <HelpKINode Title="Fog Members" Url="html/c3f5cf04-b8f3-c727-89a5-a5d26b23fc8b.htm" />
+    <HelpKINode Title="about Fog class" Url="html/257cd2bb-77c4-686c-cddc-deef58417a71.htm" />
+    <HelpKINode Title="all members" Url="html/c3f5cf04-b8f3-c727-89a5-a5d26b23fc8b.htm" />
+    <HelpKINode Title="constructor" Url="html/fa135e55-19df-67ee-05d0-9b478ea75d09.htm" />
+    <HelpKINode Title="methods" Url="html/242d4c95-14d7-4af2-2950-a74b382f88d8.htm" />
+    <HelpKINode Title="properties" Url="html/d677ea12-2c28-e3b4-426f-843e43aef133.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Fog.Fog constructor" Url="html/fa135e55-19df-67ee-05d0-9b478ea75d09.htm" />
+  <HelpKINode Title="fogPrefab field" Url="html/81470351-7420-84c7-66b2-c38995c12e6c.htm" />
+  <HelpKINode Title="fstDown method">
+    <HelpKINode Title="AbstPlayer.fstDown Method " Url="html/fbd6c550-2081-c30c-f3f8-1ed53c8be510.htm" />
+    <HelpKINode Title="PlayerBoar.fstDown Method " Url="html/12caba47-6083-6f83-fb58-221d45fd737a.htm" />
+    <HelpKINode Title="PlayerDragon.fstDown Method " Url="html/4e6751d6-fa03-ebe5-034b-a0afb650c35a.htm" />
+    <HelpKINode Title="PlayerHuman.fstDown Method " Url="html/ab3ad836-148a-96c4-2504-00f18ab870d3.htm" />
+    <HelpKINode Title="PlayerSquirrel.fstDown Method " Url="html/edfa3c2c-d320-1f3b-2c60-447422515316.htm" />
+  </HelpKINode>
+  <HelpKINode Title="fstPressed method">
+    <HelpKINode Title="AbstPlayer.fstPressed Method " Url="html/8f116648-a7af-0bf9-480a-a1aeb3a6fd13.htm" />
+    <HelpKINode Title="PlayerBoar.fstPressed Method " Url="html/0b6ef29f-fd4f-a3a9-6f5a-0737602f8676.htm" />
+    <HelpKINode Title="PlayerDragon.fstPressed Method " Url="html/453b0380-4f77-ffbf-b6c6-259bff231ffb.htm" />
+    <HelpKINode Title="PlayerHuman.fstPressed Method " Url="html/ba269ccd-29ba-7b64-b68c-622205a8a469.htm" />
+    <HelpKINode Title="PlayerSquirrel.fstPressed Method " Url="html/ce9d5a7f-01fd-aee9-f9f4-9be8c7a58483.htm" />
+  </HelpKINode>
+  <HelpKINode Title="fstUp method">
+    <HelpKINode Title="AbstPlayer.fstUp Method " Url="html/9ec16f83-da31-2208-bf83-36adc77ea598.htm" />
+    <HelpKINode Title="PlayerBoar.fstUp Method " Url="html/68bc5cf5-0828-c607-a8a2-ed9d6d394307.htm" />
+    <HelpKINode Title="PlayerDragon.fstUp Method " Url="html/a9a836e9-5e91-3b16-62be-5feac970fb92.htm" />
+    <HelpKINode Title="PlayerHuman.fstUp Method " Url="html/88dc7765-25f3-312e-8e7d-f6685f8c27df.htm" />
+    <HelpKINode Title="PlayerSquirrel.fstUp Method " Url="html/0da5ff08-54d6-8290-954f-4fbda6a807e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameController class">
+    <HelpKINode Title="GameController Class" Url="html/f0856ff9-6102-4e08-3a7f-b8bb6e670e94.htm" />
+    <HelpKINode Title="GameController Members" Url="html/488b4649-ff4f-458d-c2d8-609d3337d3b1.htm" />
+    <HelpKINode Title="about GameController class" Url="html/f0856ff9-6102-4e08-3a7f-b8bb6e670e94.htm" />
+    <HelpKINode Title="all members" Url="html/488b4649-ff4f-458d-c2d8-609d3337d3b1.htm" />
+    <HelpKINode Title="constructor" Url="html/204b1b60-a6af-d89e-ab6e-7df98cca1d64.htm" />
+    <HelpKINode Title="fields" Url="html/200c4776-0745-d649-d1ed-72bce6ff4df1.htm" />
+    <HelpKINode Title="methods" Url="html/707929ae-e65d-dc72-1b20-fb88fc627104.htm" />
+    <HelpKINode Title="properties" Url="html/77457e55-0a43-a9b2-8b2a-cc570eab94d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameController.GameController constructor" Url="html/204b1b60-a6af-d89e-ab6e-7df98cca1d64.htm" />
+  <HelpKINode Title="GameController.gameVariables field" Url="html/ae6896d4-2cff-e774-4f9b-8afec477c9f8.htm" />
+  <HelpKINode Title="GameOver class">
+    <HelpKINode Title="GameOver Class" Url="html/49c1d70a-3f35-7235-a1d8-1bfe187bfb04.htm" />
+    <HelpKINode Title="GameOver Members" Url="html/fb1b8a71-5e53-320b-749b-9a3ee2d32517.htm" />
+    <HelpKINode Title="about GameOver class" Url="html/49c1d70a-3f35-7235-a1d8-1bfe187bfb04.htm" />
+    <HelpKINode Title="all members" Url="html/fb1b8a71-5e53-320b-749b-9a3ee2d32517.htm" />
+    <HelpKINode Title="constructor" Url="html/447f358e-9f9e-ef09-7f59-7c289b7e7256.htm" />
+    <HelpKINode Title="methods" Url="html/d24d514a-205c-95ed-924d-9f0b2800af2c.htm" />
+    <HelpKINode Title="properties" Url="html/9210718b-44a2-beee-f4db-dcbc183ef2ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameOver.GameOver constructor" Url="html/447f358e-9f9e-ef09-7f59-7c289b7e7256.htm" />
+  <HelpKINode Title="GameVariables class">
+    <HelpKINode Title="GameVariables Class" Url="html/091662e3-3225-1656-8cd4-aa8fcde8a79f.htm" />
+    <HelpKINode Title="GameVariables Members" Url="html/d5e03e54-7d30-b15e-9fd4-457f3c3d00e2.htm" />
+    <HelpKINode Title="about GameVariables class" Url="html/091662e3-3225-1656-8cd4-aa8fcde8a79f.htm" />
+    <HelpKINode Title="all members" Url="html/d5e03e54-7d30-b15e-9fd4-457f3c3d00e2.htm" />
+    <HelpKINode Title="constructor" Url="html/e0ba1793-369b-4e34-58cb-1d07d6489456.htm" />
+    <HelpKINode Title="fields" Url="html/dfed196e-551d-68d6-468d-59525e964d6d.htm" />
+    <HelpKINode Title="methods" Url="html/bc1b0a7c-e09a-42bf-1542-d5dc6baa732b.htm" />
+    <HelpKINode Title="properties" Url="html/ec1722be-cf79-3ac9-961f-bf867ba2b0d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="gameVariables field">
+    <HelpKINode Title="AbstEnemy.gameVariables Field" Url="html/83aabae2-eda0-e60d-09d3-4dd18166816a.htm" />
+    <HelpKINode Title="AbstPlayer.gameVariables Field" Url="html/628adb44-88fc-5cdf-e845-ea6f60b3109c.htm" />
+    <HelpKINode Title="GameController.gameVariables Field" Url="html/ae6896d4-2cff-e774-4f9b-8afec477c9f8.htm" />
+    <HelpKINode Title="Lava.gameVariables Field" Url="html/37023ff8-b6da-5955-f41a-1d75ad2d97e9.htm" />
+    <HelpKINode Title="NextLevelCollider.gameVariables Field" Url="html/bdabec51-8584-fa6b-3007-fef44f599a61.htm" />
+    <HelpKINode Title="SceneFader.gameVariables Field" Url="html/70993086-2145-6ea4-9dc3-ad126aa5e829.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameVariables.difficultyMode field" Url="html/ff1fe8fa-b939-0582-8356-5c6a127b90db.htm" />
+  <HelpKINode Title="GameVariables.GameVariables constructor" Url="html/e0ba1793-369b-4e34-58cb-1d07d6489456.htm" />
+  <HelpKINode Title="GameVariables.hearts field" Url="html/6b661b4c-4d20-2c88-2ffc-b881c9385792.htm" />
+  <HelpKINode Title="GameVariables.initHearts field" Url="html/eb587a38-908e-8ec7-060f-93b893e901c8.htm" />
+  <HelpKINode Title="GameVariables.initMisc field" Url="html/6e1c53e7-7a47-8bc1-ec18-54d345a98fd3.htm" />
+  <HelpKINode Title="GameVariables.lastEnergy field" Url="html/c23e52e0-7824-c765-73ad-04ec48374970.htm" />
+  <HelpKINode Title="GameVariables.lastItems field" Url="html/0a8b34dd-d9b6-ef19-ce20-16d77d2db969.htm" />
+  <HelpKINode Title="GameVariables.lastLavaPos field" Url="html/48fd0a0c-c747-19b8-4417-40b7f3c95f63.htm" />
+  <HelpKINode Title="GameVariables.lastLavaPos2 field" Url="html/56548cee-30ac-ed92-5777-73588517b993.htm" />
+  <HelpKINode Title="GameVariables.lastRespawn field" Url="html/34964da0-4e41-55af-9f61-22bfbd26f0e3.htm" />
+  <HelpKINode Title="GameVariables.lifePoints field" Url="html/242aec3c-f630-5b6c-c8d1-e6191f589b3d.htm" />
+  <HelpKINode Title="GameVariables.loseHeart method" Url="html/207d94d6-ea88-c4d4-f63f-055995b64a0b.htm" />
+  <HelpKINode Title="GameVariables.maxLifePoints field" Url="html/46c35801-3efc-aea1-4e1d-fd11a6f66c40.htm" />
+  <HelpKINode Title="GameVariables.maxShowHearts field" Url="html/adc4fdcc-8fc3-5de3-2988-82f8cc52a2bb.htm" />
+  <HelpKINode Title="GameVariables.minShowHearts field" Url="html/9addba84-b39f-f5f1-f2fe-4400645aefe0.htm" />
+  <HelpKINode Title="GameVariables.nonPlayableLevels field" Url="html/bef9ec99-2dc4-f696-02f5-12efeb7099e8.htm" />
+  <HelpKINode Title="GameVariables.playerPosition field" Url="html/3968cdc4-1d92-cceb-b0c4-07a6dfd02b17.htm" />
+  <HelpKINode Title="GameVariables.resetVariables method" Url="html/f629f091-5e0c-a83a-dd50-2597a75ab01c.htm" />
+  <HelpKINode Title="GameVariables.respawnVariables method" Url="html/8f7725e2-04e3-06d9-13e4-519247baa981.htm" />
+  <HelpKINode Title="GameVariables.savePoint method" Url="html/674519a7-02dd-4d9a-1a95-01433ff7c7c9.htm" />
+  <HelpKINode Title="GameVariables.wasRespawned field" Url="html/d083e906-a7ed-6f08-a6d1-d477e682536b.htm" />
+  <HelpKINode Title="gatheringCoinPrefab field">
+    <HelpKINode Title="InventoryCollider.gatheringCoinPrefab Field" Url="html/c069925f-f9ad-9fa6-8cdc-bb6f81d165a3.htm" />
+    <HelpKINode Title="RotateItem.gatheringCoinPrefab Field" Url="html/9ce82e67-483b-86ee-553b-c11cce970dc5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getHeaderStyle method" Url="html/0ddba60a-f4cf-5203-dc69-b22320c25a16.htm" />
+  <HelpKINode Title="getHumanPlayerAnimator method" Url="html/04c979c5-60bd-1157-b62a-e2c771ebd645.htm" />
+  <HelpKINode Title="GetItems method" Url="html/f3388315-4e15-06e0-2f67-65045ef76d64.htm" />
+  <HelpKINode Title="getTextStyle method" Url="html/42bfe6c7-e240-b18f-9907-a4f2fbbe5413.htm" />
+  <HelpKINode Title="gettingInjured method" Url="html/167973b8-8bf4-d577-210b-8afd46c0c351.htm" />
+  <HelpKINode Title="gettingPoisoned method" Url="html/82395422-4e22-c376-548b-48f90e182c95.htm" />
+  <HelpKINode Title="guiSkin field" Url="html/12dc6975-10cf-485c-0643-833cc3cd4e6d.htm" />
+  <HelpKINode Title="hearts field" Url="html/6b661b4c-4d20-2c88-2ffc-b881c9385792.htm" />
+  <HelpKINode Title="Highscore class">
+    <HelpKINode Title="Highscore Class" Url="html/08b0a505-2103-1c0f-cdba-1f1eedcf6e36.htm" />
+    <HelpKINode Title="Highscore Members" Url="html/f2de16af-202d-df73-4235-6abde0481368.htm" />
+    <HelpKINode Title="about Highscore class" Url="html/08b0a505-2103-1c0f-cdba-1f1eedcf6e36.htm" />
+    <HelpKINode Title="all members" Url="html/f2de16af-202d-df73-4235-6abde0481368.htm" />
+    <HelpKINode Title="constructor" Url="html/997a5802-f2ad-2574-6e1b-0aaf1afccba1.htm" />
+    <HelpKINode Title="methods" Url="html/d592cdf6-5fc4-54e4-b6c8-0612f5c59261.htm" />
+    <HelpKINode Title="properties" Url="html/3d778e1e-55d7-15ca-cd6b-f985ac415b6a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Highscore.Highscore constructor" Url="html/997a5802-f2ad-2574-6e1b-0aaf1afccba1.htm" />
+  <HelpKINode Title="Highscore.readScore method" Url="html/c287c5a8-ea0f-6201-d039-7c67838625d8.htm" />
+  <HelpKINode Title="Highscore.writeNewScore method" Url="html/7b144452-39c9-fbc2-cd74-a01fca533318.htm" />
+  <HelpKINode Title="Hit class">
+    <HelpKINode Title="Hit Class" Url="html/1c15e12f-a9e2-4731-e70c-8a201a90ec42.htm" />
+    <HelpKINode Title="Hit Members" Url="html/ddb63d79-e1b7-2566-18bc-006c545cc153.htm" />
+    <HelpKINode Title="about Hit class" Url="html/1c15e12f-a9e2-4731-e70c-8a201a90ec42.htm" />
+    <HelpKINode Title="all members" Url="html/ddb63d79-e1b7-2566-18bc-006c545cc153.htm" />
+    <HelpKINode Title="constructor" Url="html/367601f9-5c31-b67b-825a-f7f82ea89b42.htm" />
+    <HelpKINode Title="methods" Url="html/e8eca1a0-e1ad-6beb-3be8-57881352c9bf.htm" />
+    <HelpKINode Title="properties" Url="html/139c76a9-b8dc-606b-c799-6b297da56b98.htm" />
+  </HelpKINode>
+  <HelpKINode Title="hit field" Url="html/a37fdeca-3c68-c03f-806e-057fda9dd646.htm" />
+  <HelpKINode Title="Hit.Hit constructor" Url="html/367601f9-5c31-b67b-825a-f7f82ea89b42.htm" />
+  <HelpKINode Title="HitEnemy class">
+    <HelpKINode Title="HitEnemy Class" Url="html/5913a3c3-8e17-8297-03f2-5e369a25da2d.htm" />
+    <HelpKINode Title="HitEnemy Members" Url="html/4b0c865c-06a9-f337-063e-22dee1ad7b9e.htm" />
+    <HelpKINode Title="about HitEnemy class" Url="html/5913a3c3-8e17-8297-03f2-5e369a25da2d.htm" />
+    <HelpKINode Title="all members" Url="html/4b0c865c-06a9-f337-063e-22dee1ad7b9e.htm" />
+    <HelpKINode Title="constructor" Url="html/327ed7c0-40a8-6543-d9e0-058b4ed34ad1.htm" />
+    <HelpKINode Title="methods" Url="html/52830b82-e5aa-d086-1084-08853e4b89f1.htm" />
+    <HelpKINode Title="properties" Url="html/9b6a8526-055e-0891-c191-e6cdfee29c17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HitEnemy.HitEnemy constructor" Url="html/327ed7c0-40a8-6543-d9e0-058b4ed34ad1.htm" />
+  <HelpKINode Title="hitEnemyPrefab field">
+    <HelpKINode Title="EnemyPatrol.hitEnemyPrefab Field" Url="html/370d626d-22c7-7357-e831-35d5a5ae7abd.htm" />
+    <HelpKINode Title="EnemyPatrol2.hitEnemyPrefab Field" Url="html/26db3a1d-8881-14e3-3352-71c73e63b59c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HitPrefab field" Url="html/6f0cbf55-8463-2972-463f-45cfed31aa45.htm" />
+  <HelpKINode Title="hitPrefab field" Url="html/328339f7-6000-105c-18e0-0c0626a74f7b.htm" />
+  <HelpKINode Title="iceBlock field" Url="html/74598ca3-0e30-fe3c-0839-6de52a2a1b50.htm" />
+  <HelpKINode Title="IceDragon class">
+    <HelpKINode Title="IceDragon Class" Url="html/c6b713d4-4ee5-6053-2b35-7119d1d8c41d.htm" />
+    <HelpKINode Title="IceDragon Members" Url="html/4f4085fc-8fff-4d56-ba5b-2c6bbebbfcc1.htm" />
+    <HelpKINode Title="about IceDragon class" Url="html/c6b713d4-4ee5-6053-2b35-7119d1d8c41d.htm" />
+    <HelpKINode Title="all members" Url="html/4f4085fc-8fff-4d56-ba5b-2c6bbebbfcc1.htm" />
+    <HelpKINode Title="constructor" Url="html/c26a020e-ac49-cb93-a366-cd795ad5f61e.htm" />
+    <HelpKINode Title="fields" Url="html/80709289-a8e4-a878-a9a0-83226946e11e.htm" />
+    <HelpKINode Title="methods" Url="html/e5bf0a00-9b92-3a89-35d7-e8173aaefd8e.htm" />
+    <HelpKINode Title="properties" Url="html/f0dc564e-38e9-91f5-d395-1551f35a5e66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="iceDragon field" Url="html/ff66fedb-7dea-5ff6-c32a-a1c6110e0331.htm" />
+  <HelpKINode Title="IceDragon.direction field" Url="html/a1870b4f-caa6-2bdf-dddc-a5c329f22e5f.htm" />
+  <HelpKINode Title="IceDragon.distance field" Url="html/3947bce6-046f-ec8a-56bc-5bed468366aa.htm" />
+  <HelpKINode Title="IceDragon.dragonFireLight field" Url="html/3a28be68-65f8-35e4-5cd8-570be1cb1b36.htm" />
+  <HelpKINode Title="IceDragon.IceDragon constructor" Url="html/c26a020e-ac49-cb93-a366-cd795ad5f61e.htm" />
+  <HelpKINode Title="IceDragon.iceFire field" Url="html/f68c8149-8854-d32c-32d3-88ac0d17a38a.htm" />
+  <HelpKINode Title="IceDragon.OnTriggerEnter method" Url="html/249331ca-0995-b5da-004c-23046e4331ed.htm" />
+  <HelpKINode Title="IceDragon.seePlayer field" Url="html/5f824343-7738-7415-8fb4-e81ebeeaf1aa.htm" />
+  <HelpKINode Title="IceDragon.startEnemy method" Url="html/c54b7d5b-6152-d303-d268-0662790569ae.htm" />
+  <HelpKINode Title="IceDragon.updateEnemy method" Url="html/11093601-523a-3732-b8ab-16771560706a.htm" />
+  <HelpKINode Title="iceFire field" Url="html/f68c8149-8854-d32c-32d3-88ac0d17a38a.htm" />
+  <HelpKINode Title="InfightZone class">
+    <HelpKINode Title="InfightZone Class" Url="html/06eeb75a-283b-3cce-0fda-ceeb16f5ada7.htm" />
+    <HelpKINode Title="InfightZone Members" Url="html/c8f59069-4a0c-709f-98fc-d71051ad04fe.htm" />
+    <HelpKINode Title="about InfightZone class" Url="html/06eeb75a-283b-3cce-0fda-ceeb16f5ada7.htm" />
+    <HelpKINode Title="all members" Url="html/c8f59069-4a0c-709f-98fc-d71051ad04fe.htm" />
+    <HelpKINode Title="constructor" Url="html/cf063748-78a1-3d9d-edf8-8be30aa3d5c2.htm" />
+    <HelpKINode Title="methods" Url="html/bc09a65b-71d1-8b7a-4569-bcfe20ef0f9a.htm" />
+    <HelpKINode Title="properties" Url="html/ba9dfb6a-8b99-c932-01ab-941104d58853.htm" />
+  </HelpKINode>
+  <HelpKINode Title="infightZone field" Url="html/5b4d7de5-7112-ffbe-b49d-0a88a3b28a78.htm" />
+  <HelpKINode Title="InfightZone.InfightZone constructor" Url="html/cf063748-78a1-3d9d-edf8-8be30aa3d5c2.htm" />
+  <HelpKINode Title="init method" Url="html/c8873152-89b7-fefb-0ad8-deb8235f8e48.htm" />
+  <HelpKINode Title="initHearts field" Url="html/eb587a38-908e-8ec7-060f-93b893e901c8.htm" />
+  <HelpKINode Title="initMisc field" Url="html/6e1c53e7-7a47-8bc1-ec18-54d345a98fd3.htm" />
+  <HelpKINode Title="instance property" Url="html/f6acd6b6-15e7-5da4-1bbf-f4bc1f5ada3c.htm" />
+  <HelpKINode Title="instantiateTransform method" Url="html/45f2cdb7-9252-2ee3-fe76-d252bbe6ad04.htm" />
+  <HelpKINode Title="Inventory class">
+    <HelpKINode Title="Inventory Class" Url="html/d0b23e86-7821-fd03-0dbf-68bbf173be11.htm" />
+    <HelpKINode Title="Inventory Members" Url="html/ea742369-eddc-7738-ea60-4b69b1206156.htm" />
+    <HelpKINode Title="about Inventory class" Url="html/d0b23e86-7821-fd03-0dbf-68bbf173be11.htm" />
+    <HelpKINode Title="all members" Url="html/ea742369-eddc-7738-ea60-4b69b1206156.htm" />
+    <HelpKINode Title="constructor" Url="html/3d35d3f9-a925-e1b8-5bd3-aa49b362891c.htm" />
+    <HelpKINode Title="fields" Url="html/4f315a01-0402-27af-2950-e451b0ba43f2.htm" />
+    <HelpKINode Title="methods" Url="html/28aee9ab-7d9d-6049-48c3-5fd9e87ddbec.htm" />
+    <HelpKINode Title="properties" Url="html/761d28bd-5e4f-e6d8-44c6-4a2f11ad0d16.htm" />
+  </HelpKINode>
+  <HelpKINode Title="inventory field">
+    <HelpKINode Title="abstPage.inventory Field" Url="html/25f903f4-95b0-d235-06d9-32dda2881902.htm" />
+    <HelpKINode Title="AbstPlayer.inventory Field" Url="html/f0eaa163-1719-f71b-b95a-fb93fd8ffcf4.htm" />
+    <HelpKINode Title="InventoryManager.inventory Field" Url="html/8bb367e5-afd6-35af-7ae3-b3e5dcb10bc9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inventory.AddItems method" Url="html/6598ba92-3e78-acc0-c7b4-3065caeb3044.htm" />
+  <HelpKINode Title="Inventory.GetItems method" Url="html/f3388315-4e15-06e0-2f67-65045ef76d64.htm" />
+  <HelpKINode Title="Inventory.Inventory constructor" Url="html/3d35d3f9-a925-e1b8-5bd3-aa49b362891c.htm" />
+  <HelpKINode Title="Inventory.items field" Url="html/3682ab1e-b729-cf22-8e02-3f0dbd053246.htm" />
+  <HelpKINode Title="Inventory.SetItems method" Url="html/160043f6-51ff-5ab0-22eb-05bcc8cd527c.htm" />
+  <HelpKINode Title="InventoryCollider class">
+    <HelpKINode Title="InventoryCollider Class" Url="html/3719fb64-a3d0-4f88-c234-6f026d573f53.htm" />
+    <HelpKINode Title="InventoryCollider Members" Url="html/eb08a05a-0ed8-002b-a07b-137536b352d5.htm" />
+    <HelpKINode Title="about InventoryCollider class" Url="html/3719fb64-a3d0-4f88-c234-6f026d573f53.htm" />
+    <HelpKINode Title="all members" Url="html/eb08a05a-0ed8-002b-a07b-137536b352d5.htm" />
+    <HelpKINode Title="constructor" Url="html/991796be-a4a6-3da1-4585-74de9e70fa44.htm" />
+    <HelpKINode Title="fields" Url="html/17b255d8-d0c4-3fb7-ffc8-185466e8f8ec.htm" />
+    <HelpKINode Title="methods" Url="html/f1f03095-4025-4881-4e4a-65a8b68b2076.htm" />
+    <HelpKINode Title="properties" Url="html/1028a809-14d6-4a9d-fdb2-3ad8cd7d1298.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventoryCollider.gatheringCoinPrefab field" Url="html/c069925f-f9ad-9fa6-8cdc-bb6f81d165a3.htm" />
+  <HelpKINode Title="InventoryCollider.InventoryCollider constructor" Url="html/991796be-a4a6-3da1-4585-74de9e70fa44.htm" />
+  <HelpKINode Title="InventoryCollider.itemName field" Url="html/789fd1e7-8dfe-ba66-1b0e-494a38ce55d4.htm" />
+  <HelpKINode Title="InventoryCollider.value field" Url="html/5eab607e-079a-666d-4960-eb645d0e7617.htm" />
+  <HelpKINode Title="InventoryManager class">
+    <HelpKINode Title="InventoryManager Class" Url="html/68129406-e566-ce4c-0087-8582e3df044a.htm" />
+    <HelpKINode Title="InventoryManager Members" Url="html/8ff93c2a-fafe-1033-40e7-a39f4a169861.htm" />
+    <HelpKINode Title="about InventoryManager class" Url="html/68129406-e566-ce4c-0087-8582e3df044a.htm" />
+    <HelpKINode Title="all members" Url="html/8ff93c2a-fafe-1033-40e7-a39f4a169861.htm" />
+    <HelpKINode Title="constructor" Url="html/d1682635-e9f5-ddbe-29e0-12254dea4db6.htm" />
+    <HelpKINode Title="fields" Url="html/283fcc62-7bc7-503d-2050-c157d9956559.htm" />
+    <HelpKINode Title="methods" Url="html/b45123d9-fa63-331e-954c-dd3e4bbb817b.htm" />
+    <HelpKINode Title="properties" Url="html/cc772d36-34ca-e12e-2218-d2beb6140dcb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventoryManager.inventory field" Url="html/8bb367e5-afd6-35af-7ae3-b3e5dcb10bc9.htm" />
+  <HelpKINode Title="InventoryManager.InventoryManager constructor" Url="html/d1682635-e9f5-ddbe-29e0-12254dea4db6.htm" />
+  <HelpKINode Title="isBigRock field" Url="html/88200783-9f43-9d43-e558-7da3a9f6d2e9.htm" />
+  <HelpKINode Title="isInfight field" Url="html/79501afe-9f35-c704-0f09-6e46a5be8507.htm" />
+  <HelpKINode Title="isMainMenu field" Url="html/c13b3b84-b2f7-7ea4-af98-9d5969ddccd6.htm" />
+  <HelpKINode Title="isMeteor field">
+    <HelpKINode Title="SpawnObject.isMeteor Field" Url="html/11888d94-94c8-5dce-c826-aee502768b33.htm" />
+    <HelpKINode Title="ThrowRocks.isMeteor Field" Url="html/aa395b6d-5c80-821f-07d4-f15fc792ba31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="isOnFire field" Url="html/e3706c71-2e1c-43ce-1b93-dc9a1d6fd58b.htm" />
+  <HelpKINode Title="itemName field" Url="html/789fd1e7-8dfe-ba66-1b0e-494a38ce55d4.htm" />
+  <HelpKINode Title="items field" Url="html/3682ab1e-b729-cf22-8e02-3f0dbd053246.htm" />
+  <HelpKINode Title="jumpSound field" Url="html/cfff265f-3199-7cc4-1fee-f7f16b63f73a.htm" />
+  <HelpKINode Title="keyBoardIsDisabled field" Url="html/969eda7d-9def-cb0a-8231-0b5fcd13f155.htm" />
+  <HelpKINode Title="KillingPlane class">
+    <HelpKINode Title="KillingPlane Class" Url="html/f2cad07e-a7df-cdd1-7a00-510f4f69f1e7.htm" />
+    <HelpKINode Title="KillingPlane Members" Url="html/76aa7cd2-0ec4-6d0c-e33f-1ba94df63bfd.htm" />
+    <HelpKINode Title="about KillingPlane class" Url="html/f2cad07e-a7df-cdd1-7a00-510f4f69f1e7.htm" />
+    <HelpKINode Title="all members" Url="html/76aa7cd2-0ec4-6d0c-e33f-1ba94df63bfd.htm" />
+    <HelpKINode Title="constructor" Url="html/9a66f7eb-50c6-9040-3f8e-22797291cc97.htm" />
+    <HelpKINode Title="methods" Url="html/8cdc0045-0944-9ae9-c51e-765f16c3ce27.htm" />
+    <HelpKINode Title="properties" Url="html/007fde67-9ab0-1789-5049-bbfa770dcbdc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="KillingPlane.KillingPlane constructor" Url="html/9a66f7eb-50c6-9040-3f8e-22797291cc97.htm" />
+  <HelpKINode Title="LandingZone class">
+    <HelpKINode Title="LandingZone Class" Url="html/598197e7-b087-539a-7182-6a08a38359b9.htm" />
+    <HelpKINode Title="LandingZone Members" Url="html/545a7ac7-2529-4a67-5aa7-c6caf10336c3.htm" />
+    <HelpKINode Title="about LandingZone class" Url="html/598197e7-b087-539a-7182-6a08a38359b9.htm" />
+    <HelpKINode Title="all members" Url="html/545a7ac7-2529-4a67-5aa7-c6caf10336c3.htm" />
+    <HelpKINode Title="constructor" Url="html/028a2206-074d-c7cc-95aa-34d99f375454.htm" />
+    <HelpKINode Title="fields" Url="html/3c4f7ae3-342a-dd88-87ac-7560bcb188ab.htm" />
+    <HelpKINode Title="methods" Url="html/4d355c25-a18a-eb83-32f3-8ca81165fc4b.htm" />
+    <HelpKINode Title="properties" Url="html/ddf0aa6b-93c6-b2ae-3984-d11f9809e4c5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LandingZone.LandingZone constructor" Url="html/028a2206-074d-c7cc-95aa-34d99f375454.htm" />
+  <HelpKINode Title="LandingZone.nextLandingZone field" Url="html/465c98d8-c50b-c980-00ac-83f640f48782.htm" />
+  <HelpKINode Title="lastEnergy field" Url="html/c23e52e0-7824-c765-73ad-04ec48374970.htm" />
+  <HelpKINode Title="lastHitTime field" Url="html/a5dc35ab-c21b-0e8b-47cf-3a67c047c316.htm" />
+  <HelpKINode Title="lastItems field" Url="html/0a8b34dd-d9b6-ef19-ce20-16d77d2db969.htm" />
+  <HelpKINode Title="lastLavaPos field" Url="html/48fd0a0c-c747-19b8-4417-40b7f3c95f63.htm" />
+  <HelpKINode Title="lastLavaPos2 field" Url="html/56548cee-30ac-ed92-5777-73588517b993.htm" />
+  <HelpKINode Title="lastLevel property" Url="html/c209d598-a94b-d0f0-ac51-3e6011dc0305.htm" />
+  <HelpKINode Title="lastRespawn field" Url="html/34964da0-4e41-55af-9f61-22bfbd26f0e3.htm" />
+  <HelpKINode Title="LaunchZone class">
+    <HelpKINode Title="LaunchZone Class" Url="html/c08072cc-29e4-0a21-b761-b9293b556cb7.htm" />
+    <HelpKINode Title="LaunchZone Members" Url="html/6cea6b79-17d2-40b3-1840-81cac3913f03.htm" />
+    <HelpKINode Title="about LaunchZone class" Url="html/c08072cc-29e4-0a21-b761-b9293b556cb7.htm" />
+    <HelpKINode Title="all members" Url="html/6cea6b79-17d2-40b3-1840-81cac3913f03.htm" />
+    <HelpKINode Title="constructor" Url="html/4ec16283-5fe5-6057-0810-496151f91169.htm" />
+    <HelpKINode Title="fields" Url="html/5773518d-5e59-3748-ee9a-a609e6e12cdb.htm" />
+    <HelpKINode Title="methods" Url="html/c24c3e9d-c8b2-a09e-d204-19615c9fc3ee.htm" />
+    <HelpKINode Title="properties" Url="html/57e05d23-bb10-8c1b-6228-614bd33cc80d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LaunchZone.LaunchZone constructor" Url="html/4ec16283-5fe5-6057-0810-496151f91169.htm" />
+  <HelpKINode Title="LaunchZone.nextLaunchZone field" Url="html/251e6a83-cec8-4b3e-c12d-1c1d51a8713e.htm" />
+  <HelpKINode Title="Lava class">
+    <HelpKINode Title="Lava Class" Url="html/4b32e4d7-997f-99e1-2bb7-146025502948.htm" />
+    <HelpKINode Title="Lava Members" Url="html/aa4154ee-142e-211f-2730-e594b142a409.htm" />
+    <HelpKINode Title="about Lava class" Url="html/4b32e4d7-997f-99e1-2bb7-146025502948.htm" />
+    <HelpKINode Title="all members" Url="html/aa4154ee-142e-211f-2730-e594b142a409.htm" />
+    <HelpKINode Title="constructor" Url="html/8c5d2329-ac38-e72f-8557-0ec4b14301ea.htm" />
+    <HelpKINode Title="fields" Url="html/19252e1f-51c8-e8c6-d55a-23a01689b715.htm" />
+    <HelpKINode Title="methods" Url="html/d5dd98ee-86d6-de55-a3ad-763471bd261f.htm" />
+    <HelpKINode Title="properties" Url="html/5af8c782-ac94-df47-4483-04572bee2c14.htm" />
+  </HelpKINode>
+  <HelpKINode Title="lava field" Url="html/ab737e4f-57ba-b74b-59f4-b2ce5db8eb1d.htm" />
+  <HelpKINode Title="Lava.gameVariables field" Url="html/37023ff8-b6da-5955-f41a-1d75ad2d97e9.htm" />
+  <HelpKINode Title="Lava.Lava constructor" Url="html/8c5d2329-ac38-e72f-8557-0ec4b14301ea.htm" />
+  <HelpKINode Title="Lava.lavaSpeed field" Url="html/c3a3032c-3086-7d08-19db-bd73a57edc19.htm" />
+  <HelpKINode Title="lava2 field" Url="html/ef11e2aa-ed45-1701-aacf-e19404b64653.htm" />
+  <HelpKINode Title="LavaFountain class">
+    <HelpKINode Title="LavaFountain Class" Url="html/e14b4de4-39f7-d7a8-4a1f-f59f22911c8d.htm" />
+    <HelpKINode Title="LavaFountain Members" Url="html/d393511a-d0d7-792a-9097-0777f2e61f13.htm" />
+    <HelpKINode Title="about LavaFountain class" Url="html/e14b4de4-39f7-d7a8-4a1f-f59f22911c8d.htm" />
+    <HelpKINode Title="all members" Url="html/d393511a-d0d7-792a-9097-0777f2e61f13.htm" />
+    <HelpKINode Title="constructor" Url="html/90f5b660-8a41-dc64-3b10-e77caed0c8d1.htm" />
+    <HelpKINode Title="methods" Url="html/a9b23c4a-640f-a2ab-6242-57a55ea05591.htm" />
+    <HelpKINode Title="properties" Url="html/9b83ef87-a250-91df-ccf7-5928d30a3a79.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LavaFountain.LavaFountain constructor" Url="html/90f5b660-8a41-dc64-3b10-e77caed0c8d1.htm" />
+  <HelpKINode Title="LavaFountainPermanent class">
+    <HelpKINode Title="LavaFountainPermanent Class" Url="html/140aa968-2811-3c95-bfda-93a656070968.htm" />
+    <HelpKINode Title="LavaFountainPermanent Members" Url="html/8942d2f0-611e-6bde-e96f-74c4c797b9b9.htm" />
+    <HelpKINode Title="about LavaFountainPermanent class" Url="html/140aa968-2811-3c95-bfda-93a656070968.htm" />
+    <HelpKINode Title="all members" Url="html/8942d2f0-611e-6bde-e96f-74c4c797b9b9.htm" />
+    <HelpKINode Title="constructor" Url="html/4ea8d87d-d5ef-285a-c527-e2395a221848.htm" />
+    <HelpKINode Title="methods" Url="html/01897e67-839f-2cf7-61c9-9595b7e5375a.htm" />
+    <HelpKINode Title="properties" Url="html/4a3a0734-2c76-c852-4714-ff8a99f7ea3f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LavaFountainPermanent.LavaFountainPermanent constructor" Url="html/4ea8d87d-d5ef-285a-c527-e2395a221848.htm" />
+  <HelpKINode Title="lavaSpeed field" Url="html/c3a3032c-3086-7d08-19db-bd73a57edc19.htm" />
+  <HelpKINode Title="lavaTexture field" Url="html/b7777edc-b5ea-e4df-1a24-14b5d3283964.htm" />
+  <HelpKINode Title="leftDown method">
+    <HelpKINode Title="AbstPlayer.leftDown Method " Url="html/bee73bca-53eb-f7dc-e93d-db23113a2164.htm" />
+    <HelpKINode Title="PlayerBoar.leftDown Method " Url="html/96ef652c-4f68-1528-5f81-63a4bec2d09f.htm" />
+    <HelpKINode Title="PlayerDragon.leftDown Method " Url="html/fcb89f03-e91e-1b3c-4f81-95a6308cdc56.htm" />
+    <HelpKINode Title="PlayerHuman.leftDown Method " Url="html/e4ed5716-197e-07ca-0c1c-cba9e35b3bd1.htm" />
+    <HelpKINode Title="PlayerSquirrel.leftDown Method " Url="html/6670b6e2-2cc1-8aad-fdf5-2fc90bb5a0e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="leftPressed method">
+    <HelpKINode Title="AbstPlayer.leftPressed Method " Url="html/88d4966e-0249-8593-9c87-2860961af71c.htm" />
+    <HelpKINode Title="PlayerBoar.leftPressed Method " Url="html/4780fb6c-3ac5-425a-a1ab-e824a238ea76.htm" />
+    <HelpKINode Title="PlayerDragon.leftPressed Method " Url="html/312c643c-a936-361f-9887-46dc5c08764d.htm" />
+    <HelpKINode Title="PlayerHuman.leftPressed Method " Url="html/4c419b74-13ce-1743-547d-0b57235d78a3.htm" />
+    <HelpKINode Title="PlayerSquirrel.leftPressed Method " Url="html/c2c317f4-b434-6f06-1e76-0165ef7549ae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="leftUp method">
+    <HelpKINode Title="AbstPlayer.leftUp Method " Url="html/ffa0b257-2e05-0033-8cd8-057527b5248c.htm" />
+    <HelpKINode Title="PlayerBoar.leftUp Method " Url="html/dd966ddb-538c-23fa-6a30-40f20607f148.htm" />
+    <HelpKINode Title="PlayerDragon.leftUp Method " Url="html/4b8b3670-347c-c57e-1293-d171aec35cec.htm" />
+    <HelpKINode Title="PlayerHuman.leftUp Method " Url="html/0e8bf1fc-2035-60d1-e159-790966d454e7.htm" />
+    <HelpKINode Title="PlayerSquirrel.leftUp Method " Url="html/148dcc1e-1abc-1ddb-5a0e-3da161bdaa96.htm" />
+  </HelpKINode>
+  <HelpKINode Title="lifePoints field" Url="html/242aec3c-f630-5b6c-c8d1-e6191f589b3d.htm" />
+  <HelpKINode Title="Load class">
+    <HelpKINode Title="Load Class" Url="html/f86e89fb-ba85-655b-3adb-02151298e5a7.htm" />
+    <HelpKINode Title="Load Members" Url="html/8e71a3cf-df38-fa74-f9e6-b6eb0a34d0b2.htm" />
+    <HelpKINode Title="about Load class" Url="html/f86e89fb-ba85-655b-3adb-02151298e5a7.htm" />
+    <HelpKINode Title="all members" Url="html/8e71a3cf-df38-fa74-f9e6-b6eb0a34d0b2.htm" />
+    <HelpKINode Title="constructor" Url="html/a3d929e1-10b9-8c9f-5961-6af0a4cd1e5e.htm" />
+    <HelpKINode Title="methods" Url="html/164a2d96-213c-167c-287b-4bcd888c2b5e.htm" />
+    <HelpKINode Title="properties" Url="html/dc64b01b-b636-32f1-2198-c9b3fdeca7b8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Load.Load constructor" Url="html/a3d929e1-10b9-8c9f-5961-6af0a4cd1e5e.htm" />
+  <HelpKINode Title="localPlayerTexture field">
+    <HelpKINode Title="PlayerDragon.localPlayerTexture Field" Url="html/5509ac7f-8911-2501-0705-e63961f9efe9.htm" />
+    <HelpKINode Title="PlayerSquirrel.localPlayerTexture Field" Url="html/54e9fdce-54ae-70f5-b930-ef7737ffd134.htm" />
+  </HelpKINode>
+  <HelpKINode Title="loseHeart method" Url="html/207d94d6-ea88-c4d4-f63f-055995b64a0b.htm" />
+  <HelpKINode Title="maxLifePoints field" Url="html/46c35801-3efc-aea1-4e1d-fd11a6f66c40.htm" />
+  <HelpKINode Title="maxShowHearts field" Url="html/adc4fdcc-8fc3-5de3-2988-82f8cc52a2bb.htm" />
+  <HelpKINode Title="maxVelocityChange field" Url="html/6e10a4ae-d485-3a8f-a846-b6241f4842b0.htm" />
+  <HelpKINode Title="Menu class">
+    <HelpKINode Title="Menu Class" Url="html/5bcb62ea-6e35-545c-835e-d6c6143bf0c3.htm" />
+    <HelpKINode Title="Menu Members" Url="html/293c6675-fadf-0ef8-5e5a-5291fd94a5d5.htm" />
+    <HelpKINode Title="about Menu class" Url="html/5bcb62ea-6e35-545c-835e-d6c6143bf0c3.htm" />
+    <HelpKINode Title="all members" Url="html/293c6675-fadf-0ef8-5e5a-5291fd94a5d5.htm" />
+    <HelpKINode Title="constructor" Url="html/4b38122a-3ca9-5be0-7fda-442fb42d68f5.htm" />
+    <HelpKINode Title="fields" Url="html/0a7dc6fc-3d16-95f0-7392-6f0f74c27981.htm" />
+    <HelpKINode Title="methods" Url="html/7c90a1ac-1f55-fe73-e05a-e257a1358405.htm" />
+    <HelpKINode Title="properties" Url="html/5345bc47-dea2-e328-ed8e-cc69de2ce58b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Menu.Menu constructor" Url="html/4b38122a-3ca9-5be0-7fda-442fb42d68f5.htm" />
+  <HelpKINode Title="Menu.ourStyle field" Url="html/8499cd2e-543a-57b7-f8fe-92b4932afbd3.htm" />
+  <HelpKINode Title="minShowHearts field" Url="html/9addba84-b39f-f5f1-f2fe-4400645aefe0.htm" />
+  <HelpKINode Title="MossWall class">
+    <HelpKINode Title="MossWall Class" Url="html/44f197a7-f5a5-ad1a-b6f3-233cd6951a35.htm" />
+    <HelpKINode Title="MossWall Members" Url="html/37067dfd-0c2d-8c2c-86e6-c52de120415e.htm" />
+    <HelpKINode Title="about MossWall class" Url="html/44f197a7-f5a5-ad1a-b6f3-233cd6951a35.htm" />
+    <HelpKINode Title="all members" Url="html/37067dfd-0c2d-8c2c-86e6-c52de120415e.htm" />
+    <HelpKINode Title="constructor" Url="html/5d406f6f-599c-36ee-953c-22a340c834b9.htm" />
+    <HelpKINode Title="fields" Url="html/2e3a6e9d-087e-1097-aca1-88406f57b04d.htm" />
+    <HelpKINode Title="methods" Url="html/d3f485cc-6485-c5af-4975-da458f512a0f.htm" />
+    <HelpKINode Title="properties" Url="html/818ead0b-8909-e7d0-49bf-168a8ba0e043.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MossWall.explosionPrefab field" Url="html/f9ee7cf0-f967-6890-2de8-5d3af6a8538a.htm" />
+  <HelpKINode Title="MossWall.MossWall constructor" Url="html/5d406f6f-599c-36ee-953c-22a340c834b9.htm" />
+  <HelpKINode Title="MusicControll class">
+    <HelpKINode Title="MusicControll Class" Url="html/291d1a1a-b7ae-29d8-5202-d5721bfbb491.htm" />
+    <HelpKINode Title="MusicControll Members" Url="html/34ded7ec-fae4-d981-e0c0-78ed106f4fe1.htm" />
+    <HelpKINode Title="about MusicControll class" Url="html/291d1a1a-b7ae-29d8-5202-d5721bfbb491.htm" />
+    <HelpKINode Title="all members" Url="html/34ded7ec-fae4-d981-e0c0-78ed106f4fe1.htm" />
+    <HelpKINode Title="constructor" Url="html/8a80a69c-cddb-f2be-be88-9a43df055355.htm" />
+    <HelpKINode Title="methods" Url="html/1837fce9-c8f8-6615-a70e-f4046f82a870.htm" />
+    <HelpKINode Title="properties" Url="html/3e1f9d28-21b7-5a15-5290-4d58b8538dbf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MusicControll.instance property" Url="html/f6acd6b6-15e7-5da4-1bbf-f4bc1f5ada3c.htm" />
+  <HelpKINode Title="MusicControll.MusicControll constructor" Url="html/8a80a69c-cddb-f2be-be88-9a43df055355.htm" />
+  <HelpKINode Title="name property" Url="html/31339a5f-46bc-be4c-af7e-356a63f62fd6.htm" />
+  <HelpKINode Title="nameOfObjectToSpawn field" Url="html/f524c666-027b-35ee-ba42-c24787d18d94.htm" />
+  <HelpKINode Title="nextLandingZone field" Url="html/465c98d8-c50b-c980-00ac-83f640f48782.htm" />
+  <HelpKINode Title="nextLaunchZone field" Url="html/251e6a83-cec8-4b3e-c12d-1c1d51a8713e.htm" />
+  <HelpKINode Title="nextLevel field" Url="html/f7dd0681-9201-a505-8385-75936d90411d.htm" />
+  <HelpKINode Title="NextLevelCollider class">
+    <HelpKINode Title="NextLevelCollider Class" Url="html/2d1a8a10-ee4f-370a-f61d-10f94d0f969e.htm" />
+    <HelpKINode Title="NextLevelCollider Members" Url="html/ce79b71e-c71f-67ed-ef3a-7ed8236c6539.htm" />
+    <HelpKINode Title="about NextLevelCollider class" Url="html/2d1a8a10-ee4f-370a-f61d-10f94d0f969e.htm" />
+    <HelpKINode Title="all members" Url="html/ce79b71e-c71f-67ed-ef3a-7ed8236c6539.htm" />
+    <HelpKINode Title="constructor" Url="html/2410217b-50a1-2fa6-0995-033c6522c0cc.htm" />
+    <HelpKINode Title="fields" Url="html/3452b4f8-05f7-6c55-74fe-8202786d07e7.htm" />
+    <HelpKINode Title="methods" Url="html/6e39ef73-7cc4-2ef9-49a0-b23150e518ab.htm" />
+    <HelpKINode Title="properties" Url="html/5682655d-a170-9967-f94d-f60197426d0c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NextLevelCollider.gameVariables field" Url="html/bdabec51-8584-fa6b-3007-fef44f599a61.htm" />
+  <HelpKINode Title="NextLevelCollider.NextLevelCollider constructor" Url="html/2410217b-50a1-2fa6-0995-033c6522c0cc.htm" />
+  <HelpKINode Title="NextLevelCollider.nextLevelName field" Url="html/718a9caf-6ff2-d2d9-1932-4ce5b22383a6.htm" />
+  <HelpKINode Title="nextLevelName field" Url="html/718a9caf-6ff2-d2d9-1932-4ce5b22383a6.htm" />
+  <HelpKINode Title="nonPlayableLevels field" Url="html/bef9ec99-2dc4-f696-02f5-12efeb7099e8.htm" />
+  <HelpKINode Title="OnGUI method" Url="html/19fd0e54-b108-d77e-62da-339fe4689e61.htm" />
+  <HelpKINode Title="OnTriggerEnter method">
+    <HelpKINode Title="AbstEnemy.OnTriggerEnter Method " Url="html/37bdcb55-73db-21fc-55a1-d1fbb5533c04.htm" />
+    <HelpKINode Title="EnemyPatrol.OnTriggerEnter Method " Url="html/b5354b6e-ab84-a815-3418-673cf6175db9.htm" />
+    <HelpKINode Title="EnemyPatrol2.OnTriggerEnter Method " Url="html/2808c377-d3f9-4dd9-86b1-fc5d7b248020.htm" />
+    <HelpKINode Title="EnemyTurret.OnTriggerEnter Method " Url="html/fcc6a94b-6525-7749-f76f-de30d79a7de5.htm" />
+    <HelpKINode Title="EnemyTurretPoison.OnTriggerEnter Method " Url="html/6776a3bb-bea9-109b-62f8-47a2c7d6149a.htm" />
+    <HelpKINode Title="IceDragon.OnTriggerEnter Method " Url="html/249331ca-0995-b5da-004c-23046e4331ed.htm" />
+    <HelpKINode Title="Tiger.OnTriggerEnter Method " Url="html/1ec00727-2380-5871-f3f2-af7d506dd12b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ourStyle field" Url="html/8499cd2e-543a-57b7-f8fe-92b4932afbd3.htm" />
+  <HelpKINode Title="PageGameControl class">
+    <HelpKINode Title="PageGameControl Class" Url="html/43d861d9-c7d9-dfbb-1224-a7e5ba2e1aa3.htm" />
+    <HelpKINode Title="PageGameControl Members" Url="html/7c58b6d6-036f-2faa-49eb-8ac9d408ed8b.htm" />
+    <HelpKINode Title="about PageGameControl class" Url="html/43d861d9-c7d9-dfbb-1224-a7e5ba2e1aa3.htm" />
+    <HelpKINode Title="all members" Url="html/7c58b6d6-036f-2faa-49eb-8ac9d408ed8b.htm" />
+    <HelpKINode Title="constructor" Url="html/fc74effe-a5da-cc9d-ec23-e0542a227bf1.htm" />
+    <HelpKINode Title="fields" Url="html/7d337b97-77b6-faae-e0bd-7914ee041276.htm" />
+    <HelpKINode Title="methods" Url="html/06e4518c-94e7-af0b-2661-fea5633880b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PageGameControl.draw method" Url="html/0e16bd6a-d578-5b1c-cdb5-337b3a7d3edc.htm" />
+  <HelpKINode Title="PageGameControl.PageGameControl constructor" Url="html/fc74effe-a5da-cc9d-ec23-e0542a227bf1.htm" />
+  <HelpKINode Title="PageGameControl.resetClass method" Url="html/a94cf00c-4434-ebc9-6d3e-8e7ec093eb0f.htm" />
+  <HelpKINode Title="PageMain class">
+    <HelpKINode Title="PageMain Class" Url="html/151c25e7-9e3a-6c0a-17e0-05e912760521.htm" />
+    <HelpKINode Title="PageMain Members" Url="html/b2328e79-e816-8aeb-9f5c-79dc1e7d468e.htm" />
+    <HelpKINode Title="about PageMain class" Url="html/151c25e7-9e3a-6c0a-17e0-05e912760521.htm" />
+    <HelpKINode Title="all members" Url="html/b2328e79-e816-8aeb-9f5c-79dc1e7d468e.htm" />
+    <HelpKINode Title="constructor" Url="html/5dfd9c9d-3849-64a6-74ac-0b5acc684efb.htm" />
+    <HelpKINode Title="fields" Url="html/2414ced5-6070-52fc-2f6d-05d4f62eab31.htm" />
+    <HelpKINode Title="methods" Url="html/6a4a29f3-fc79-791f-7282-afb6ea281fe8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PageMain.draw method" Url="html/fcf105cd-3edd-df42-8cf7-d6d919c22794.htm" />
+  <HelpKINode Title="PageMain.PageMain constructor" Url="html/5dfd9c9d-3849-64a6-74ac-0b5acc684efb.htm" />
+  <HelpKINode Title="PageMain.resetClass method" Url="html/8146eda3-6388-a79d-f2ce-395046804617.htm" />
+  <HelpKINode Title="pageName field" Url="html/0abff327-69cd-805c-d40e-99ea7b32e5a5.htm" />
+  <HelpKINode Title="PageScore class">
+    <HelpKINode Title="PageScore Class" Url="html/883520c3-75f5-a42d-3b98-5027e6f142cc.htm" />
+    <HelpKINode Title="PageScore Members" Url="html/2f546a2c-fb78-1ee6-71c3-0cd02bb27f50.htm" />
+    <HelpKINode Title="about PageScore class" Url="html/883520c3-75f5-a42d-3b98-5027e6f142cc.htm" />
+    <HelpKINode Title="all members" Url="html/2f546a2c-fb78-1ee6-71c3-0cd02bb27f50.htm" />
+    <HelpKINode Title="constructor" Url="html/170c100f-47c3-f1b2-afdb-4a74f4658a45.htm" />
+    <HelpKINode Title="fields" Url="html/a8a6757d-ecdb-c7f9-2ad7-c00f0dc09f52.htm" />
+    <HelpKINode Title="methods" Url="html/a2ec19cb-660c-a186-502d-97768fe418e2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PageScore.draw method" Url="html/a85c6457-2f0a-3335-82e6-32b10605f9f8.htm" />
+  <HelpKINode Title="PageScore.init method" Url="html/c8873152-89b7-fefb-0ad8-deb8235f8e48.htm" />
+  <HelpKINode Title="PageScore.PageScore constructor" Url="html/170c100f-47c3-f1b2-afdb-4a74f4658a45.htm" />
+  <HelpKINode Title="PageScore.resetClass method" Url="html/0a49f497-60fa-1a2e-1e08-a78cbbaf4f47.htm" />
+  <HelpKINode Title="PageSettings class">
+    <HelpKINode Title="PageSettings Class" Url="html/97d0c794-8851-d5b8-86d8-8fea83ee263d.htm" />
+    <HelpKINode Title="PageSettings Members" Url="html/2719efa3-bef6-602d-87ad-dd18201f2e54.htm" />
+    <HelpKINode Title="about PageSettings class" Url="html/97d0c794-8851-d5b8-86d8-8fea83ee263d.htm" />
+    <HelpKINode Title="all members" Url="html/2719efa3-bef6-602d-87ad-dd18201f2e54.htm" />
+    <HelpKINode Title="constructor" Url="html/c667cb42-9eda-7213-d860-2ff73529399e.htm" />
+    <HelpKINode Title="fields" Url="html/56e2f4c4-e600-eeda-3558-7a1480637ee1.htm" />
+    <HelpKINode Title="methods" Url="html/98d0aadf-9568-6ea7-b6aa-13559519993e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PageSettings.draw method" Url="html/4409467d-67d3-e7df-b261-df8869197448.htm" />
+  <HelpKINode Title="PageSettings.PageSettings constructor" Url="html/c667cb42-9eda-7213-d860-2ff73529399e.htm" />
+  <HelpKINode Title="PageSettings.resetClass method" Url="html/a085bf58-db00-3cc2-6eb9-441d751f8379.htm" />
+  <HelpKINode Title="playerAutoRecovery method" Url="html/0925972c-aa52-6398-5964-a8e1060f6ea9.htm" />
+  <HelpKINode Title="PlayerBoar class">
+    <HelpKINode Title="PlayerBoar Class" Url="html/6492a12f-9412-50ff-2413-172d37911914.htm" />
+    <HelpKINode Title="PlayerBoar Members" Url="html/4a70a8ff-589e-8ff2-bfc7-ab4f3a4238b7.htm" />
+    <HelpKINode Title="about PlayerBoar class" Url="html/6492a12f-9412-50ff-2413-172d37911914.htm" />
+    <HelpKINode Title="all members" Url="html/4a70a8ff-589e-8ff2-bfc7-ab4f3a4238b7.htm" />
+    <HelpKINode Title="constructor" Url="html/1fbfa0d1-d93e-a30e-bbee-800ab7c375ab.htm" />
+    <HelpKINode Title="fields" Url="html/db981af4-ac70-08a1-67b9-e0a67cf9531f.htm" />
+    <HelpKINode Title="methods" Url="html/36ca59c5-dc9b-6222-7765-889f32d9e455.htm" />
+    <HelpKINode Title="properties" Url="html/c9a90f31-0b11-1ded-a4dd-f7756761f5d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlayerBoar.downDown method" Url="html/7d8f328e-7131-4ec9-cc79-4b11db91e544.htm" />
+  <HelpKINode Title="PlayerBoar.downPressed method" Url="html/f2a6e654-f0c8-9c60-f5e4-62375bd81f92.htm" />
+  <HelpKINode Title="PlayerBoar.downUp method" Url="html/a8de4ab3-1c0f-a817-a109-34066f616e08.htm" />
+  <HelpKINode Title="PlayerBoar.extraCollisionEnter method" Url="html/245f42fa-3cfb-bc1e-90dd-648a6b71e5da.htm" />
+  <HelpKINode Title="PlayerBoar.extraCollisionExit method" Url="html/123fc274-10ae-fbc1-fd03-9e3ad54235d5.htm" />
+  <HelpKINode Title="PlayerBoar.extraCollisionStay method" Url="html/1b7a0772-90d6-1452-5d93-2c16257c1f93.htm" />
+  <HelpKINode Title="PlayerBoar.fstDown method" Url="html/12caba47-6083-6f83-fb58-221d45fd737a.htm" />
+  <HelpKINode Title="PlayerBoar.fstPressed method" Url="html/0b6ef29f-fd4f-a3a9-6f5a-0737602f8676.htm" />
+  <HelpKINode Title="PlayerBoar.fstUp method" Url="html/68bc5cf5-0828-c607-a8a2-ed9d6d394307.htm" />
+  <HelpKINode Title="PlayerBoar.leftDown method" Url="html/96ef652c-4f68-1528-5f81-63a4bec2d09f.htm" />
+  <HelpKINode Title="PlayerBoar.leftPressed method" Url="html/4780fb6c-3ac5-425a-a1ab-e824a238ea76.htm" />
+  <HelpKINode Title="PlayerBoar.leftUp method" Url="html/dd966ddb-538c-23fa-6a30-40f20607f148.htm" />
+  <HelpKINode Title="PlayerBoar.PlayerBoar constructor" Url="html/1fbfa0d1-d93e-a30e-bbee-800ab7c375ab.htm" />
+  <HelpKINode Title="PlayerBoar.rightDown method" Url="html/1433c4cd-1619-e58c-a9f6-d857b9dbb92b.htm" />
+  <HelpKINode Title="PlayerBoar.rightPressed method" Url="html/0c0f6318-cfc6-5263-704c-741a53b656cc.htm" />
+  <HelpKINode Title="PlayerBoar.rightUp method" Url="html/4b32e4f5-a620-c6b6-a4b5-948d261afcd8.htm" />
+  <HelpKINode Title="PlayerBoar.rockBang field" Url="html/b16226bd-fc24-411b-79bc-0ccd7af4e8fc.htm" />
+  <HelpKINode Title="PlayerBoar.sndDown method" Url="html/6e2ddea7-2e9e-2fcd-958d-bf7ca0b2b1fd.htm" />
+  <HelpKINode Title="PlayerBoar.sndPressed method" Url="html/fd37826d-9ed4-b848-7c5c-7f8d4c720d03.htm" />
+  <HelpKINode Title="PlayerBoar.sndUp method" Url="html/5ef0688c-8653-1aa4-52e0-4aa66530bbac.htm" />
+  <HelpKINode Title="PlayerBoar.transformSound field" Url="html/5ef2bf4a-4ca3-6676-2a5d-ade72550435d.htm" />
+  <HelpKINode Title="PlayerBoar.upDown method" Url="html/0d83c083-8faf-e2da-a3d6-df23631dd214.htm" />
+  <HelpKINode Title="PlayerBoar.upUp method" Url="html/d2273788-4493-d3ca-1433-1b98f4ac8f6e.htm" />
+  <HelpKINode Title="PlayerDragon class">
+    <HelpKINode Title="PlayerDragon Class" Url="html/6f5f22f3-4ad3-e793-d9c2-868795458194.htm" />
+    <HelpKINode Title="PlayerDragon Members" Url="html/82fc42ea-e943-382b-b49f-916fa2665148.htm" />
+    <HelpKINode Title="about PlayerDragon class" Url="html/6f5f22f3-4ad3-e793-d9c2-868795458194.htm" />
+    <HelpKINode Title="all members" Url="html/82fc42ea-e943-382b-b49f-916fa2665148.htm" />
+    <HelpKINode Title="constructor" Url="html/c7f29519-c8e7-5905-a5b3-255d7e47049a.htm" />
+    <HelpKINode Title="fields" Url="html/c8e488fb-ee6f-491a-f5bb-e9ab6c059d7a.htm" />
+    <HelpKINode Title="methods" Url="html/50357dc9-76c4-3a23-36e6-a163cf40aa3a.htm" />
+    <HelpKINode Title="properties" Url="html/b4be21a8-c34f-3346-9910-4a7c915c74a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlayerDragon.downDown method" Url="html/4f4d93e0-2907-2b55-063c-02c82f0d31cd.htm" />
+  <HelpKINode Title="PlayerDragon.downPressed method" Url="html/96d91276-28b2-8ac4-f8c8-b7437027d860.htm" />
+  <HelpKINode Title="PlayerDragon.downUp method" Url="html/58a4e064-4e00-097d-7753-190db8da2ebf.htm" />
+  <HelpKINode Title="PlayerDragon.DragonFire field" Url="html/6c6c4450-7b9b-e926-eace-75a7d0aea412.htm" />
+  <HelpKINode Title="PlayerDragon.DragonFireLight field" Url="html/ec10a7ac-b112-4991-fa3c-5af5270ab87d.htm" />
+  <HelpKINode Title="PlayerDragon.fireSound field" Url="html/8db50236-7003-471d-5932-b6b628a2964e.htm" />
+  <HelpKINode Title="PlayerDragon.fstDown method" Url="html/4e6751d6-fa03-ebe5-034b-a0afb650c35a.htm" />
+  <HelpKINode Title="PlayerDragon.fstPressed method" Url="html/453b0380-4f77-ffbf-b6c6-259bff231ffb.htm" />
+  <HelpKINode Title="PlayerDragon.fstUp method" Url="html/a9a836e9-5e91-3b16-62be-5feac970fb92.htm" />
+  <HelpKINode Title="PlayerDragon.leftDown method" Url="html/fcb89f03-e91e-1b3c-4f81-95a6308cdc56.htm" />
+  <HelpKINode Title="PlayerDragon.leftPressed method" Url="html/312c643c-a936-361f-9887-46dc5c08764d.htm" />
+  <HelpKINode Title="PlayerDragon.leftUp method" Url="html/4b8b3670-347c-c57e-1293-d171aec35cec.htm" />
+  <HelpKINode Title="PlayerDragon.localPlayerTexture field" Url="html/5509ac7f-8911-2501-0705-e63961f9efe9.htm" />
+  <HelpKINode Title="PlayerDragon.PlayerDragon constructor" Url="html/c7f29519-c8e7-5905-a5b3-255d7e47049a.htm" />
+  <HelpKINode Title="PlayerDragon.rightDown method" Url="html/6c39fdf4-57fe-fe6c-e1ff-151623273f6a.htm" />
+  <HelpKINode Title="PlayerDragon.rightPressed method" Url="html/b6cb9a50-6d9f-23c3-29c6-4ef0fc081203.htm" />
+  <HelpKINode Title="PlayerDragon.rightUp method" Url="html/4b24d14a-90a0-cf6e-a082-b4492175f218.htm" />
+  <HelpKINode Title="PlayerDragon.sndDown method" Url="html/4d81ed9b-d2b9-a598-1256-fa79b3934f30.htm" />
+  <HelpKINode Title="PlayerDragon.sndPressed method" Url="html/59ceb150-638e-18ab-4fcd-486a7291fd23.htm" />
+  <HelpKINode Title="PlayerDragon.sndUp method" Url="html/686a56d1-ead0-fdf8-5a76-712b4f85b65a.htm" />
+  <HelpKINode Title="PlayerDragon.transformSound field" Url="html/a73791d4-77d4-e2fc-9c62-3bc3f515b151.htm" />
+  <HelpKINode Title="PlayerDragon.upDown method" Url="html/32dbf2ff-6b72-c940-d128-9fc48ad3f888.htm" />
+  <HelpKINode Title="PlayerDragon.upUp method" Url="html/6bec3716-77b4-210c-7e96-692196a26d63.htm" />
+  <HelpKINode Title="playerHeart field" Url="html/529f3171-b987-1e12-c05b-0a04dc3d46cc.htm" />
+  <HelpKINode Title="playerHeartEmpty field" Url="html/74e54cb9-3db7-b750-2948-4f04043cfe71.htm" />
+  <HelpKINode Title="playerHeart_1_3 field" Url="html/0ff05ceb-547d-6991-3a29-8021398c2449.htm" />
+  <HelpKINode Title="playerHeart_2_3 field" Url="html/93dfed43-2903-e828-018c-8924f6d3359a.htm" />
+  <HelpKINode Title="PlayerHuman class">
+    <HelpKINode Title="PlayerHuman Class" Url="html/20d90252-b398-41ed-d9cb-2dfb947ba2d8.htm" />
+    <HelpKINode Title="PlayerHuman Members" Url="html/8f30e155-97a1-0821-fd57-4412a7247f6f.htm" />
+    <HelpKINode Title="about PlayerHuman class" Url="html/20d90252-b398-41ed-d9cb-2dfb947ba2d8.htm" />
+    <HelpKINode Title="all members" Url="html/8f30e155-97a1-0821-fd57-4412a7247f6f.htm" />
+    <HelpKINode Title="constructor" Url="html/ecc6cfb2-ca88-66c5-dce8-2d7737880740.htm" />
+    <HelpKINode Title="fields" Url="html/11bd044f-a7a6-3e2a-30f6-06be648c8738.htm" />
+    <HelpKINode Title="methods" Url="html/0ec23260-4dea-904a-53e0-ee9e1a690970.htm" />
+    <HelpKINode Title="properties" Url="html/bcf0a013-a3e6-0ff4-c1c2-3d997c3b8c29.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlayerHuman.downDown method" Url="html/f60fd487-cad3-1a69-210f-99699ab47d9c.htm" />
+  <HelpKINode Title="PlayerHuman.downPressed method" Url="html/d3bc558b-a70e-722e-340d-274b3f35383a.htm" />
+  <HelpKINode Title="PlayerHuman.downUp method" Url="html/9e5ab7c0-ffa6-de5f-750f-b4be45dd4db8.htm" />
+  <HelpKINode Title="PlayerHuman.fstDown method" Url="html/ab3ad836-148a-96c4-2504-00f18ab870d3.htm" />
+  <HelpKINode Title="PlayerHuman.fstPressed method" Url="html/ba269ccd-29ba-7b64-b68c-622205a8a469.htm" />
+  <HelpKINode Title="PlayerHuman.fstUp method" Url="html/88dc7765-25f3-312e-8e7d-f6685f8c27df.htm" />
+  <HelpKINode Title="PlayerHuman.getHumanPlayerAnimator method" Url="html/04c979c5-60bd-1157-b62a-e2c771ebd645.htm" />
+  <HelpKINode Title="PlayerHuman.hitPrefab field" Url="html/328339f7-6000-105c-18e0-0c0626a74f7b.htm" />
+  <HelpKINode Title="PlayerHuman.jumpSound field" Url="html/cfff265f-3199-7cc4-1fee-f7f16b63f73a.htm" />
+  <HelpKINode Title="PlayerHuman.leftDown method" Url="html/e4ed5716-197e-07ca-0c1c-cba9e35b3bd1.htm" />
+  <HelpKINode Title="PlayerHuman.leftPressed method" Url="html/4c419b74-13ce-1743-547d-0b57235d78a3.htm" />
+  <HelpKINode Title="PlayerHuman.leftUp method" Url="html/0e8bf1fc-2035-60d1-e159-790966d454e7.htm" />
+  <HelpKINode Title="PlayerHuman.PlayerHuman constructor" Url="html/ecc6cfb2-ca88-66c5-dce8-2d7737880740.htm" />
+  <HelpKINode Title="PlayerHuman.rightDown method" Url="html/bb432a70-2a49-1350-936a-e416b2d769c7.htm" />
+  <HelpKINode Title="PlayerHuman.rightPressed method" Url="html/4c185cfc-5a5d-6a3d-e708-b36fb1815799.htm" />
+  <HelpKINode Title="PlayerHuman.rightUp method" Url="html/db6aba98-1dd4-faff-35f5-8b035b6c5044.htm" />
+  <HelpKINode Title="PlayerHuman.sndDown method" Url="html/fbcc3748-e72e-9d94-a49a-f79d3432e225.htm" />
+  <HelpKINode Title="PlayerHuman.sndPressed method" Url="html/99864f82-0838-0380-4d4c-db02a8116c98.htm" />
+  <HelpKINode Title="PlayerHuman.sndUp method" Url="html/e65a5cd7-0f8f-334a-f996-0bb71c30fd74.htm" />
+  <HelpKINode Title="PlayerHuman.sprintBarTextureEmpty field" Url="html/0f001b93-5bd7-d31c-3da2-c9aa1c27762f.htm" />
+  <HelpKINode Title="PlayerHuman.sprintBarTextureFill field" Url="html/56c89895-1d44-6847-fe1a-e41bf7a7ea44.htm" />
+  <HelpKINode Title="PlayerHuman.upDown method" Url="html/312b7bd9-db6e-fe97-d913-222273fa787e.htm" />
+  <HelpKINode Title="PlayerHuman.upUp method" Url="html/d78495ce-5f2d-f4f0-74f0-57aa630e9a0c.htm" />
+  <HelpKINode Title="playerPosition field">
+    <HelpKINode Title="AbstEnemy.playerPosition Field" Url="html/e8cf4a8c-fa8f-804f-ff5d-e4d22a477cac.htm" />
+    <HelpKINode Title="GameVariables.playerPosition Field" Url="html/3968cdc4-1d92-cceb-b0c4-07a6dfd02b17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="playerPrefab field" Url="html/b707e28c-ca08-4dbc-7b4a-15e6c2a392d0.htm" />
+  <HelpKINode Title="playerSpeedX field" Url="html/273019db-2a56-621c-d55b-9e014cdc39df.htm" />
+  <HelpKINode Title="playerSpeedY field" Url="html/32b548f6-fd14-cf45-022c-900e43e69908.htm" />
+  <HelpKINode Title="PlayerSquirrel class">
+    <HelpKINode Title="PlayerSquirrel Class" Url="html/cff641b3-73ff-6593-0f21-1f41ee44e4db.htm" />
+    <HelpKINode Title="PlayerSquirrel Members" Url="html/1c3f2bbf-9a66-34f7-919b-c877b7d2be40.htm" />
+    <HelpKINode Title="about PlayerSquirrel class" Url="html/cff641b3-73ff-6593-0f21-1f41ee44e4db.htm" />
+    <HelpKINode Title="all members" Url="html/1c3f2bbf-9a66-34f7-919b-c877b7d2be40.htm" />
+    <HelpKINode Title="constructor" Url="html/a9ca61b8-2be6-eba0-62fc-94a3f1d90a19.htm" />
+    <HelpKINode Title="fields" Url="html/38849489-0286-d226-2b0a-818c44e1b6f5.htm" />
+    <HelpKINode Title="methods" Url="html/0e311695-cebe-0d7a-ffa8-314a014d7b98.htm" />
+    <HelpKINode Title="properties" Url="html/92e3c351-6d9a-34e5-6c80-38bb1de2b1a4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlayerSquirrel.downDown method" Url="html/6758928e-471f-15a5-4175-1c949ae86663.htm" />
+  <HelpKINode Title="PlayerSquirrel.downPressed method" Url="html/1414c598-35c9-1967-20d1-7d4328027055.htm" />
+  <HelpKINode Title="PlayerSquirrel.downUp method" Url="html/82acee4c-2b0d-85d3-e111-427c91e5293d.htm" />
+  <HelpKINode Title="PlayerSquirrel.extraTriggerEnter method" Url="html/6fc208ee-0fda-5d6d-b5d1-c9f0f54b808c.htm" />
+  <HelpKINode Title="PlayerSquirrel.extraTriggerExit method" Url="html/73b8f624-eae1-2466-2cdc-ce66f9198b06.htm" />
+  <HelpKINode Title="PlayerSquirrel.fstDown method" Url="html/edfa3c2c-d320-1f3b-2c60-447422515316.htm" />
+  <HelpKINode Title="PlayerSquirrel.fstPressed method" Url="html/ce9d5a7f-01fd-aee9-f9f4-9be8c7a58483.htm" />
+  <HelpKINode Title="PlayerSquirrel.fstUp method" Url="html/0da5ff08-54d6-8290-954f-4fbda6a807e7.htm" />
+  <HelpKINode Title="PlayerSquirrel.leftDown method" Url="html/6670b6e2-2cc1-8aad-fdf5-2fc90bb5a0e6.htm" />
+  <HelpKINode Title="PlayerSquirrel.leftPressed method" Url="html/c2c317f4-b434-6f06-1e76-0165ef7549ae.htm" />
+  <HelpKINode Title="PlayerSquirrel.leftUp method" Url="html/148dcc1e-1abc-1ddb-5a0e-3da161bdaa96.htm" />
+  <HelpKINode Title="PlayerSquirrel.localPlayerTexture field" Url="html/54e9fdce-54ae-70f5-b930-ef7737ffd134.htm" />
+  <HelpKINode Title="PlayerSquirrel.PlayerSquirrel constructor" Url="html/a9ca61b8-2be6-eba0-62fc-94a3f1d90a19.htm" />
+  <HelpKINode Title="PlayerSquirrel.rightDown method" Url="html/f3e0c509-abbb-af84-b349-75d58fd407b2.htm" />
+  <HelpKINode Title="PlayerSquirrel.rightPressed method" Url="html/2c98a468-d25e-ee5d-027b-7b194bf1f5ba.htm" />
+  <HelpKINode Title="PlayerSquirrel.rightUp method" Url="html/0a9c8c6c-0671-42be-a5b8-943c86695ad8.htm" />
+  <HelpKINode Title="PlayerSquirrel.sndDown method" Url="html/a9b8b898-f7cb-4590-b26d-ddfe3af7ac0c.htm" />
+  <HelpKINode Title="PlayerSquirrel.sndPressed method" Url="html/24e369e2-468b-164e-5448-4c47715050c4.htm" />
+  <HelpKINode Title="PlayerSquirrel.sndUp method" Url="html/ebfe5993-b4be-d9a8-9097-e441827d67c4.htm" />
+  <HelpKINode Title="PlayerSquirrel.transformSound field" Url="html/2408684d-3d4c-054e-6165-4833f8b6f47e.htm" />
+  <HelpKINode Title="PlayerSquirrel.upDown method" Url="html/b7de771a-b56c-d33a-f7d2-7d62b84120de.htm" />
+  <HelpKINode Title="PlayerSquirrel.upUp method" Url="html/253991b8-3118-41e5-e70d-728755e76cfb.htm" />
+  <HelpKINode Title="playerTexture field" Url="html/c3b6647d-50a9-1cf9-5e71-8d5e8c0349b6.htm" />
+  <HelpKINode Title="poisoned field" Url="html/08aadb09-2bd3-351e-f176-612503980bc1.htm" />
+  <HelpKINode Title="popUpTexture field" Url="html/569d13d8-69c5-352f-13eb-b3ae33c134ad.htm" />
+  <HelpKINode Title="rayLength field" Url="html/d8df5163-41f4-3051-97d6-0d8edb12540d.htm" />
+  <HelpKINode Title="readScore method" Url="html/c287c5a8-ea0f-6201-d039-7c67838625d8.htm" />
+  <HelpKINode Title="resetClass method">
+    <HelpKINode Title="abstPage.resetClass Method " Url="html/582a1813-d689-23bd-05c4-344e1ab4000a.htm" />
+    <HelpKINode Title="PageGameControl.resetClass Method " Url="html/a94cf00c-4434-ebc9-6d3e-8e7ec093eb0f.htm" />
+    <HelpKINode Title="PageMain.resetClass Method " Url="html/8146eda3-6388-a79d-f2ce-395046804617.htm" />
+    <HelpKINode Title="PageScore.resetClass Method " Url="html/0a49f497-60fa-1a2e-1e08-a78cbbaf4f47.htm" />
+    <HelpKINode Title="PageSettings.resetClass Method " Url="html/a085bf58-db00-3cc2-6eb9-441d751f8379.htm" />
+  </HelpKINode>
+  <HelpKINode Title="resetVariables method" Url="html/f629f091-5e0c-a83a-dd50-2597a75ab01c.htm" />
+  <HelpKINode Title="Respawn class">
+    <HelpKINode Title="Respawn Class" Url="html/c4fa557e-31e0-28a3-c971-a1a03f1f01aa.htm" />
+    <HelpKINode Title="Respawn Members" Url="html/8420343c-ba40-5de5-7853-1f0082bad974.htm" />
+    <HelpKINode Title="about Respawn class" Url="html/c4fa557e-31e0-28a3-c971-a1a03f1f01aa.htm" />
+    <HelpKINode Title="all members" Url="html/8420343c-ba40-5de5-7853-1f0082bad974.htm" />
+    <HelpKINode Title="constructor" Url="html/d28c0bbc-513b-3769-9033-859ad19aa7e4.htm" />
+    <HelpKINode Title="methods" Url="html/c4e72f3a-44bc-af85-b3f6-7f19b8a3101d.htm" />
+    <HelpKINode Title="properties" Url="html/c434c791-0b21-465f-e72f-3fdfcfa71d1b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Respawn.Respawn constructor" Url="html/d28c0bbc-513b-3769-9033-859ad19aa7e4.htm" />
+  <HelpKINode Title="respawnPlayer method" Url="html/1f8612d9-0c9a-386a-b99c-b0cc0581b587.htm" />
+  <HelpKINode Title="respawnTime field" Url="html/02e7f53e-b066-02a8-4c43-0a086637736c.htm" />
+  <HelpKINode Title="respawnVariables method" Url="html/8f7725e2-04e3-06d9-13e4-519247baa981.htm" />
+  <HelpKINode Title="ReturnToMainMenu class">
+    <HelpKINode Title="ReturnToMainMenu Class" Url="html/202fb57a-d42f-ba46-c533-a79114a2a91b.htm" />
+    <HelpKINode Title="ReturnToMainMenu Members" Url="html/ef4297ee-40f5-285c-322a-fa956a123310.htm" />
+    <HelpKINode Title="about ReturnToMainMenu class" Url="html/202fb57a-d42f-ba46-c533-a79114a2a91b.htm" />
+    <HelpKINode Title="all members" Url="html/ef4297ee-40f5-285c-322a-fa956a123310.htm" />
+    <HelpKINode Title="constructor" Url="html/1251666f-4d09-87b7-e529-c591e13ef780.htm" />
+    <HelpKINode Title="methods" Url="html/c8340884-5eb7-ba96-594c-a2add5ce7050.htm" />
+    <HelpKINode Title="properties" Url="html/c27caf78-1a5b-b137-9466-c2ed3c000344.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReturnToMainMenu.ReturnToMainMenu constructor" Url="html/1251666f-4d09-87b7-e529-c591e13ef780.htm" />
+  <HelpKINode Title="rightDown method">
+    <HelpKINode Title="AbstPlayer.rightDown Method " Url="html/6a6829a2-271e-c9d0-c1fe-055f225699a6.htm" />
+    <HelpKINode Title="PlayerBoar.rightDown Method " Url="html/1433c4cd-1619-e58c-a9f6-d857b9dbb92b.htm" />
+    <HelpKINode Title="PlayerDragon.rightDown Method " Url="html/6c39fdf4-57fe-fe6c-e1ff-151623273f6a.htm" />
+    <HelpKINode Title="PlayerHuman.rightDown Method " Url="html/bb432a70-2a49-1350-936a-e416b2d769c7.htm" />
+    <HelpKINode Title="PlayerSquirrel.rightDown Method " Url="html/f3e0c509-abbb-af84-b349-75d58fd407b2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="rightPressed method">
+    <HelpKINode Title="AbstPlayer.rightPressed Method " Url="html/0a0a5bf2-1f9a-d6bc-7f7e-ce793475580a.htm" />
+    <HelpKINode Title="PlayerBoar.rightPressed Method " Url="html/0c0f6318-cfc6-5263-704c-741a53b656cc.htm" />
+    <HelpKINode Title="PlayerDragon.rightPressed Method " Url="html/b6cb9a50-6d9f-23c3-29c6-4ef0fc081203.htm" />
+    <HelpKINode Title="PlayerHuman.rightPressed Method " Url="html/4c185cfc-5a5d-6a3d-e708-b36fb1815799.htm" />
+    <HelpKINode Title="PlayerSquirrel.rightPressed Method " Url="html/2c98a468-d25e-ee5d-027b-7b194bf1f5ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="rightUp method">
+    <HelpKINode Title="AbstPlayer.rightUp Method " Url="html/a506cb48-1c46-fc6b-9a43-597c7ebaec7a.htm" />
+    <HelpKINode Title="PlayerBoar.rightUp Method " Url="html/4b32e4f5-a620-c6b6-a4b5-948d261afcd8.htm" />
+    <HelpKINode Title="PlayerDragon.rightUp Method " Url="html/4b24d14a-90a0-cf6e-a082-b4492175f218.htm" />
+    <HelpKINode Title="PlayerHuman.rightUp Method " Url="html/db6aba98-1dd4-faff-35f5-8b035b6c5044.htm" />
+    <HelpKINode Title="PlayerSquirrel.rightUp Method " Url="html/0a9c8c6c-0671-42be-a5b8-943c86695ad8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RigidRockBig class">
+    <HelpKINode Title="RigidRockBig Class" Url="html/510970e8-1e70-0e92-9286-5daecd421abc.htm" />
+    <HelpKINode Title="RigidRockBig Members" Url="html/9625b1ba-6576-f70e-e059-1d88405e8f87.htm" />
+    <HelpKINode Title="about RigidRockBig class" Url="html/510970e8-1e70-0e92-9286-5daecd421abc.htm" />
+    <HelpKINode Title="all members" Url="html/9625b1ba-6576-f70e-e059-1d88405e8f87.htm" />
+    <HelpKINode Title="constructor" Url="html/dc13b80c-469a-f9ee-f754-78292495ff39.htm" />
+    <HelpKINode Title="methods" Url="html/e604d9e3-baf7-615a-675e-c5fb2da242da.htm" />
+    <HelpKINode Title="properties" Url="html/f3340e1d-9e38-81e5-97d0-b2158f4c3e0d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RigidRockBig.RigidRockBig constructor" Url="html/dc13b80c-469a-f9ee-f754-78292495ff39.htm" />
+  <HelpKINode Title="Rock class">
+    <HelpKINode Title="Rock Class" Url="html/44fca3aa-3606-7cd8-deed-90805ea07aad.htm" />
+    <HelpKINode Title="Rock Members" Url="html/0f417bdb-3396-3022-81fd-cff8f748a78c.htm" />
+    <HelpKINode Title="about Rock class" Url="html/44fca3aa-3606-7cd8-deed-90805ea07aad.htm" />
+    <HelpKINode Title="all members" Url="html/0f417bdb-3396-3022-81fd-cff8f748a78c.htm" />
+    <HelpKINode Title="constructor" Url="html/2fd4fb0c-da28-c922-f29d-efb8dff2f510.htm" />
+    <HelpKINode Title="methods" Url="html/8ebba186-1fe0-56d7-7f7c-f4599f864f38.htm" />
+    <HelpKINode Title="properties" Url="html/a7e2dee7-e708-0a97-f248-bc8a2141f45e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Rock.Rock constructor" Url="html/2fd4fb0c-da28-c922-f29d-efb8dff2f510.htm" />
+  <HelpKINode Title="rockBang field" Url="html/b16226bd-fc24-411b-79bc-0ccd7af4e8fc.htm" />
+  <HelpKINode Title="RockParticle class">
+    <HelpKINode Title="RockParticle Class" Url="html/6dbe20b2-ef47-7d96-ad55-509c231453b3.htm" />
+    <HelpKINode Title="RockParticle Members" Url="html/c2740aa6-00a6-323e-0ea4-d62e9151e671.htm" />
+    <HelpKINode Title="about RockParticle class" Url="html/6dbe20b2-ef47-7d96-ad55-509c231453b3.htm" />
+    <HelpKINode Title="all members" Url="html/c2740aa6-00a6-323e-0ea4-d62e9151e671.htm" />
+    <HelpKINode Title="constructor" Url="html/e4b04043-34ae-fe63-ee14-69ae6c0f5a7c.htm" />
+    <HelpKINode Title="methods" Url="html/5ffb77df-6eef-5525-da76-dd2c9bd179c6.htm" />
+    <HelpKINode Title="properties" Url="html/bbcb693a-881e-54de-c0e4-e180b0f51b39.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RockParticle.RockParticle constructor" Url="html/e4b04043-34ae-fe63-ee14-69ae6c0f5a7c.htm" />
+  <HelpKINode Title="RotateItem class">
+    <HelpKINode Title="RotateItem Class" Url="html/56ca57a2-1744-2a16-b855-76169bc13731.htm" />
+    <HelpKINode Title="RotateItem Members" Url="html/8f300142-f707-bc3b-a878-d762bde55afb.htm" />
+    <HelpKINode Title="about RotateItem class" Url="html/56ca57a2-1744-2a16-b855-76169bc13731.htm" />
+    <HelpKINode Title="all members" Url="html/8f300142-f707-bc3b-a878-d762bde55afb.htm" />
+    <HelpKINode Title="constructor" Url="html/f193523c-e17d-9150-059d-54ac75e7be31.htm" />
+    <HelpKINode Title="fields" Url="html/c13da192-2410-531c-d117-63e74112d382.htm" />
+    <HelpKINode Title="methods" Url="html/568d8f57-fe6b-40b4-e133-f5d6788ff132.htm" />
+    <HelpKINode Title="properties" Url="html/29239fad-a81b-961c-b3de-d6ab28bc717d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RotateItem.gatheringCoinPrefab field" Url="html/9ce82e67-483b-86ee-553b-c11cce970dc5.htm" />
+  <HelpKINode Title="RotateItem.RotateItem constructor" Url="html/f193523c-e17d-9150-059d-54ac75e7be31.htm" />
+  <HelpKINode Title="savePoint method" Url="html/674519a7-02dd-4d9a-1a95-01433ff7c7c9.htm" />
+  <HelpKINode Title="SceneFader class">
+    <HelpKINode Title="SceneFader Class" Url="html/bc69ea63-658f-3d81-cee0-0e0b881dff96.htm" />
+    <HelpKINode Title="SceneFader Members" Url="html/795e3f24-062f-93c1-9993-0761e1bd4f82.htm" />
+    <HelpKINode Title="about SceneFader class" Url="html/bc69ea63-658f-3d81-cee0-0e0b881dff96.htm" />
+    <HelpKINode Title="all members" Url="html/795e3f24-062f-93c1-9993-0761e1bd4f82.htm" />
+    <HelpKINode Title="constructor" Url="html/a6417312-f64e-518b-8ee3-3a07eeeae948.htm" />
+    <HelpKINode Title="fields" Url="html/35e72663-5b6a-3467-e71b-aae7a21d1bbf.htm" />
+    <HelpKINode Title="methods" Url="html/f7a52757-2ff5-acc0-be83-2a2987610845.htm" />
+    <HelpKINode Title="properties" Url="html/5fdf90ee-1b07-21f1-e0a1-01f01c0239c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="sceneFader field" Url="html/afc9f2f8-f5dc-810e-0ece-a912d8d2625f.htm" />
+  <HelpKINode Title="SceneFader.fadeSpeed field" Url="html/ae3217f6-233c-6ff3-71f4-9350e632752b.htm" />
+  <HelpKINode Title="SceneFader.gameVariables field" Url="html/70993086-2145-6ea4-9dc3-ad126aa5e829.htm" />
+  <HelpKINode Title="SceneFader.nextLevel field" Url="html/f7dd0681-9201-a505-8385-75936d90411d.htm" />
+  <HelpKINode Title="SceneFader.SceneFader constructor" Url="html/a6417312-f64e-518b-8ee3-3a07eeeae948.htm" />
+  <HelpKINode Title="SceneFader.SwitchScene method" Url="html/42b49681-8b9e-eccf-3069-6d8797e52b4a.htm" />
+  <HelpKINode Title="SceneFader.texture field" Url="html/545fd6b3-75f3-19fd-64b8-8968f5757599.htm" />
+  <HelpKINode Title="score property" Url="html/9238143c-e408-d58c-d0ee-2a9fa8881b16.htm" />
+  <HelpKINode Title="seePlayer field">
+    <HelpKINode Title="EnemyPatrol2.seePlayer Field" Url="html/77394d1a-506b-e465-00e6-84c51842cf46.htm" />
+    <HelpKINode Title="EnemyTurret.seePlayer Field" Url="html/21913c51-4e80-1cdd-b8b1-5b090aec13cc.htm" />
+    <HelpKINode Title="EnemyTurretPoison.seePlayer Field" Url="html/35942808-7228-c7be-8e48-80445794a3b1.htm" />
+    <HelpKINode Title="IceDragon.seePlayer Field" Url="html/5f824343-7738-7415-8fb4-e81ebeeaf1aa.htm" />
+    <HelpKINode Title="Tiger.seePlayer Field" Url="html/e15f8e15-134b-6278-c31d-0ad62a3bade4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="setInventory method" Url="html/41bab6e8-9adf-2bac-7ad3-b73686bb7311.htm" />
+  <HelpKINode Title="setIsMenu method" Url="html/67c954b7-03c6-793b-d199-c077f0f06202.htm" />
+  <HelpKINode Title="SetItems method" Url="html/160043f6-51ff-5ab0-22eb-05bcc8cd527c.htm" />
+  <HelpKINode Title="setSceneFader method" Url="html/f83e74b1-4525-5779-18f1-783a0181d8f7.htm" />
+  <HelpKINode Title="setStyle method" Url="html/c96d7541-a04d-86aa-aa7b-582c2dc904c8.htm" />
+  <HelpKINode Title="setTextures method" Url="html/ca5512e1-03b8-1ff5-da63-cd6c9109e6b3.htm" />
+  <HelpKINode Title="setVariables method" Url="html/090118d3-7bea-1ba3-0d0b-452b24e3295d.htm" />
+  <HelpKINode Title="ShootEnemy class">
+    <HelpKINode Title="ShootEnemy Class" Url="html/f3399900-69e3-0e55-ce4b-2a3a3148d431.htm" />
+    <HelpKINode Title="ShootEnemy Members" Url="html/82ed26c0-bd31-cd63-f3a3-8fd60bc97c07.htm" />
+    <HelpKINode Title="about ShootEnemy class" Url="html/f3399900-69e3-0e55-ce4b-2a3a3148d431.htm" />
+    <HelpKINode Title="all members" Url="html/82ed26c0-bd31-cd63-f3a3-8fd60bc97c07.htm" />
+    <HelpKINode Title="constructor" Url="html/31effad2-5374-aebd-a9c5-d54a5d440185.htm" />
+    <HelpKINode Title="methods" Url="html/0507cd77-61b8-5d0d-c22b-e887be4e2279.htm" />
+    <HelpKINode Title="properties" Url="html/cf943419-ea67-7548-7491-4aa31b356ed1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShootEnemy.ShootEnemy constructor" Url="html/31effad2-5374-aebd-a9c5-d54a5d440185.htm" />
+  <HelpKINode Title="shootEnemyPrefab field">
+    <HelpKINode Title="EnemyTurret.shootEnemyPrefab Field" Url="html/5d635a03-c979-ce5a-6c03-732a27108f7c.htm" />
+    <HelpKINode Title="EnemyTurretPoison.shootEnemyPrefab Field" Url="html/645521c8-588a-5965-18b3-7f1759be6152.htm" />
+  </HelpKINode>
+  <HelpKINode Title="sightRange field" Url="html/5691f2d3-e2ce-dc57-6fc9-76a2e942d7a9.htm" />
+  <HelpKINode Title="slowDownGoingBack field" Url="html/4313aff4-b7f0-4d49-babd-a21469d58b98.htm" />
+  <HelpKINode Title="sndDown method">
+    <HelpKINode Title="AbstPlayer.sndDown Method " Url="html/c800dd7a-c149-6d40-f5f3-b978ae270dd4.htm" />
+    <HelpKINode Title="PlayerBoar.sndDown Method " Url="html/6e2ddea7-2e9e-2fcd-958d-bf7ca0b2b1fd.htm" />
+    <HelpKINode Title="PlayerDragon.sndDown Method " Url="html/4d81ed9b-d2b9-a598-1256-fa79b3934f30.htm" />
+    <HelpKINode Title="PlayerHuman.sndDown Method " Url="html/fbcc3748-e72e-9d94-a49a-f79d3432e225.htm" />
+    <HelpKINode Title="PlayerSquirrel.sndDown Method " Url="html/a9b8b898-f7cb-4590-b26d-ddfe3af7ac0c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="sndPressed method">
+    <HelpKINode Title="AbstPlayer.sndPressed Method " Url="html/b04cf60f-28e7-62dd-2033-e844ad87d9af.htm" />
+    <HelpKINode Title="PlayerBoar.sndPressed Method " Url="html/fd37826d-9ed4-b848-7c5c-7f8d4c720d03.htm" />
+    <HelpKINode Title="PlayerDragon.sndPressed Method " Url="html/59ceb150-638e-18ab-4fcd-486a7291fd23.htm" />
+    <HelpKINode Title="PlayerHuman.sndPressed Method " Url="html/99864f82-0838-0380-4d4c-db02a8116c98.htm" />
+    <HelpKINode Title="PlayerSquirrel.sndPressed Method " Url="html/24e369e2-468b-164e-5448-4c47715050c4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="sndUp method">
+    <HelpKINode Title="AbstPlayer.sndUp Method " Url="html/ca6e610d-725d-03f0-4a52-c8dade09ad00.htm" />
+    <HelpKINode Title="PlayerBoar.sndUp Method " Url="html/5ef0688c-8653-1aa4-52e0-4aa66530bbac.htm" />
+    <HelpKINode Title="PlayerDragon.sndUp Method " Url="html/686a56d1-ead0-fdf8-5a76-712b4f85b65a.htm" />
+    <HelpKINode Title="PlayerHuman.sndUp Method " Url="html/e65a5cd7-0f8f-334a-f996-0bb71c30fd74.htm" />
+    <HelpKINode Title="PlayerSquirrel.sndUp Method " Url="html/ebfe5993-b4be-d9a8-9097-e441827d67c4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="spawnCoinsPerEnemyValue method" Url="html/92f40a76-51f4-f02e-a388-97c950958acc.htm" />
+  <HelpKINode Title="SpawnObject class">
+    <HelpKINode Title="SpawnObject Class" Url="html/f31259c8-8c48-3770-f355-9d8fbfd6bd9e.htm" />
+    <HelpKINode Title="SpawnObject Members" Url="html/07f99d90-8360-3502-3800-47e033a7e2e9.htm" />
+    <HelpKINode Title="about SpawnObject class" Url="html/f31259c8-8c48-3770-f355-9d8fbfd6bd9e.htm" />
+    <HelpKINode Title="all members" Url="html/07f99d90-8360-3502-3800-47e033a7e2e9.htm" />
+    <HelpKINode Title="constructor" Url="html/01daf73a-5856-557d-c26c-1a27d53296c9.htm" />
+    <HelpKINode Title="fields" Url="html/21073219-3878-33ad-be66-9be5b66120e4.htm" />
+    <HelpKINode Title="methods" Url="html/4e53892f-c39e-1537-e710-4cd55304ec99.htm" />
+    <HelpKINode Title="properties" Url="html/7d1c0c2e-d44b-b917-5cb1-777673493b34.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpawnObject.isMeteor field" Url="html/11888d94-94c8-5dce-c826-aee502768b33.htm" />
+  <HelpKINode Title="SpawnObject.nameOfObjectToSpawn field" Url="html/f524c666-027b-35ee-ba42-c24787d18d94.htm" />
+  <HelpKINode Title="SpawnObject.SpawnObject constructor" Url="html/01daf73a-5856-557d-c26c-1a27d53296c9.htm" />
+  <HelpKINode Title="SpawnObject.timeBetweenSpawn field" Url="html/b2eb1c35-8840-b1bb-610e-73db79384592.htm" />
+  <HelpKINode Title="Spawntrap class">
+    <HelpKINode Title="Spawntrap Class" Url="html/f1ce0646-9863-7a4b-fcc6-e734ea57051b.htm" />
+    <HelpKINode Title="Spawntrap Members" Url="html/8552482c-5f74-f8a7-95b4-67f34616ef94.htm" />
+    <HelpKINode Title="about Spawntrap class" Url="html/f1ce0646-9863-7a4b-fcc6-e734ea57051b.htm" />
+    <HelpKINode Title="all members" Url="html/8552482c-5f74-f8a7-95b4-67f34616ef94.htm" />
+    <HelpKINode Title="constructor" Url="html/2235e2da-6361-7f51-6b46-93da972d6764.htm" />
+    <HelpKINode Title="fields" Url="html/2201f3d6-c647-5140-339a-6e0600493c6a.htm" />
+    <HelpKINode Title="methods" Url="html/6a81ff43-1908-aef9-92d5-5e03bcefbb74.htm" />
+    <HelpKINode Title="properties" Url="html/a92c609b-031d-d909-7321-f0d982d9174d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Spawntrap.Enemyprefab field" Url="html/dc2a2611-3f4d-ca29-1797-7170b450a9e1.htm" />
+  <HelpKINode Title="Spawntrap.Spawntrap constructor" Url="html/2235e2da-6361-7f51-6b46-93da972d6764.htm" />
+  <HelpKINode Title="sprintBarTextureEmpty field" Url="html/0f001b93-5bd7-d31c-3da2-c9aa1c27762f.htm" />
+  <HelpKINode Title="sprintBarTextureFill field" Url="html/56c89895-1d44-6847-fe1a-e41bf7a7ea44.htm" />
+  <HelpKINode Title="sprintSpeedNormalX field" Url="html/29859e4d-c97d-6892-ff10-8628f754a8dc.htm" />
+  <HelpKINode Title="sprintSpeedNormalY field" Url="html/8202e9fa-a1e9-d945-c2e9-0b1c293aee84.htm" />
+  <HelpKINode Title="squirrelPrefab field" Url="html/c704a281-12e8-974f-ade0-ee05ad5ac1bd.htm" />
+  <HelpKINode Title="Start method" Url="html/e6a183e2-2de7-483f-9d80-53108d37644b.htm" />
+  <HelpKINode Title="startCutscene method" Url="html/51aae634-5602-4137-0a84-8e0d6e93687d.htm" />
+  <HelpKINode Title="startEnemy method">
+    <HelpKINode Title="AbstEnemy.startEnemy Method " Url="html/6feee639-f461-fbfb-80c0-9d7c0e1ea164.htm" />
+    <HelpKINode Title="EnemyPatrol.startEnemy Method " Url="html/c9649c55-5c43-ee0e-80e4-9119508045dc.htm" />
+    <HelpKINode Title="EnemyPatrol2.startEnemy Method " Url="html/12fefc87-f927-2d57-cdb6-9efd024e6c13.htm" />
+    <HelpKINode Title="EnemyTurret.startEnemy Method " Url="html/70d1c251-3392-d9f8-0dc4-14908af254b4.htm" />
+    <HelpKINode Title="EnemyTurretPoison.startEnemy Method " Url="html/49decb95-924e-416e-6c77-001a324d0a7c.htm" />
+    <HelpKINode Title="IceDragon.startEnemy Method " Url="html/c54b7d5b-6152-d303-d268-0662790569ae.htm" />
+    <HelpKINode Title="Tiger.startEnemy Method " Url="html/162c87c3-e673-2cb6-0e68-ec80e7aee530.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SwitchScene method" Url="html/42b49681-8b9e-eccf-3069-6d8797e52b4a.htm" />
+  <HelpKINode Title="TerrainTree class">
+    <HelpKINode Title="TerrainTree Class" Url="html/dad4f62b-1cbb-1198-b045-bb526360eac4.htm" />
+    <HelpKINode Title="TerrainTree Members" Url="html/6f7dce0b-a45e-3cfc-2774-6d8da5f034b6.htm" />
+    <HelpKINode Title="about TerrainTree class" Url="html/dad4f62b-1cbb-1198-b045-bb526360eac4.htm" />
+    <HelpKINode Title="all members" Url="html/6f7dce0b-a45e-3cfc-2774-6d8da5f034b6.htm" />
+    <HelpKINode Title="constructor" Url="html/2526ebfd-70f5-4aee-e877-f172789ab54e.htm" />
+    <HelpKINode Title="fields" Url="html/582e9522-6cf2-c869-ed92-59f58f234bba.htm" />
+    <HelpKINode Title="methods" Url="html/2c883937-073e-66b1-8409-828cf1f5c6af.htm" />
+    <HelpKINode Title="properties" Url="html/8f0f6fe1-94ee-d93c-e9e2-738400f91acd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TerrainTree.fire4TreeInitPrefab field" Url="html/6fefcb4a-2458-2eed-3e44-d6c372e595ea.htm" />
+  <HelpKINode Title="TerrainTree.fire4TreePrefab field" Url="html/88aed0c4-1301-fda5-8d21-7f2d25042383.htm" />
+  <HelpKINode Title="TerrainTree.TerrainTree constructor" Url="html/2526ebfd-70f5-4aee-e877-f172789ab54e.htm" />
+  <HelpKINode Title="texture field" Url="html/545fd6b3-75f3-19fd-64b8-8968f5757599.htm" />
+  <HelpKINode Title="ThrowRocks class">
+    <HelpKINode Title="ThrowRocks Class" Url="html/a543eb81-7f4f-633d-d06f-67485211f022.htm" />
+    <HelpKINode Title="ThrowRocks Members" Url="html/e04bd6b1-79dd-7fe9-31a7-24cbdfc2c7c6.htm" />
+    <HelpKINode Title="about ThrowRocks class" Url="html/a543eb81-7f4f-633d-d06f-67485211f022.htm" />
+    <HelpKINode Title="all members" Url="html/e04bd6b1-79dd-7fe9-31a7-24cbdfc2c7c6.htm" />
+    <HelpKINode Title="constructor" Url="html/8481f589-e4b0-0090-2934-3e321fca6123.htm" />
+    <HelpKINode Title="fields" Url="html/0f1f335a-d242-07d8-4df5-7bb4e296fddc.htm" />
+    <HelpKINode Title="methods" Url="html/e8bdb4c1-55f2-403c-2f68-4db445726d05.htm" />
+    <HelpKINode Title="properties" Url="html/4807d264-7d51-d86d-94f5-9bd7982fd6ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ThrowRocks.isBigRock field" Url="html/88200783-9f43-9d43-e558-7da3a9f6d2e9.htm" />
+  <HelpKINode Title="ThrowRocks.isMeteor field" Url="html/aa395b6d-5c80-821f-07d4-f15fc792ba31.htm" />
+  <HelpKINode Title="ThrowRocks.respawnTime field" Url="html/02e7f53e-b066-02a8-4c43-0a086637736c.htm" />
+  <HelpKINode Title="ThrowRocks.ThrowRocks constructor" Url="html/8481f589-e4b0-0090-2934-3e321fca6123.htm" />
+  <HelpKINode Title="ThrowRocks.waitTimeMilli field" Url="html/76ca1368-f5c7-672a-eadb-697cb3e22a2d.htm" />
+  <HelpKINode Title="Tiger class">
+    <HelpKINode Title="Tiger Class" Url="html/580d62a0-db4d-6620-eedc-aa070e5f8d35.htm" />
+    <HelpKINode Title="Tiger Members" Url="html/2c991410-c0d5-bdde-07a8-10f7d3d21619.htm" />
+    <HelpKINode Title="about Tiger class" Url="html/580d62a0-db4d-6620-eedc-aa070e5f8d35.htm" />
+    <HelpKINode Title="all members" Url="html/2c991410-c0d5-bdde-07a8-10f7d3d21619.htm" />
+    <HelpKINode Title="constructor" Url="html/4dfaa66d-56e9-ce11-25b0-34a879856cfd.htm" />
+    <HelpKINode Title="fields" Url="html/95988313-9208-6099-a7c2-faa597f81afd.htm" />
+    <HelpKINode Title="methods" Url="html/6195b276-303d-a983-97f0-6519756acb3d.htm" />
+    <HelpKINode Title="properties" Url="html/57569ff5-be6e-f7c9-0c09-c4836760119f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tiger.direction field" Url="html/a1244a77-017e-33ce-f3ca-d8f2db431b66.htm" />
+  <HelpKINode Title="Tiger.distance field" Url="html/2540a681-2b90-1873-15e4-4b1c94a8a00a.htm" />
+  <HelpKINode Title="Tiger.OnTriggerEnter method" Url="html/1ec00727-2380-5871-f3f2-af7d506dd12b.htm" />
+  <HelpKINode Title="Tiger.seePlayer field" Url="html/e15f8e15-134b-6278-c31d-0ad62a3bade4.htm" />
+  <HelpKINode Title="Tiger.startEnemy method" Url="html/162c87c3-e673-2cb6-0e68-ec80e7aee530.htm" />
+  <HelpKINode Title="Tiger.Tiger constructor" Url="html/4dfaa66d-56e9-ce11-25b0-34a879856cfd.htm" />
+  <HelpKINode Title="Tiger.updateEnemy method" Url="html/7ab20ebb-14a4-8280-95c8-f52a28db84c1.htm" />
+  <HelpKINode Title="time property" Url="html/73659c6f-2f2e-f5d9-d616-5d6772c3f656.htm" />
+  <HelpKINode Title="timeBetweenSpawn field" Url="html/b2eb1c35-8840-b1bb-610e-73db79384592.htm" />
+  <HelpKINode Title="trans field" Url="html/31d157bd-07b1-832f-8864-be7f741ca857.htm" />
+  <HelpKINode Title="transformSound field">
+    <HelpKINode Title="PlayerBoar.transformSound Field" Url="html/5ef2bf4a-4ca3-6676-2a5d-ade72550435d.htm" />
+    <HelpKINode Title="PlayerDragon.transformSound Field" Url="html/a73791d4-77d4-e2fc-9c62-3bc3f515b151.htm" />
+    <HelpKINode Title="PlayerSquirrel.transformSound Field" Url="html/2408684d-3d4c-054e-6165-4833f8b6f47e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Update method" Url="html/2112e57d-516f-1209-47eb-f39369f80941.htm" />
+  <HelpKINode Title="updateEnemy method">
+    <HelpKINode Title="AbstEnemy.updateEnemy Method " Url="html/c9459ebd-4187-0d85-323b-90e2e3f8d72d.htm" />
+    <HelpKINode Title="EnemyPatrol.updateEnemy Method " Url="html/3a0a9011-8fa8-5630-dead-3b8c367f24e5.htm" />
+    <HelpKINode Title="EnemyPatrol2.updateEnemy Method " Url="html/4cd0082b-e5f2-5ca5-acee-9fbae1b317f1.htm" />
+    <HelpKINode Title="EnemyTurret.updateEnemy Method " Url="html/de578238-e002-71d6-5ffd-6e7c12e9b813.htm" />
+    <HelpKINode Title="EnemyTurretPoison.updateEnemy Method " Url="html/2ce56941-7fe8-66db-5369-eac5fb1b5e60.htm" />
+    <HelpKINode Title="IceDragon.updateEnemy Method " Url="html/11093601-523a-3732-b8ab-16771560706a.htm" />
+    <HelpKINode Title="Tiger.updateEnemy Method " Url="html/7ab20ebb-14a4-8280-95c8-f52a28db84c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="upDown method">
+    <HelpKINode Title="AbstPlayer.upDown Method " Url="html/2800cdfd-3d01-417d-51be-4a1c293a3ae3.htm" />
+    <HelpKINode Title="PlayerBoar.upDown Method " Url="html/0d83c083-8faf-e2da-a3d6-df23631dd214.htm" />
+    <HelpKINode Title="PlayerDragon.upDown Method " Url="html/32dbf2ff-6b72-c940-d128-9fc48ad3f888.htm" />
+    <HelpKINode Title="PlayerHuman.upDown Method " Url="html/312b7bd9-db6e-fe97-d913-222273fa787e.htm" />
+    <HelpKINode Title="PlayerSquirrel.upDown Method " Url="html/b7de771a-b56c-d33a-f7d2-7d62b84120de.htm" />
+  </HelpKINode>
+  <HelpKINode Title="upPressed method" Url="html/2936a4e1-4fbd-03d2-89d0-3e9a21ce8d44.htm" />
+  <HelpKINode Title="upUp method">
+    <HelpKINode Title="AbstPlayer.upUp Method " Url="html/ac9cfc9a-e5b7-b4f4-f799-030e76838e52.htm" />
+    <HelpKINode Title="PlayerBoar.upUp Method " Url="html/d2273788-4493-d3ca-1433-1b98f4ac8f6e.htm" />
+    <HelpKINode Title="PlayerDragon.upUp Method " Url="html/6bec3716-77b4-210c-7e96-692196a26d63.htm" />
+    <HelpKINode Title="PlayerHuman.upUp Method " Url="html/d78495ce-5f2d-f4f0-74f0-57aa630e9a0c.htm" />
+    <HelpKINode Title="PlayerSquirrel.upUp Method " Url="html/253991b8-3118-41e5-e70d-728755e76cfb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="value field" Url="html/5eab607e-079a-666d-4960-eb645d0e7617.htm" />
+  <HelpKINode Title="vars field" Url="html/062f7e8a-3538-224e-0bf1-125bb49fdd1b.htm" />
+  <HelpKINode Title="waitTimeMilli field" Url="html/76ca1368-f5c7-672a-eadb-697cb3e22a2d.htm" />
+  <HelpKINode Title="WalkingBlock class">
+    <HelpKINode Title="WalkingBlock Class" Url="html/818769ef-3bab-aa0a-0ec7-8dcd142e55ba.htm" />
+    <HelpKINode Title="WalkingBlock Members" Url="html/a133aa99-c838-7499-a0ff-b3396c4f5e95.htm" />
+    <HelpKINode Title="about WalkingBlock class" Url="html/818769ef-3bab-aa0a-0ec7-8dcd142e55ba.htm" />
+    <HelpKINode Title="all members" Url="html/a133aa99-c838-7499-a0ff-b3396c4f5e95.htm" />
+    <HelpKINode Title="constructor" Url="html/e5af4e6a-fa12-f8c9-ba2d-5984acd1e19c.htm" />
+    <HelpKINode Title="fields" Url="html/ae234023-f5f2-6272-f7a2-607b3f7971fe.htm" />
+    <HelpKINode Title="methods" Url="html/67c16055-e678-a970-b03d-f8f357c4d244.htm" />
+    <HelpKINode Title="properties" Url="html/b8e8930b-2bbb-547d-5f52-4eff8279a6c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WalkingBlock.BlockExplosion field" Url="html/d412fcc0-790c-25c6-5c4f-84ca67fab67e.htm" />
+  <HelpKINode Title="WalkingBlock.fogPrefab field" Url="html/81470351-7420-84c7-66b2-c38995c12e6c.htm" />
+  <HelpKINode Title="WalkingBlock.WalkingBlock constructor" Url="html/e5af4e6a-fa12-f8c9-ba2d-5984acd1e19c.htm" />
+  <HelpKINode Title="wasRespawned field" Url="html/d083e906-a7ed-6f08-a6d1-d477e682536b.htm" />
+  <HelpKINode Title="writeNewScore method" Url="html/7b144452-39c9-fbc2-cd74-a01fca533318.htm" />
+</HelpKI>
