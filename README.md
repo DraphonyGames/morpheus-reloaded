@@ -31,17 +31,17 @@ Initial contributors are
 
 
 ### Sounds
-* explosion-7                   [SoundJax](http://soundjax.com/explosion_sounds-1.html)
-* pig                           [SoundJax](http://soundjax.com/pig-3.html)
-* POP                           [SoundJax](http://soundjax.com/pop_sounds-1.html))
-* lion_roar2                    [SoundJax](http://soundjax.com/roar_sounds-1.html)
-* monique_squirrel              [SoundJax](http://soundjax.com/squirrel_sounds-1.html)
-* breathoutbeforejump-norberd	  [freesound](http://www.freesound.org/people/alex_audio/sounds/188582/)
-* level-up                      [freesound](http://www.freesound.org/people/Cabeeno%20Rossley/sounds/126422/)
-* fire-breathing-dragon         [freesound](http://www.freesound.org/people/CGEffex/sounds/94102/)
-* dragon-roar                   [freesound](http://www.freesound.org/people/JoelAudio/sounds/85568/)
-* guineapigsqueakinghungry      [freesound](http://www.freesound.org/people/PaulNewton/sounds/56374/)
-* boar-oink-3                   [freesound](http://www.freesound.org/people/Robinhood76/sounds/76796/)
+* explosion-7,                   [SoundJax](http://soundjax.com/explosion_sounds-1.html)
+* pig,                           [SoundJax](http://soundjax.com/pig-3.html)
+* POP,                           [SoundJax](http://soundjax.com/pop_sounds-1.html))
+* lion_roar2,                    [SoundJax](http://soundjax.com/roar_sounds-1.html)
+* monique_squirrel,              [SoundJax](http://soundjax.com/squirrel_sounds-1.html)
+* breathoutbeforejump-norberd,	 [freesound](http://www.freesound.org/people/alex_audio/sounds/188582/)
+* level-up,                      [freesound](http://www.freesound.org/people/Cabeeno%20Rossley/sounds/126422/)
+* fire-breathing-dragon,         [freesound](http://www.freesound.org/people/CGEffex/sounds/94102/)
+* dragon-roar,                   [freesound](http://www.freesound.org/people/JoelAudio/sounds/85568/)
+* guineapigsqueakinghungry,      [freesound](http://www.freesound.org/people/PaulNewton/sounds/56374/)
+* boar-oink-3,                   [freesound](http://www.freesound.org/people/Robinhood76/sounds/76796/)
 
 
 ### Textures
