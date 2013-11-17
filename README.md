@@ -25,9 +25,9 @@ Initial contributors are
 ## Credits of external work
 
 ### Background music:
-* "Alternate Universe",                 Album: "Destruction",    from "CWNC"
-* "Total destruction",                  Album: "Mission CDM",    from "Andertaker"
-* "Destruction (feat Sony Ericson)",    Album: "Born to Squirt", from "Applewise"
+* "Total destruction",                  Album: "Mission CDM",    from "Andertaker", http://www.jamendo.com/de/track/769350/total-destruction
+* "Destruction (feat Sony Ericson)",    Album: "Born to Squirt", from "Applewise", http://www.jamendo.com/de/track/784434/destruction-feat-sony-ericson
+* "Alternate Universe",                 Album: "Destruction",    from "CWNC", http://www.jamendo.com/de/track/678975/alternate-universe
 
 
 ### Sounds
