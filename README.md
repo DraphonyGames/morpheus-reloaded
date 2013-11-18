@@ -46,4 +46,4 @@ Initial contributors are
 
 ### Textures
 * End-of-Level "Gate" Texture in Demolevel: http://www.dougturner.net/blendersite/images%5CTextures%5Cdoors%5C9_door.jpg ([license](http://www.dougturner.net/blendersite/Terms.html))
-* bluecloud_dn ist aus "Cloudy Sykboxes": http://opengameart.org
+* bluecloud_dn ist aus "Cloudy Sykboxes": [OpenGameArt.org](http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http%3A//opengameart.org/sites/default/files/cloudy_0.zip&nid=11725) (CC-BY 3.0)
